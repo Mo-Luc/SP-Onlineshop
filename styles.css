@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body.darkmode {
+  --bg-color-1: #121212;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: var(--bg-color-1);
+}
