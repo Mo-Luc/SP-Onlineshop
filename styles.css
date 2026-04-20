@@ -1,25 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+body {
+  --bg-color-1: hsl(0, 0%, 98%);
+  --bg-color-2: hsl(0, 0%, 90%);
+  --bg-color-3: hsl(0, 0%, 80%);
+  --text-color: hsl(0, 0%, 10%);
+  --text-color-dimmed: hsl(0, 0%, 20%);
+  --acent-color: hsl(240, 100%, 50%);
+}
+
 body.darkmode {
-  --bg-color-1: #121212;
+  --bg-color-1: hsl(0, 0%, 15%);
+  --bg-color-2: hsl(0, 0%, 25%);
+  --bg-color-3: hsl(0, 0%, 35%);
+  --text-color: hsl(0, 0%, 98%);
+  --text-color-dimmed: hsl(0, 0%, 90%);
+  --acent-color: hsl(240, 100%, 70%);
 }
 
 body {
   font-family: "Roboto", Arial, sans-serif;
   background-color: var(--bg-color-1);
+  color: var(--text-color);
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
-  background-color: #7e9df1;
-  padding: 10px 0;
+  margin: 0 0;
+  background-color: var(--acent-color);
+  padding: 5px 5px;
 }
 
-.leiste { 
-  font-size: 180%;
+.leiste {
+  font-size: 120%;
   padding: 20px;
   color: white;
   text-decoration: none;
@@ -28,4 +45,32 @@ nav {
 
 a:last-child {
   border-right: none;
+}
+
+.produkte-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.produkt {
+  display: inline-block;
+  background-color: var(--bg-color-2);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+.produkt:hover {
+  background-color: var(--bg-color-3);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.produkt img {
+  width: 100%;
+  border-radius: 10px;
 }
