@@ -40,21 +40,33 @@ nav {
   height: 50px;
   width: fit-content;
   border-radius: 30px;
-  background-color: var(--acent-color);
+  background-color: color-mix(in srgb, var(--bg-color-2) 85%, var(--bg-color-3) 15%);
+  border: 1px solid var(--bg-color-3);
   padding: 5px 15px;
 }
 
 .leiste {
   font-size: 120%;
   padding: 20px;
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.leiste:hover {
+  color: color-mix(in srgb, var(--acent-color) 50%, var(--text-color) 50%);
+}
+.leiste:active {
+  color: var(--acent-color);
+}
+.leiste.aktuelle-seite {
+  color: var(--acent-color);
+  font-weight: bold;
 }
 
 button.leiste {
   background: none;
   border: none;
-  color: white;
   font-size: 120%;
   padding: 20px;
   cursor: pointer;
@@ -89,7 +101,7 @@ a:last-child {
 }
 
 .produkt:hover {
-  background-color: var(--bg-color-3);
+  background-color: color-mix(in srgb, var(--bg-color-2) 50%, var(--bg-color-3));;
   transform: translateY(-5px);
   cursor: pointer;
 }

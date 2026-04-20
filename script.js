@@ -12,6 +12,14 @@ document.body.insertAdjacentHTML(
         `,
 );
 
+const aktuelleSeite = location.pathname.split("/").pop() || "index.html";
+const navLinks = document.querySelectorAll("a.leiste");
+navLinks.forEach((link) => {
+  if (link.getAttribute("href") === aktuelleSeite) {
+    link.classList.add("aktuelle-seite");
+  }
+});
+
 localStorage.getItem("darkmode") === "enabled"
   ? document.body.classList.add("darkmode")
   : null;
