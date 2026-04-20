@@ -3,18 +3,18 @@
     "name": "Produkt 1",
     "price": 10.99,
     "description": "Dies ist das erste Produkt.",
-    "image-url": "https://placehold.co/250?text=1"
+    "image-url": "https://picsum.photos/250"
   },
   {
     "name": "Produkt 2",
     "price": 15.99,
     "description": "Dies ist das zweite Produkt.",
-    "image-url": "https://placehold.co/250?text=2"
+    "image-url": "https://picsum.photos/250"
   },
   {
     "name": "Produkt 3",
     "price": 20.99,
     "description": "Dies ist das dritte Produkt.",
-    "image-url": "https://placehold.co/250?text=3"
+    "image-url": "https://picsum.photos/250"
   }
 ]
