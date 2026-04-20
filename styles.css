@@ -6,7 +6,7 @@ body {
   --bg-color-3: hsl(0, 0%, 80%);
   --text-color: hsl(0, 0%, 10%);
   --text-color-dimmed: hsl(0, 0%, 20%);
-  --acent-color: hsl(240, 100%, 50%);
+  --acent-color: #4098a4;
 }
 
 body.darkmode {
@@ -15,7 +15,7 @@ body.darkmode {
   --bg-color-3: hsl(0, 0%, 35%);
   --text-color: hsl(0, 0%, 98%);
   --text-color-dimmed: hsl(0, 0%, 90%);
-  --acent-color: hsl(240, 100%, 70%);
+  --acent-color: #337780;
 }
 
 body {
@@ -26,13 +26,22 @@ body {
   padding: 0;
   margin: 0;
 }
-
+.nav-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav {
   display: flex;
   justify-content: center;
-  margin: 0 0;
+  align-items: center;
+  margin: 10px 0;
+  height: 50px;
+  width: fit-content;
+  border-radius: 30px;
   background-color: var(--acent-color);
-  padding: 5px 5px;
+  padding: 5px 15px;
 }
 
 .leiste {
@@ -40,7 +49,15 @@ nav {
   padding: 20px;
   color: white;
   text-decoration: none;
-  border-right: 1px solid white;
+}
+
+button.leiste {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 120%;
+  padding: 20px;
+  cursor: pointer;
 }
 
 a:last-child {
@@ -61,7 +78,9 @@ a:last-child {
   padding: 15px;
   margin: 30px;
   width: 200px;
-  transition: all 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .produkt:hover {
