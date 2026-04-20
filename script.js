@@ -20,7 +20,7 @@ navLinks.forEach((link) => {
   }
 });
 
-localStorage.getItem("darkmode") === "enabled"
+localStorage.getItem("darkmode") !== "disabled"
   ? document.body.classList.add("darkmode")
   : null;
 
