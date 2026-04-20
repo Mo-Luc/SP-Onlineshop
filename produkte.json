@@ -9,12 +9,12 @@
     "name": "Produkt 2",
     "price": 15.99,
     "description": "Dies ist das zweite Produkt.",
-    "image-url": "https://picsum.photos/250"
+    "image-url": "https://picsum.photos/251"
   },
   {
     "name": "Produkt 3",
     "price": 20.99,
     "description": "Dies ist das dritte Produkt.",
-    "image-url": "https://picsum.photos/250"
+    "image-url": "https://picsum.photos/252"
   }
 ]
