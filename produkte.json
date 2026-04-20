@@ -3,19 +3,19 @@
     "name": "Samsung Galaxy S25 Ultra",
     "price": 1299.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
-    "image-url": "Fotos/S25Ultra.jpeg"
+    "image-url": "Bilder/S25-ultra.avif"
   },
   {
     "name": "iPhone 17 Pro Max",
     "price": 1999.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
-    "image-url": "Fotos/iPhone17-pro-max.webp"
+    "image-url": "Bilder/i17-pro-max.png"
   },
   {
     "name": "USB-C to Lightning Cable",
     "price": 25,
     "description": "Kabel zum Aufladen und Synchronisieren von Apple-Geräten mit Lightning-Anschluss.",
-    "image-url": "Fotos/cable1.jpg"
+    "image-url": "Bilder/usbc-to-apple.png"
   },
   {
     "name": "Samsung Galaxy Z Trifold",

@@ -4,8 +4,9 @@ body {
   --bg-color-1: hsl(0, 0%, 98%);
   --bg-color-2: hsl(0, 0%, 90%);
   --bg-color-3: hsl(0, 0%, 80%);
+  --bg-color-4: hsl(0, 0%, 70%);
   --text-color: hsl(0, 0%, 10%);
-  --text-color-dimmed: hsl(0, 0%, 20%);
+  --text-color-dimmed: hsl(0, 0%, 30%);
   --acent-color: #4098a4;
 }
 
@@ -13,8 +14,9 @@ body.darkmode {
   --bg-color-1: hsl(0, 0%, 15%);
   --bg-color-2: hsl(0, 0%, 25%);
   --bg-color-3: hsl(0, 0%, 35%);
+  --bg-color-4: hsl(0, 0%, 45%);
   --text-color: hsl(0, 0%, 98%);
-  --text-color-dimmed: hsl(0, 0%, 90%);
+  --text-color-dimmed: hsl(0, 0%, 78%);
   --acent-color: #337780;
 }
 
@@ -44,7 +46,12 @@ nav {
   height: 50px;
   width: fit-content;
   border-radius: 30px;
-  background-color: var(--acent-color);
+  background-color: color-mix(
+    in srgb,
+    var(--bg-color-2) 85%,
+    var(--bg-color-3) 15%
+  );
+  border: 1px solid var(--bg-color-3);
   padding: 5px 15px;
 
 }
@@ -52,14 +59,25 @@ nav {
 .leiste {
   font-size: 120%;
   padding: 20px;
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.leiste:hover {
+  color: color-mix(in srgb, var(--acent-color) 50%, var(--text-color) 50%);
+}
+.leiste:active {
+  color: var(--acent-color);
+}
+.leiste.aktuelle-seite {
+  color: var(--acent-color);
+  font-weight: bold;
 }
 
 button.leiste {
   background: none;
   border: none;
-  color: white;
   font-size: 120%;
   padding: 20px;
   cursor: pointer;
@@ -69,35 +87,100 @@ a:last-child {
   border-right: none;
 }
 
-#produkte-container {
+#karten-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 30px;
   padding: 20px;
   max-width: 2000px;
   margin: 0 auto;
 }
-.produkt {
-  display: inline-block;
+
+.person {
+  display: flex;
+  flex-direction: column;
   background-color: var(--bg-color-2);
-  border-radius: 10px;
-  padding: 15px;
-  margin: 30px;
+  border-radius: 14px;
+  border: 1px solid var(--bg-color-3);
+  padding: 14px;
   width: 200px;
+  height: 300px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.person > h2 {
+  font-size: 18px;
+  margin: 10px;
+  margin-top: 15px;
+}
+.person > p {
+  font-size: 14px;
+  color: var(--text-color-dimmed);
+  margin: 0;
+}
+
+.person > img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.produkt {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color-2);
+  border-radius: 14px;
+  border: 1px solid var(--bg-color-3);
+  padding: 14px;
+  width: 200px;
+  height: fit-content;
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
 }
 
 .produkt:hover {
-  background-color: var(--bg-color-3);
+  background-color: color-mix(
+    in srgb,
+    var(--bg-color-2) 50%,
+    var(--bg-color-3)
+  );
   transform: translateY(-5px);
   cursor: pointer;
 }
 
+.produkt-name {
+  font-size: 18px;
+  margin: 12px 0 8px;
+}
+.produkt-description {
+  font-size: 14px;
+  color: var(--text-color-dimmed);
+  margin: 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+.produkt-preis {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--acent-color);
+  margin: 14px 0 4px;
+}
 .produkt img {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 10px;
 }

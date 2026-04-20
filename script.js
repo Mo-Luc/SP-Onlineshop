@@ -12,7 +12,15 @@ document.body.insertAdjacentHTML(
         `,
 );
 
-localStorage.getItem("darkmode") === "enabled"
+const aktuelleSeite = location.pathname.split("/").pop() || "index.html";
+const navLinks = document.querySelectorAll("a.leiste");
+navLinks.forEach((link) => {
+  if (link.getAttribute("href") === aktuelleSeite) {
+    link.classList.add("aktuelle-seite");
+  }
+});
+
+localStorage.getItem("darkmode") !== "disabled"
   ? document.body.classList.add("darkmode")
   : null;
 
