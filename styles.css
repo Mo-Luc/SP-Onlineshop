@@ -42,7 +42,11 @@ nav {
   height: 50px;
   width: fit-content;
   border-radius: 30px;
-  background-color: color-mix(in srgb, var(--bg-color-2) 85%, var(--bg-color-3) 15%);
+  background-color: color-mix(
+    in srgb,
+    var(--bg-color-2) 85%,
+    var(--bg-color-3) 15%
+  );
   border: 1px solid var(--bg-color-3);
   padding: 5px 15px;
 }
@@ -78,7 +82,7 @@ a:last-child {
   border-right: none;
 }
 
-#produkte-container {
+#karten-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -88,6 +92,39 @@ a:last-child {
   gap: 30px;
   padding: 20px;
 }
+
+.person {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color-2);
+  border-radius: 14px;
+  border: 1px solid var(--bg-color-3);
+  padding: 14px;
+  width: 200px;
+  height: 300px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.person > h2 {
+  font-size: 18px;
+  margin: 10px;
+  margin-top: 15px;
+}
+.person > p {
+  font-size: 14px;
+  color: var(--text-color-dimmed);
+  margin: 0;
+}
+
+.person > img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .produkt {
   display: flex;
   flex-direction: column;
@@ -99,11 +136,15 @@ a:last-child {
   height: fit-content;
   transition:
     background-color 0.3s ease,
-    transform 0.3s ease
+    transform 0.3s ease;
 }
 
 .produkt:hover {
-  background-color: color-mix(in srgb, var(--bg-color-2) 50%, var(--bg-color-3));
+  background-color: color-mix(
+    in srgb,
+    var(--bg-color-2) 50%,
+    var(--bg-color-3)
+  );
   transform: translateY(-5px);
   cursor: pointer;
 }
@@ -122,7 +163,6 @@ a:last-child {
   -webkit-line-clamp: 3;
   line-clamp: 3;
   overflow: hidden;
-
 }
 .produkt-preis {
   font-size: 17px;

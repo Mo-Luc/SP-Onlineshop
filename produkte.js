@@ -1,5 +1,5 @@
 async function renderProdukte() {
-  const produkteContainer = document.getElementById("produkte-container");
+  const produkteContainer = document.getElementById("karten-container");
 
   const response = await fetch("produkte.json");
   const produkte = await response.json();
