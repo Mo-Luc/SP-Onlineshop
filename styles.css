@@ -4,6 +4,7 @@ body {
   --bg-color-1: hsl(0, 0%, 98%);
   --bg-color-2: hsl(0, 0%, 90%);
   --bg-color-3: hsl(0, 0%, 80%);
+  --bg-color-4: hsl(0, 0%, 70%);
   --text-color: hsl(0, 0%, 10%);
   --text-color-dimmed: hsl(0, 0%, 30%);
   --acent-color: #4098a4;
@@ -13,6 +14,7 @@ body.darkmode {
   --bg-color-1: hsl(0, 0%, 15%);
   --bg-color-2: hsl(0, 0%, 25%);
   --bg-color-3: hsl(0, 0%, 35%);
+  --bg-color-4: hsl(0, 0%, 45%);
   --text-color: hsl(0, 0%, 98%);
   --text-color-dimmed: hsl(0, 0%, 78%);
   --acent-color: #337780;
@@ -101,7 +103,7 @@ a:last-child {
 }
 
 .produkt:hover {
-  background-color: color-mix(in srgb, var(--bg-color-2) 50%, var(--bg-color-3));;
+  background-color: color-mix(in srgb, var(--bg-color-2) 50%, var(--bg-color-3));
   transform: translateY(-5px);
   cursor: pointer;
 }
