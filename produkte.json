@@ -1,20 +1,32 @@
 [
   {
-    "name": "Produkt 1",
-    "price": 10.99,
-    "description": "Dies ist das erste Produkt.",
-    "image-url": "https://picsum.photos/250"
+    "name": "Samsung Galaxy S25 Ultra",
+    "price": 1299.99,
+    "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
+    "image-url": "Fotos/S25Ultra.jpeg"
   },
   {
-    "name": "Produkt 2",
-    "price": 15.99,
-    "description": "Dies ist das zweite Produkt.",
-    "image-url": "https://picsum.photos/251"
+    "name": "iPhone 17 Pro Max",
+    "price": 1999.99,
+    "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
+    "image-url": "Fotos/iPhone17-pro-max.webp"
+  },
+  {
+    "name": "USB-C to Lightning Cable",
+    "price": 25,
+    "description": "Kabel zum Aufladen und Synchronisieren von Apple-Geräten mit Lightning-Anschluss.",
+    "image-url": "Fotos/cable1.jpg"
   },
   {
     "name": "Produkt 3",
     "price": 20.99,
     "description": "Dies ist das dritte Produkt.",
-    "image-url": "https://picsum.photos/252"
+    "image-url": "https://picsum.photos/253"
+  },
+  {
+    "name": "Produkt 3",
+    "price": 20.99,
+    "description": "Dies ist das dritte Produkt.",
+    "image-url": "https://picsum.photos/254"
   }
 ]
