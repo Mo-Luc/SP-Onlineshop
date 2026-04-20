@@ -18,15 +18,39 @@
     "image-url": "Fotos/cable1.jpg"
   },
   {
-    "name": "Produkt 3",
-    "price": 20.99,
-    "description": "Dies ist das dritte Produkt.",
-    "image-url": "https://picsum.photos/253"
+    "name": "Samsung Galaxy Z Trifold",
+    "price": 2199.99,
+    "description": "Ein High-end Smartphone und Tablet in einem",
+    "image-url": "Fotos/trifold.jpg"
   },
   {
-    "name": "Produkt 3",
+    "name": "Samsung Galaxy Flip 7",
+    "price": 1499.99,
+    "description": "Ein kleines gefaltetes Smartphone mit einem einzigartigen Design.",
+    "image-url": "Fotos/z flip 7.jpg"
+  },
+  {
+    "name": "Samsung Galaxy Fold 7",
+    "price": 1999.99,
+    "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
+    "image-url": "Fotos/z fold 7.jpg"
+  },
+  {
+    "name": "Produkt 6",
     "price": 20.99,
-    "description": "Dies ist das dritte Produkt.",
-    "image-url": "https://picsum.photos/254"
+    "description": "Dies ist das sechste Produkt.",
+    "image-url": "https://picsum.photos/256"
+  },
+  {
+    "name": "Produkt 7",
+    "price": 20.99,
+    "description": "Dies ist das siebte Produkt.",
+    "image-url": "https://picsum.photos/257"
+  },
+  {
+    "name": "Produkt 8",
+    "price": 20.99,
+    "description": "Dies ist das achte Produkt.",
+    "image-url": "https://picsum.photos/258"
   }
 ]

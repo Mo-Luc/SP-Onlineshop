@@ -31,6 +31,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-color-1);
+  z-index: 100;
 }
 nav {
   display: flex;
@@ -42,6 +46,7 @@ nav {
   border-radius: 30px;
   background-color: var(--acent-color);
   padding: 5px 15px;
+
 }
 
 .leiste {
@@ -67,9 +72,12 @@ a:last-child {
 #produkte-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 .produkt {
   display: inline-block;
