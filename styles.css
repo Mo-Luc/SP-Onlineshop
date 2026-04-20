@@ -5,7 +5,7 @@ body {
   --bg-color-2: hsl(0, 0%, 90%);
   --bg-color-3: hsl(0, 0%, 80%);
   --text-color: hsl(0, 0%, 10%);
-  --text-color-dimmed: hsl(0, 0%, 20%);
+  --text-color-dimmed: hsl(0, 0%, 30%);
   --acent-color: #4098a4;
 }
 
@@ -14,7 +14,7 @@ body.darkmode {
   --bg-color-2: hsl(0, 0%, 25%);
   --bg-color-3: hsl(0, 0%, 35%);
   --text-color: hsl(0, 0%, 98%);
-  --text-color-dimmed: hsl(0, 0%, 90%);
+  --text-color-dimmed: hsl(0, 0%, 78%);
   --acent-color: #337780;
 }
 
@@ -68,19 +68,24 @@ a:last-child {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 30px;
   padding: 20px;
 }
 .produkt {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   background-color: var(--bg-color-2);
-  border-radius: 10px;
-  padding: 15px;
-  margin: 30px;
+  border-radius: 14px;
+  border: 1px solid var(--bg-color-3);
+  padding: 14px;
   width: 200px;
+  height: fit-content;
   transition:
     background-color 0.3s ease,
-    transform 0.3s ease;
+    transform 0.3s ease
 }
 
 .produkt:hover {
@@ -89,7 +94,31 @@ a:last-child {
   cursor: pointer;
 }
 
+.produkt-name {
+  font-size: 18px;
+  margin: 12px 0 8px;
+}
+.produkt-description {
+  font-size: 14px;
+  color: var(--text-color-dimmed);
+  margin: 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+
+}
+.produkt-preis {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--acent-color);
+  margin: 14px 0 4px;
+}
 .produkt img {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 10px;
 }

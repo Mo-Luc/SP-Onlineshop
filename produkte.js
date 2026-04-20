@@ -8,9 +8,9 @@ async function renderProdukte() {
     const produktElement = `
         <div class="produkt">
           <img src="${produkt["image-url"]}" alt="${produkt.name}" />
-          <h2>${produkt.name}</h2>
-          <p>${produkt.description}</p>
-          <p>Preis: ${produkt.price.toFixed(2)} €</p>
+          <h2 class="produkt-name">${produkt.name}</h2>
+          <p class="produkt-description">${produkt.description}</p>
+          <p class="produkt-preis">${produkt.price.toFixed(2)} €</p>
         </div>
       `;
 

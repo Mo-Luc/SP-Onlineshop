@@ -28,5 +28,11 @@
     "price": 20.99,
     "description": "Dies ist das dritte Produkt.",
     "image-url": "https://picsum.photos/254"
+  },
+  {
+    "name": "TESTING",
+    "price": 20.99,
+    "description": "Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.Dies ist das dritte Produkt.",
+    "image-url": "https://picsum.photos/255"
   }
 ]
