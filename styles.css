@@ -2,12 +2,12 @@
 
 body {
   --bg-color-1: hsl(0, 0%, 98%);
-  --bg-color-2: hsl(0, 0%, 90%);
-  --bg-color-3: hsl(0, 0%, 80%);
-  --bg-color-4: hsl(0, 0%, 70%);
-  --text-color: hsl(0, 0%, 10%);
-  --text-color-dimmed: hsl(0, 0%, 30%);
-  --acent-color: #4098a4;
+  --bg-color-2: hsl(0, 0%, 95%);
+  --bg-color-3: hsl(0, 0%, 92%);
+  --bg-color-4: hsl(0, 0%, 88%);
+  --text-color: hsl(0, 0%, 12%);
+  --text-color-dimmed: hsl(0, 0%, 45%);
+  --acent-color: #3a8a95;
 }
 
 body.darkmode {
@@ -56,7 +56,6 @@ nav {
   );
   border: 1px solid var(--bg-color-3);
   padding: 5px 15px;
-
 }
 .placeholder {
   height: 80px;
@@ -139,7 +138,7 @@ a:last-child {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 9999px;
 }
 
 .produkt {
@@ -150,7 +149,7 @@ a:last-child {
   border: 1px solid var(--bg-color-3);
   padding: 14px;
   width: 200px;
-  height: fit-content;
+  height: 360px;
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
@@ -185,7 +184,9 @@ a:last-child {
   font-size: 17px;
   font-weight: bold;
   color: var(--acent-color);
-  margin: 14px 0 4px;
+  margin: 14px;
+
+  margin-top: auto;
 }
 .produkt img {
   width: 100%;
