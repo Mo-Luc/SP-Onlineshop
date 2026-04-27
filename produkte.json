@@ -1,56 +1,65 @@
 [
   {
+    "id": 1,
     "name": "Samsung Galaxy S25 Ultra",
     "price": 1299.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
     "image-url": "Bilder/S25-ultra.avif"
   },
   {
+    "id": 2,
     "name": "iPhone 17 Pro Max",
     "price": 1999.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
     "image-url": "Bilder/i17-pro-max.png"
   },
   {
+    "id": 3,
     "name": "USB-C to Lightning Cable",
     "price": 25,
     "description": "Kabel zum Aufladen und Synchronisieren von Apple-Geräten mit Lightning-Anschluss.",
     "image-url": "Bilder/usbc-to-apple.png"
   },
   {
+    "id": 4,
     "name": "Samsung Galaxy Z Trifold",
     "price": 2199.99,
     "description": "Ein High-end Smartphone und Tablet in einem",
     "image-url": "Fotos/trifold.jpg"
   },
   {
+    "id": 5,
     "name": "Samsung Galaxy Flip 7",
     "price": 1499.99,
     "description": "Ein kleines gefaltetes Smartphone mit einem einzigartigen Design.",
     "image-url": "Fotos/z flip 7.jpg"
   },
   {
+    "id": 6,
     "name": "Samsung Galaxy Fold 7",
     "price": 1999.99,
     "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
     "image-url": "Fotos/z fold 7.jpg"
   },
   {
-    "name": "Produkt 6",
-    "price": 20.99,
-    "description": "Dies ist das sechste Produkt.",
-    "image-url": "https://picsum.photos/256"
-  },
-  {
+    "id": 7,
     "name": "Produkt 7",
     "price": 20.99,
     "description": "Dies ist das siebte Produkt.",
-    "image-url": "https://picsum.photos/257"
+    "image-url": "https://picsum.photos/256"
   },
   {
+    "id": 8,
     "name": "Produkt 8",
     "price": 20.99,
     "description": "Dies ist das achte Produkt.",
+    "image-url": "https://picsum.photos/257"
+  },
+  {
+    "id": 9,
+    "name": "Produkt 9",
+    "price": 20.99,
+    "description": "Dies ist das neunte Produkt.",
     "image-url": "https://picsum.photos/258"
   }
 ]

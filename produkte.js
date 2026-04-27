@@ -6,7 +6,7 @@ async function renderProdukte() {
 
   produkte.forEach((produkt, index) => {
     const produktElement = `
-        <div class="produkt" id="produkt-${produkt.id}" style="animation-delay: ${index * 0.1}s;" onAnimationEnd="this.style.opacity = '1';">
+        <div class="produkt" id="produkt-${produkt.id}" style="animation-delay: ${index * 0.1}s;" onAnimationEnd="this.style.opacity = '1';" onClick="window.location.href='produkt-kaufen.html?id=${produkt.id}'">
           <img src="${produkt["image-url"]}" alt="${produkt.name}" />
           <h2 class="produkt-name">${produkt.name}</h2>
           <p class="produkt-description">${produkt.description}</p>
