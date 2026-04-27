@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+@keyframes produkt-fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   --bg-color-1: hsl(0, 0%, 98%);
   --bg-color-2: hsl(0, 0%, 95%);
@@ -153,6 +168,9 @@ a:last-child {
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
+
+  opacity: 0;
+  animation: produkt-fadeIn 0.5s ease-out;
 }
 
 .produkt:hover {

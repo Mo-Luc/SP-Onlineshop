@@ -4,9 +4,9 @@ async function renderProdukte() {
   const response = await fetch("produkte.json");
   const produkte = await response.json();
 
-  produkte.forEach((produkt) => {
+  produkte.forEach((produkt, index) => {
     const produktElement = `
-        <div class="produkt">
+        <div class="produkt" id="produkt-${produkt.id}" style="animation-delay: ${index * 0.1}s;" onAnimationEnd="this.style.opacity = '1';">
           <img src="${produkt["image-url"]}" alt="${produkt.name}" />
           <h2 class="produkt-name">${produkt.name}</h2>
           <p class="produkt-description">${produkt.description}</p>
