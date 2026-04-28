@@ -39,14 +39,14 @@
     "name": "Samsung Galaxy Fold 7",
     "price": 1999.99,
     "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
-    "image-url": "Bilder/z fold 7.jpg"
+    "image-url": "Bilder/zfold7.png"
   },
   {
     "id": 6,
     "name": "Samsung Galaxy Fold 6",
     "price": 999.99,
     "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
-    "image-url": "Bilder/z fold 7.jpg",
+    "image-url": "Bilder/zfold6.png",
     "reduced": true,
     "original-price": 1999.99
   },
