@@ -6,6 +6,7 @@ document.body.insertAdjacentHTML(
                 <a class="leiste" href="index.html">Home</a>
                 <a class="leiste" href="produkte.html">Produkte</a>
                 <a class="leiste" href="kontakt.html">Kontakt</a>
+                <a class="leiste" href="#">Gewinnspiele</a>
                 <button class="leiste" onclick="toggleDarkMode()">🌙</button>
             </nav>
         </div>

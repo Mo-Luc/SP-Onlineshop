@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
 @keyframes produkt-fadeIn {
   0% {
@@ -43,6 +44,14 @@ body {
   padding: 0;
   margin: 0;
 }
+
+#homepage-title {
+  font-family: "Michroma";
+  font-size: 48px;
+  margin-top: 40px;
+  color: var(--acent-color);
+}
+
 .nav-wrap {
   width: 100%;
   display: flex;
@@ -159,6 +168,7 @@ a:last-child {
 .produkt {
   display: flex;
   flex-direction: column;
+  text-align: center;
   background-color: var(--bg-color-2);
   border-radius: 14px;
   border: 1px solid var(--bg-color-3);
@@ -211,4 +221,13 @@ a:last-child {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 10px;
+}
+
+#sonderangebote {
+  text-align: left;
+  padding: 20px;
+}
+
+#sonderangebote > #karten-container {
+  justify-content: flex-start;
 }
