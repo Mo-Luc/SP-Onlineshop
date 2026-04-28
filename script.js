@@ -9,6 +9,7 @@ document.body.insertAdjacentHTML(
                 <button class="leiste" onclick="toggleDarkMode()">🌙</button>
             </nav>
         </div>
+        <div class="placeholder"></div>
         `,
 );
 

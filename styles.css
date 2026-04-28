@@ -1,13 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+@keyframes produkt-fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   --bg-color-1: hsl(0, 0%, 98%);
-  --bg-color-2: hsl(0, 0%, 90%);
-  --bg-color-3: hsl(0, 0%, 80%);
-  --bg-color-4: hsl(0, 0%, 70%);
-  --text-color: hsl(0, 0%, 10%);
-  --text-color-dimmed: hsl(0, 0%, 30%);
-  --acent-color: #4098a4;
+  --bg-color-2: hsl(0, 0%, 95%);
+  --bg-color-3: hsl(0, 0%, 92%);
+  --bg-color-4: hsl(0, 0%, 88%);
+  --text-color: hsl(0, 0%, 12%);
+  --text-color-dimmed: hsl(0, 0%, 45%);
+  --acent-color: #3a8a95;
 }
 
 body.darkmode {
@@ -37,6 +52,9 @@ body {
   top: 0;
   background-color: var(--bg-color-1);
   z-index: 100;
+  background: transparent;
+  position: fixed;
+  z-index: 100;
 }
 nav {
   display: flex;
@@ -53,7 +71,12 @@ nav {
   );
   border: 1px solid var(--bg-color-3);
   padding: 5px 15px;
-
+}
+.placeholder {
+  height: 80px;
+}
+.placeholder {
+  height: 80px;
 }
 
 .leiste {
@@ -130,7 +153,7 @@ a:last-child {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 9999px;
 }
 
 .produkt {
@@ -141,10 +164,13 @@ a:last-child {
   border: 1px solid var(--bg-color-3);
   padding: 14px;
   width: 200px;
-  height: fit-content;
+  height: 360px;
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
+
+  opacity: 0;
+  animation: produkt-fadeIn 0.5s ease-out;
 }
 
 .produkt:hover {
@@ -176,7 +202,9 @@ a:last-child {
   font-size: 17px;
   font-weight: bold;
   color: var(--acent-color);
-  margin: 14px 0 4px;
+  margin: 14px;
+
+  margin-top: auto;
 }
 .produkt img {
   width: 100%;
