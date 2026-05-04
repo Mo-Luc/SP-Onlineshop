@@ -15,6 +15,8 @@
   border-radius: 15px;
 }
 #kaufen-button {
+  display: inline-flex;
+  vertical-align: middle;
   background-color: var(--bg-color-3);
   color: var(--text-color);
   border: none;
@@ -31,4 +33,39 @@
 }
 #kaufen-button:active {
   transform: scale(0.95);
+}
+
+#warenkorb-actions {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--bg-color-3);
+  color: var(--text-color);
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#warenkorb-actions button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0 5px;
+  height: 100%;
+}
+#warenkorb-actions button svg {
+  width: 20px;
+  height: 20px;
+}
+
+#kaufen-button, #warenkorb-actions {
+  box-sizing: border-box;
+  height: 44px;
 }

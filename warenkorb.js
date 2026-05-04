@@ -66,7 +66,7 @@ async function renderWarenkorb() {
       gesamtPreis += realPrice * produkt.anzahl;
     }
 
-    cellPreis.textContent = `${gesamtAnzahl} Artikel - ${gesamtPreis.toFixed(2)} €`;
+    cellPreis.textContent = `${gesamtAnzahl} Artikel | ${gesamtPreis.toFixed(2)} €`;
   }
 }
 
