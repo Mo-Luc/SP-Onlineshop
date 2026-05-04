@@ -1,5 +1,26 @@
 const warenkorbElement = document.getElementById("warenkorb");
 
+
+function addOneToWarenkorb(produktId) {
+  const warenkorb = JSON.parse(localStorage.getItem("warenkorb")) || [];
+  const produktIndex = warenkorb.findIndex((item) => item.id === produktId);
+  warenkorb[produktIndex].anzahl += 1;
+  localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
+  renderWarenkorb();
+}
+
+function removeOneFromWarenkorb(produktId) {
+  const warenkorb = JSON.parse(localStorage.getItem("warenkorb")) || [];
+  const produktIndex = warenkorb.findIndex((item) => item.id === produktId);
+  warenkorb[produktIndex].anzahl -= 1;
+  if (warenkorb[produktIndex].anzahl === 0) {
+    warenkorb.splice(produktIndex, 1);
+  }
+  localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
+  renderWarenkorb();
+}
+
+
 async function fetchProduktDetails(warenkorb) {
   const response = await fetch("produkte.json");
 
@@ -23,10 +44,25 @@ async function renderWarenkorb() {
   console.log(JSON.parse(localStorage.getItem("warenkorb")));
   const alleProdukte = await fetchProduktDetails(warenkorb);
 
+  warenkorbElement.innerHTML = `
+    <tr>
+      <th>Produkt</th>
+      <th>Preis</th>
+    </tr>
+  `;
+
   alleProdukte.forEach((produkt) => {
     const row = warenkorbElement.insertRow();
     const cellProdukt = row.insertCell();
     const cellPreis = row.insertCell();
+    const cellActions = row.insertCell();
+
+    cellActions.innerHTML = `
+    <div id="cart-actions">  
+    <button class="cart-action-button" onclick="addOneToWarenkorb(${produkt.id})"> + </button>
+      <button class="cart-action-button" onclick="removeOneFromWarenkorb(${produkt.id})"> - </button>
+    </div>
+    `;
 
     cellProdukt.innerHTML = `
       <div class="warenkorb-row">
