@@ -1,5 +1,22 @@
 const urlParams = new URLSearchParams(window.location.search);
-const productId = urlParams.get("id");
+const productId = Number(urlParams.get("id"));
+
+const warenkorb = JSON.parse(localStorage.getItem("warenkorb")) || [];
+
+function produktKaufen() {
+  const existingProductIndex = warenkorb.findIndex(
+    (item) => item.id === productId,
+  );
+
+  if (existingProductIndex === -1) {
+    warenkorb.push({ id: productId, anzahl: 1 });
+  } else {
+    warenkorb[existingProductIndex].anzahl++;
+  }
+
+  localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
+  renderProductPage()
+}
 
 async function renderProductPage() {
   const response = await fetch("produkte.json");
@@ -12,6 +29,15 @@ async function renderProductPage() {
   const produktBildElement = document.getElementById("produkt-bild");
   const produktPreisElement = document.getElementById("produkt-preis");
   const kaufenButton = document.getElementById("kaufen-button");
+
+  try {
+    const produktAnzahl = warenkorb[warenkorb.findIndex((item) => item.id === produkt.id)].anzahl;
+  
+    kaufenButton.textContent = `In den Warenkorb - ${produktAnzahl}`
+    
+  } catch (error) {
+    kaufenButton.textContent = `In den Warenkorb`
+  }
 
   produktNameElement.textContent = produkt.name;
   produktBeschreibungElement.textContent = produkt.description;

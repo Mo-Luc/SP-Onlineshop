@@ -2,12 +2,57 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  flex-direction: column;
+  width: 100%;
 }
 
-table,
+table {
+  text-align: left;
+  width: 800px;
+  border-collapse: collapse;
+  border: 1px solid var(--bg-color-3);
+  background-color: var(--bg-color-1);
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--bg-color-3);
+}
+
 th,
 td {
-  border: 1px solid var(--text-color);
+  padding: 16px;
+}
+
+th {
+  background-color: var(--bg-color-2);
+  color: var(--text-color);
+}
+
+td {
+  color: var(--text-color);
+  width: min-content; /* Keine arnung warum min-content... ich hab alle ausprobiert und das hier hat es so gemacht, dass es kein line-break beim preis gibt ;) */
+}
+
+.warenkorb-row {
+  display: flex;
+  align-items: center;
+}
+
+.produkt-bild {
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.produkt-text {
+  margin-left: 16px;
+}
+
+.produkt-text > strong {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.produkt-text > p {
+  color: var(--text-color-dimmed);
+  font-size: 14px;
 }
