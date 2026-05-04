@@ -1,6 +1,5 @@
 const warenkorbElement = document.getElementById("warenkorb");
 
-
 function addOneToWarenkorb(produktId) {
   const warenkorb = JSON.parse(localStorage.getItem("warenkorb")) || [];
   const produktIndex = warenkorb.findIndex((item) => item.id === produktId);
@@ -19,7 +18,6 @@ function removeOneFromWarenkorb(produktId) {
   localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
   renderWarenkorb();
 }
-
 
 async function fetchProduktDetails(warenkorb) {
   const response = await fetch("produkte.json");
@@ -55,14 +53,14 @@ async function renderWarenkorb() {
     const row = warenkorbElement.insertRow();
     const cellProdukt = row.insertCell();
     const cellPreis = row.insertCell();
-    const cellActions = row.insertCell();
+    /* const cellActions = row.insertCell();
 
     cellActions.innerHTML = `
     <div id="cart-actions">  
     <button class="cart-action-button" onclick="addOneToWarenkorb(${produkt.id})"> + </button>
       <button class="cart-action-button" onclick="removeOneFromWarenkorb(${produkt.id})"> - </button>
     </div>
-    `;
+    `; */
 
     cellProdukt.innerHTML = `
       <div class="warenkorb-row">
@@ -74,9 +72,21 @@ async function renderWarenkorb() {
       </div>
       `;
 
-      const realPrice = produkt.reduced ? produkt["reduced-price"] : produkt.price
+    const realPrice = produkt.reduced
+      ? produkt["reduced-price"]
+      : produkt.price;
 
-    cellPreis.textContent = `${produkt.anzahl > 1 ? `${produkt.anzahl} × ` : ""} ${realPrice.toFixed(2)} €`;
+    cellPreis.innerHTML = `
+      <div class="preis-zelle">
+        <div class="preis-text">
+          ${produkt.anzahl > 1 ? `${produkt.anzahl} × ` : ""}${realPrice.toFixed(2)} €
+        </div>
+        <div class="cart-actions">
+          <button class="cart-action-button" onclick="addOneToWarenkorb(${produkt.id})">+</button>
+          <button class="cart-action-button" onclick="removeOneFromWarenkorb(${produkt.id})">−</button>
+        </div>
+      </div>
+    `;
   });
 
   if (alleProdukte.length === 0) {
@@ -98,11 +108,13 @@ async function renderWarenkorb() {
 
     let gesamtPreis = 0;
     for (const produkt of alleProdukte) {
-      const realPrice = produkt.reduced ? produkt["reduced-price"] : produkt.price;
+      const realPrice = produkt.reduced
+        ? produkt["reduced-price"]
+        : produkt.price;
       gesamtPreis += realPrice * produkt.anzahl;
     }
 
-    cellPreis.textContent = `${gesamtAnzahl} Artikel | ${gesamtPreis.toFixed(2)} €`;
+    cellPreis.innerHTML = `${gesamtAnzahl} Artikel | ${gesamtPreis.toFixed(2)} €`;
   }
 }
 
