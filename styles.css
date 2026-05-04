@@ -90,7 +90,7 @@ nav {
 
 .leiste {
   font-size: 120%;
-  padding: 20px;
+  padding: 0 20px;
   color: var(--text-color);
   text-decoration: none;
   transition: color 0.15s ease;
@@ -111,8 +111,21 @@ button.leiste {
   background: none;
   border: none;
   font-size: 120%;
-  padding: 20px;
   cursor: pointer;
+}
+
+.leiste > * {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leiste:first-child {
+  border-right: 1px solid var(--bg-color-3);
+}
+.leiste:last-child {
+  border-left: 1px solid var(--bg-color-3);
 }
 
 a:last-child {
