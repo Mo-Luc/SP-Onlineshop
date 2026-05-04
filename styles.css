@@ -208,7 +208,8 @@ a:last-child {
   line-clamp: 3;
   overflow: hidden;
 }
-.produkt-preis {
+.produkt-preis,
+.produkt-reducedPreis {
   font-size: 17px;
   font-weight: bold;
   color: var(--acent-color);
@@ -216,6 +217,11 @@ a:last-child {
 
   margin-top: auto;
 }
+
+.produkt-reducedPreis {
+  margin-top: 0;
+}
+
 .produkt img {
   width: 100%;
   aspect-ratio: 1 / 1;

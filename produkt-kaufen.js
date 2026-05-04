@@ -16,7 +16,11 @@ async function renderProductPage() {
   produktNameElement.textContent = produkt.name;
   produktBeschreibungElement.textContent = produkt.description;
   produktBildElement.src = produkt["image-url"];
-  produktPreisElement.textContent = `${produkt.price.toFixed(2)} €`;
+
+  const produktPreis = produkt.reduced
+    ? produkt["reduced-price"]
+    : produkt.price;
+  produktPreisElement.textContent = `${produktPreis.toFixed(2)} €`;
 }
 
 renderProductPage();

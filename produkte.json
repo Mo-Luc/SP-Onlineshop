@@ -42,35 +42,35 @@
     "image-url": "Bilder/zfold7.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Samsung Galaxy Fold 6",
-    "price": 999.99,
+    "price": 1199.99,
     "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
     "image-url": "Bilder/zfold6.png",
     "reduced": true,
-    "original-price": 1999.99
-  },
-  {
-    "id": 7,
-    "name": "Produkt 7",
-    "price": 20.99,
-    "description": "Dies ist das siebte Produkt.",
-    "image-url": "https://picsum.photos/256"
+    "reduced-price": 999.99
   },
   {
     "id": 8,
     "name": "Produkt 8",
     "price": 20.99,
     "description": "Dies ist das achte Produkt.",
-    "image-url": "https://picsum.photos/257"
+    "image-url": "https://picsum.photos/256"
   },
   {
     "id": 9,
     "name": "Produkt 9",
     "price": 20.99,
     "description": "Dies ist das neunte Produkt.",
+    "image-url": "https://picsum.photos/257"
+  },
+  {
+    "id": 10,
+    "name": "Produkt 10",
+    "price": 20.99,
+    "description": "Dies ist das zehnte Produkt.",
     "image-url": "https://picsum.photos/258",
     "reduced": true,
-    "original-price": 29.99
+    "reduced-price": 29.99
   }
 ]
