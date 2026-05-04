@@ -2,7 +2,18 @@ async function renderProdukte() {
   const produkteContainer = document.getElementById("karten-container");
 
   const response = await fetch("produkte.json");
-  const produkte = await response.json();
+  let produkte = await response.json();
+  produkte = produkte
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte)
+    .concat(produkte);
 
   produkte.forEach((produkt, index) => {
     const produktElement = `
