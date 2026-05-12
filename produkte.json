@@ -112,7 +112,7 @@
     "name": "GoPro HERO13 Black",
     "price": 499.99,
     "description": "Action-Kamera mit 5.3K-Video und robustem Design.",
-    "image-url": "https://picsum.photos/seed/gopro-hero13/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.7inToTqQKWTe3P7sKfyjZAHaHo%3Fpid%3DApi&f=1&ipt=ff806a059fe5af1cbb97dc6182188fcd7f856118dce074ea6426a50c0b1c36f3&ipo=images",
     "selled": 90
   },
   {
@@ -120,7 +120,7 @@
     "name": "Nintendo Switch OLED",
     "price": 349.99,
     "description": "Hybrid-Spielkonsole mit brillantem OLED-Display.",
-    "image-url": "https://picsum.photos/seed/nintendo-switch-oled/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.gXO8VkkEajIzwj9KQ2VmMQHaEX%3Fcb%3Dthfc1%26pid%3DApi&f=1&ipt=75970296208c2ffe482e64cc29bddd99a558280904be41e8021b3501a8140c91&ipo=images",
     "selled": 260
   },
   {
@@ -128,7 +128,7 @@
     "name": "PlayStation 5",
     "price": 549.99,
     "description": "Next-Gen-Spielkonsole mit ultraschneller SSD und atemberaubender Grafik.",
-    "image-url": "https://picsum.photos/seed/playstation-5/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.4RddWrT60LHDG7MKoLr1VwHaE8%3Fr%3D0%26pid%3DApi&f=1&ipt=6a2e66a47f5068469afb49390c92b92b28ee1846b24b43868a9f48633fc8d14f&ipo=images",
     "selled": 180
   },
   {
@@ -136,7 +136,7 @@
     "name": "Xbox Series X",
     "price": 549.99,
     "description": "Leistungsstarke Spielekonsole mit 4K-Gaming und Abwärtskompatibilität.",
-    "image-url": "https://picsum.photos/seed/xbox-series-x/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-C9exhxGDmboHhY_S629ogHaHa%3Fpid%3DApi&f=1&ipt=8ce189d654aec7477b8b992513a0382e2a5b465c08e0a61ec174ea498c968060&ipo=images",
     "selled": 170
   },
   {
@@ -144,7 +144,7 @@
     "name": "Logitech MX Master 3",
     "price": 99.99,
     "description": "Ergonomische Funkmaus mit präziser Steuerung für Profis.",
-    "image-url": "https://picsum.photos/seed/logitech-mx-master-3/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.4xPT6sQ5XJcMcXTcTWGnCgHaGX%3Fpid%3DApi&f=1&ipt=c86218f8ad036433205a6f656c03640402dd656c0c69428dc347b1b55250b315&ipo=images",
     "selled": 340
   },
   {
@@ -152,7 +152,7 @@
     "name": "Apple AirTag 4er Pack",
     "price": 99.99,
     "description": "Praktische Tracker zum Auffinden von Schlüsseln, Taschen und mehr.",
-    "image-url": "https://picsum.photos/seed/apple-airtag/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.bXFqJ3ClSyZjBy3n2SF_ogHaEc%3Fpid%3DApi&f=1&ipt=ba18265912b45eb42b1d9b307c9565d4833f3ff4f3c4114c70f5327104463f45&ipo=images",
     "selled": 275
   },
   {
@@ -161,46 +161,48 @@
     "price": 49.99,
     "description": "Kompakter Powerbank mit hoher Kapazität für unterwegs.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.uvGuxYBX1Ow1kpB93C8zyQHaIr%3Fr%3D0%26pid%3DApi&f=1&ipt=4e92c57c5637b0ec9cbef58f3d863a54cebf9c177eaa3a4ab98cee4e7db25bd9&ipo=images",
-    "selled": 410
+    "selled": 140
   },
   {
     "id": 21,
     "name": "Samsung Galaxy Tab S9",
     "price": 999.99,
     "description": "Premium-Tablet mit brillante Displayqualität und starker Leistung.",
-    "image-url": "https://picsum.photos/seed/galaxy-tab-s9/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.OZSTjd1BDQZ-qlakI7MH7QHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=41f8f1b6c715b75a71770b6600ee60634ee2cff45decbf4656ee80c4ca0b65e4&ipo=images",
     "selled": 95
   },
   {
     "id": 22,
-    "name": "Kindle Paperwhite",
-    "price": 139.99,
-    "description": "E-Reader mit blendfreiem Display und langer Akkulaufzeit.",
-    "image-url": "https://picsum.photos/seed/kindle-paperwhite/400/400",
+    "name": "Nothing Phone 3a",
+    "price": 370.00,
+    "description": "Solides Mittelklasse-Smartphone mit einzigartigem transparenten Design.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.uARTUK7GxZURfb-n8joFSwHaJB%3Fcb%3Dthfc1%26pid%3DApi&f=1&ipt=f5f94121bd0582fae4fcfda0b0f75635ca0f41a393f4dc8f38886147aab6c30f&ipo=images",
     "selled": 225
   },
   {
     "id": 23,
-    "name": "Fitbit Charge 6",
+    "name": "Nothing Phone 3a Pro",
     "price": 179.99,
-    "description": "Fitness-Tracker mit Gesundheitsdaten und Schlafanalyse.",
-    "image-url": "https://picsum.photos/seed/fitbit-charge-6/400/400",
+    "description": "Sehr gutes Mittelklasse-Smartphone mit einzigartigem transparenten Design.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.IDZwQc4xxLMMXrB8Oa0upAHaJB%3Fr%3D0%26pid%3DApi&f=1&ipt=b9aa166ad138f39ca9273085794cedda9caedab48b1cda56870850063f0b6845&ipo=images",
     "selled": 195
   },
   {
     "id": 24,
-    "name": "Google Nest Hub 2",
-    "price": 109.99,
-    "description": "Smarter Display-Lautsprecher für Zuhause mit Google Assistant.",
-    "image-url": "https://picsum.photos/seed/google-nest-hub-2/400/400",
-    "selled": 160
+    "name": "Samsung Galaxy A56",
+    "price": 480,
+    "description": "Sehr gutes Mittelklasse-Smartphone mit Android 14 und 120Hz Display zum günstigen Preis.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.kN35r6KQoK9KU93yXxK5CQHaJj%3Fpid%3DApi&f=1&ipt=aff590a6de74cce8ee8d5d6db1bddae216ad985efbbb76fbdb7ef38f295ffe6c&ipo=images",
+    "selled": 760,
+    "reduced": true,
+    "reduced-price": 319.99
   },
   {
     "id": 25,
-    "name": "Philips Hue Starter Kit",
+    "name": "Samsung Galaxy A36",
     "price": 189.99,
-    "description": "Smartes Beleuchtungsset mit mehreren farbigen LED-Lampen.",
-    "image-url": "https://picsum.photos/seed/philips-hue-starter-kit/400/400",
+    "description": "Günstiges Einsteiger-Smartphone mit solider Leistung und großem Display.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.FLenEJPNXzY-v35wZKfMEQHaJi%3Fpid%3DApi&f=1&ipt=ee767ee9954d25339e65bbf92a4f2511e0bb9e611a64161e0f07715a8c61dfa9&ipo=images",
     "selled": 130
   },
   {
@@ -208,39 +210,41 @@
     "name": "DJI Mini 4 Pro",
     "price": 799.99,
     "description": "Leichte Drohne mit 4K-Kamera und intelligenten Flugmodi.",
-    "image-url": "https://picsum.photos/seed/dji-mini-4-pro/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.d4xaqIppeVS9Tlxr5zngPwHaHa%3Fpid%3DApi&f=1&ipt=aa26d3d8013623a52a1fe3c0aa8c9345f371c9eb5c6ffa16f50e9a954dd9aa33&ipo=images",
     "selled": 70
   },
   {
     "id": 27,
-    "name": "Eufy RoboVac X8",
-    "price": 449.99,
-    "description": "Saugroboter mit starker Saugleistung und intelligenter Navigation.",
-    "image-url": "https://picsum.photos/seed/eufy-robovac-x8/400/400",
+    "name": "Google Pixel 10 Pro",
+    "price": 899.99,
+    "description": "Premium-Smartphone mit fortschrittlicher Kamera und leistungsstarkem Prozessor.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.bX-NqLYSXZzbN87VbiVCWgHaI9%3Fr%3D0%26pid%3DApi&f=1&ipt=cf6674938f5bb1f42c6a0fffc83665204294b82144516c6beaf276908b1aecd0&ipo=images",
     "selled": 95
   },
   {
     "id": 28,
-    "name": "Sony Alpha 7 IV",
-    "price": 2499.99,
+    "name": "Sony Xperia 1 VII",
+    "price": 1499.99,
     "description": "Spiegellose Vollformatkamera für professionelle Fotografie.",
-    "image-url": "https://picsum.photos/seed/sony-alpha-7-iv/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.lftnaIGyZVB9sVcuuaI25QHaE8%3Fpid%3DApi&f=1&ipt=7567cf504b93a786a9043201235b037042ef7e85ed8fa9ad3e2f5028d32abd05&ipo=images",
     "selled": 60
   },
   {
     "id": 29,
-    "name": "Bose QuietComfort Ultra",
+    "name": "Nothing Ear (3)",
     "price": 349.99,
     "description": "Noise-Cancelling-Kopfhörer mit klarer Klangqualität.",
-    "image-url": "https://picsum.photos/seed/bose-quietcomfort-ultra/400/400",
-    "selled": 155
-  },
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.h4-DHeVhWAO7N_lqeit_-wHaFl%3Fr%3D0%26cb%3Dthfc1%26pid%3DApi&f=1&ipt=b848cc85ac705603cd82bab57bce2745f89026b75491a395994a7ba2c593a1a3&ipo=images",
+    "selled": 155,
+    "reduced": true,
+    "reduced-price": 299.99
+  },    
   {
     "id": 30,
-    "name": "Samsung SmartThings Hub",
-    "price": 129.99,
-    "description": "Zentrale Steuerung für Smart Home Geräte und Automationen.",
-    "image-url": "https://picsum.photos/seed/samsung-smartthings-hub/400/400",
+    "name": "iPhone 14 ",
+    "price": 799.99,
+    "description": "Solides Mittelklasse-Smartphone mit A15-Chip und verbesserter Kamera.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.-SvBdDCnpEixDKRD5Bz4PQHaKX%3Fpid%3DApi&f=1&ipt=4066dbdcbd4a848a165103f04b30bfbbea20d229cff7bbfe8db835c959e1f3a4&ipo=images",
     "selled": 85
   },
   {
@@ -248,7 +252,7 @@
     "name": "Apple iPad Air",
     "price": 749.99,
     "description": "Leichtes Tablet mit A16-Chip und hochauflösendem Display.",
-    "image-url": "https://picsum.photos/seed/apple-ipad-air/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.vvuQut6xwU3TGrYdOXVpVAHaGG%3Fpid%3DApi&f=1&ipt=58730013c09f596aa255d076cbf6fddf30131120e96a34d9c85a1c0cc73b260b&ipo=images",
     "selled": 140
   },
   {
@@ -256,31 +260,33 @@
     "name": "Anker Nano II 65W",
     "price": 49.99,
     "description": "Kompaktes Ladegerät mit hoher Leistung für Laptops und Smartphones.",
-    "image-url": "https://picsum.photos/seed/anker-nano-ii-65w/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.bUtDbAOSK8v4GIlHKcU-sQHaJQ%3Fpid%3DApi&f=1&ipt=8fa79907fe297b93c8b72253358b1d27aaf2f229efeb606a2e800e79c6012c54&ipo=images",
     "selled": 390
   },
   {
     "id": 33,
-    "name": "Belkin BoostCharge Stand",
-    "price": 59.99,
-    "description": "Drahtloses Ladepad im Standformat für Smartphones.",
-    "image-url": "https://picsum.photos/seed/belkin-boostcharge-stand/400/400",
+    "name": "JBL Pulse 5",
+    "price": 149.99,
+    "description": "Box der neuen Generation mit beeindruckendem Sound und RGB-Beleuchtung.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.Vz8BIhC5Lvni01nI_N_btwHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=11da3af917fa91a1c0d9ef8c96f698a568a9edbdac77120e35d2a8079553dd3f&ipo=images",
     "selled": 230
   },
   {
     "id": 34,
-    "name": "Samsung T7 Portable SSD 2TB",
-    "price": 229.99,
-    "description": "Schnelle und kompakte externe SSD für Datei-Backup.",
-    "image-url": "https://picsum.photos/seed/samsung-t7-2tb/400/400",
-    "selled": 275
+    "name": "JBL Pulse 4",
+    "price": 149.99,
+    "description": "Box mit guten Sund und RGB-Beleuchtung.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.O1O4C8TrVxfP67GJF5WwpAHaHa%3Fpid%3DApi&f=1&ipt=b21dbacbac73254535b3ea160167ece8dc9583d7f94402df552549c3a2615381&ipo=images",
+    "selled": 345,
+    "reduced": true,
+    "reduced-price": 99.99
   },
   {
     "id": 35,
     "name": "Logitech C920 HD Pro Webcam",
     "price": 89.99,
     "description": "Beliebte Webcam für Videokonferenzen und Streaming.",
-    "image-url": "https://picsum.photos/seed/logitech-c920-hd-pro/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.NHxUjHw0raCTO97bWura7wHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=9d4f94183668078e19dd811a4f23c8e7d1096563df9a1800f698377d088e4287&ipo=images",
     "selled": 210
   },
   {
@@ -293,18 +299,18 @@
   },
   {
     "id": 37,
-    "name": "Oculus Quest 3",
-    "price": 449.99,
-    "description": "Standalone VR-Headset für immersive Spiele und Apps.",
-    "image-url": "https://picsum.photos/seed/oculus-quest-3/400/400",
-    "selled": 98
+    "name": "USB-C to USB-C Cable",
+    "price": 1399.99,
+    "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera, sowie Privacy Display",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.-b07VLNB6JuZ2-EfFEUC_AHaHa%3Fpid%3DApi&f=1&ipt=3fc96bcda113e60d295a4d9be70a1fda24618295026c0d98a37447b21bda52e3&ipo=images",
+    "selled": 1004
   },
   {
     "id": 38,
     "name": "Garmin Forerunner 965",
     "price": 599.99,
     "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
-    "image-url": "https://picsum.photos/seed/garmin-forerunner-965/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.y3gs6hcAbwDlYf9a2gRKpgHaHa%3Fpid%3DApi&f=1&ipt=6113cb1cb5f753d8323c82240647edeb1ba42b8ad967ed9dd51b999c1edfc441&ipo=images",
     "selled": 77
   },
   {
@@ -312,7 +318,7 @@
     "name": "JBL Charge 6",
     "price": 199.99,
     "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
-    "image-url": "https://picsum.photos/seed/jbl-charge-6/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.pnluLg7rHXA1GksAbstjhAHaHa%3Fpid%3DApi&f=1&ipt=d589d61dc4d36126187f19a5dbaf496da5de0c24d500d8ab39b8a0051e36c88b&ipo=images",
     "selled": 180
   },
   {
@@ -320,7 +326,31 @@
     "name": "Samsung Galaxy Buds 3",
     "price": 179.99,
     "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
-    "image-url": "https://picsum.photos/seed/samsung-galaxy-buds-3/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.ajWQ2LWuEe-RsP5Z_Q2X-AHaE8%3Fpid%3DApi&f=1&ipt=3ba5eb8b5390808d68960841942e7f390aabbc5ebc5d027534d1a5e8ea831d5c&ipo=images",
     "selled": 260
+  },
+  {
+    "id": 41,
+    "name": "Samsung S26 Ultra",
+    "price": 1399.99,
+    "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera, sowie Privacy Display",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.9lpwu1_cx2DXKHhBpM8XMQHaMK%3Fr%3D0%26pid%3DApi&f=1&ipt=95f5e1748c5f5ba034ef6d74e4d1aa8a5b4282d0c155528d66fd48dbaf036a06&ipo=images",
+    "selled": 98
+  },
+  {
+    "id": 42,
+    "name": "Samsung S26",
+    "price": 899.99,
+    "description": "Solides High-End-Smartphone mit beeindruckendem Display und leistungsstarker Kamera, allerdings ohne Privacy Display",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.hHZ92EpoxMbZN3yx30J1QAHaEK%3Fpid%3DApi&f=1&ipt=688de741c9765b45e8dec299a6023e20782c0f0dd9e84f78dc860081f8692255&ipo=images",
+    "selled": 85
+  },
+  {
+    "id": 43,
+    "name": "Samsung S26 Plus",
+    "price": 1399.99,
+    "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.HQs7ztLKWMR6RFsb70uK1QHaEK%3Fpid%3DApi&f=1&ipt=07c0dee5fb32242bfd10ee434e453507be99631098021654b3b90a275aaacc2d&ipo=images",
+    "selled": 98
   }
 ]
