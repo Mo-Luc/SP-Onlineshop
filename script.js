@@ -21,6 +21,15 @@ document.body.insertAdjacentHTML(
                 </button>
                 <a class="leiste" href="index.html">Home</a>
                 <a class="leiste" href="produkte.html">Produkte</a>
+                <div class="suchleiste-container">
+                  <input 
+                    type="text" 
+                    id="suchfeld" 
+                    class="suchfeld" 
+                    placeholder="Produkte suchen..." 
+                    onkeypress="handleSuchEvent(event)"
+                  />
+                </div>
                 <a class="leiste" href="kontakt.html">Kontakt</a>
                 <a class="leiste" href="#">Gewinnspiele</a>
                 <a class="leiste" href="warenkorb.html">
@@ -70,3 +79,21 @@ function updateIcon() {
   }
 }
 updateIcon();
+
+function suchenProdukte() {
+  const suchfeld = document.getElementById("suchfeld");
+  const suchbegriff = suchfeld.value.trim();
+  
+  if (suchbegriff === "") {
+    alert("Bitte geben Sie einen Suchbegriff ein!");
+    return;
+  }
+  
+  window.location.href = `produkte.html?search=${encodeURIComponent(suchbegriff)}`;
+}
+
+function handleSuchEvent(event) {
+  if (event.key === "Enter") {
+    suchenProdukte();
+  }
+}
