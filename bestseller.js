@@ -1,9 +1,10 @@
-async function renderProdukte() {
+async function renderBestseller() {
   const produkteContainer =
-    document.getElementsByClassName("karten-container")[0];
+    document.getElementsByClassName("karten-container")[2];
 
   const response = await fetch("produkte.json");
-  const produkte = await response.json();
+  let produkte = await response.json();
+  produkte = produkte.sort((a, b) => b.selled - a.selled).slice(0, 5);
 
   produkte.forEach((produkt, index) => {
     const produktElement = `
@@ -22,4 +23,4 @@ async function renderProdukte() {
   });
 }
 
-renderProdukte();
+renderBestseller();

@@ -4,73 +4,321 @@
     "name": "Samsung Galaxy S25 Ultra",
     "price": 1299.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
-    "image-url": "Bilder/S25-ultra.avif"
+    "image-url": "https://picsum.photos/seed/samsung-s25-ultra/400/400",
+    "selled": 187
   },
   {
     "id": 2,
     "name": "iPhone 17 Pro Max",
     "price": 1999.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
-    "image-url": "Bilder/i17-pro-max.png"
+    "image-url": "https://picsum.photos/seed/iphone-17-pro-max/400/400",
+    "selled": 95
   },
   {
     "id": 3,
     "name": "USB-C to Lightning Cable",
     "price": 25,
     "description": "Kabel zum Aufladen und Synchronisieren von Apple-Geräten mit Lightning-Anschluss.",
-    "image-url": "Bilder/usbc-to-apple.png"
+    "image-url": "https://picsum.photos/seed/usb-c-lightning-cable/400/400",
+    "selled": 500
   },
   {
     "id": 4,
     "name": "Samsung Galaxy Z Trifold",
     "price": 2199.99,
-    "description": "Ein High-end Smartphone und Tablet in einem",
-    "image-url": "Bilder/trifold.jpg"
+    "description": "Ein High-end Smartphone und Tablet in einem.",
+    "image-url": "https://picsum.photos/seed/samsung-z-trifold/400/400",
+    "selled": 50
   },
   {
     "id": 5,
     "name": "Samsung Galaxy Flip 7",
     "price": 1499.99,
-    "description": "Ein kleines gefaltetes Smartphone mit einem einzigartigen Design.",
-    "image-url": "Bilder/z flip 7.jpg"
+    "description": "Kompaktes gefaltetes Smartphone mit einzigartigem Design.",
+    "image-url": "https://picsum.photos/seed/samsung-flip-7/400/400",
+    "selled": 120
   },
   {
     "id": 6,
     "name": "Samsung Galaxy Fold 7",
     "price": 1999.99,
-    "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
-    "image-url": "Bilder/zfold7.png"
+    "description": "High-end faltbares Smartphone mit großem Display.",
+    "image-url": "https://picsum.photos/seed/samsung-fold-7/400/400",
+    "selled": 80
   },
   {
     "id": 7,
     "name": "Samsung Galaxy Fold 6",
     "price": 1199.99,
-    "description": "Ein High-end Smartphone und kleines Tablet mit einem einzigartigen faltenbaren Design.",
-    "image-url": "Bilder/zfold6.png",
+    "description": "Faltbares Smartphone der vorherigen Generation zum reduzierten Preis.",
+    "image-url": "https://picsum.photos/seed/samsung-fold-6/400/400",
     "reduced": true,
-    "reduced-price": 999.99
+    "reduced-price": 999.99,
+    "selled": 150
   },
   {
     "id": 8,
-    "name": "Produkt 8",
-    "price": 20.99,
-    "description": "Dies ist das achte Produkt.",
-    "image-url": "https://picsum.photos/256"
+    "name": "AirPods Pro 3",
+    "price": 279.99,
+    "description": "Kabellose In-Ear-Kopfhörer mit aktivem Noise Cancelling und adaptivem Klang.",
+    "image-url": "https://picsum.photos/seed/airpods-pro-3/400/400",
+    "selled": 420
   },
   {
     "id": 9,
-    "name": "Produkt 9",
-    "price": 20.99,
-    "description": "Dies ist das neunte Produkt.",
-    "image-url": "https://picsum.photos/257"
+    "name": "Sony WH-1000XM5",
+    "price": 399.99,
+    "description": "Premium Over-Ear-Kopfhörer mit hervorragender Geräuschunterdrückung.",
+    "image-url": "https://picsum.photos/seed/sony-wh-1000xm5/400/400",
+    "selled": 220
   },
   {
     "id": 10,
-    "name": "Produkt 10",
-    "price": 20.99,
-    "description": "Dies ist das zehnte Produkt.",
-    "image-url": "https://picsum.photos/258",
-    "reduced": true,
-    "reduced-price": 29.99
+    "name": "Apple Watch Series 10",
+    "price": 499.99,
+    "description": "Smartwatch mit Always-On Retina Display und Gesundheitsfunktionen.",
+    "image-url": "https://picsum.photos/seed/apple-watch-series-10/400/400",
+    "selled": 310
+  },
+  {
+    "id": 11,
+    "name": "MacBook Pro 16",
+    "price": 2499.99,
+    "description": "Leistungsstarker Laptop mit M4-Prozessor für kreative Profis.",
+    "image-url": "https://picsum.photos/seed/macbook-pro-16/400/400",
+    "selled": 85
+  },
+  {
+    "id": 12,
+    "name": "Dell XPS 15",
+    "price": 1899.99,
+    "description": "High-End-Notebook mit schmalem Rahmen und starker Leistung.",
+    "image-url": "https://picsum.photos/seed/dell-xps-15/400/400",
+    "selled": 145
+  },
+  {
+    "id": 13,
+    "name": "Microsoft Surface Pro 11",
+    "price": 1299.99,
+    "description": "Convertible Tablet-PC mit abnehmbarem Keyboard.",
+    "image-url": "https://picsum.photos/seed/surface-pro-11/400/400",
+    "selled": 110
+  },
+  {
+    "id": 14,
+    "name": "GoPro HERO13 Black",
+    "price": 499.99,
+    "description": "Action-Kamera mit 5.3K-Video und robustem Design.",
+    "image-url": "https://picsum.photos/seed/gopro-hero13/400/400",
+    "selled": 90
+  },
+  {
+    "id": 15,
+    "name": "Nintendo Switch OLED",
+    "price": 349.99,
+    "description": "Hybrid-Spielkonsole mit brillantem OLED-Display.",
+    "image-url": "https://picsum.photos/seed/nintendo-switch-oled/400/400",
+    "selled": 260
+  },
+  {
+    "id": 16,
+    "name": "PlayStation 5",
+    "price": 549.99,
+    "description": "Next-Gen-Spielkonsole mit ultraschneller SSD und atemberaubender Grafik.",
+    "image-url": "https://picsum.photos/seed/playstation-5/400/400",
+    "selled": 180
+  },
+  {
+    "id": 17,
+    "name": "Xbox Series X",
+    "price": 549.99,
+    "description": "Leistungsstarke Spielekonsole mit 4K-Gaming und Abwärtskompatibilität.",
+    "image-url": "https://picsum.photos/seed/xbox-series-x/400/400",
+    "selled": 170
+  },
+  {
+    "id": 18,
+    "name": "Logitech MX Master 3",
+    "price": 99.99,
+    "description": "Ergonomische Funkmaus mit präziser Steuerung für Profis.",
+    "image-url": "https://picsum.photos/seed/logitech-mx-master-3/400/400",
+    "selled": 340
+  },
+  {
+    "id": 19,
+    "name": "Apple AirTag 4er Pack",
+    "price": 99.99,
+    "description": "Praktische Tracker zum Auffinden von Schlüsseln, Taschen und mehr.",
+    "image-url": "https://picsum.photos/seed/apple-airtag/400/400",
+    "selled": 275
+  },
+  {
+    "id": 20,
+    "name": "Anker PowerCore 20000",
+    "price": 49.99,
+    "description": "Kompakter Powerbank mit hoher Kapazität für unterwegs.",
+    "image-url": "https://picsum.photos/seed/anker-powercore-20000/400/400",
+    "selled": 410
+  },
+  {
+    "id": 21,
+    "name": "Samsung Galaxy Tab S9",
+    "price": 999.99,
+    "description": "Premium-Tablet mit brillante Displayqualität und starker Leistung.",
+    "image-url": "https://picsum.photos/seed/galaxy-tab-s9/400/400",
+    "selled": 95
+  },
+  {
+    "id": 22,
+    "name": "Kindle Paperwhite",
+    "price": 139.99,
+    "description": "E-Reader mit blendfreiem Display und langer Akkulaufzeit.",
+    "image-url": "https://picsum.photos/seed/kindle-paperwhite/400/400",
+    "selled": 225
+  },
+  {
+    "id": 23,
+    "name": "Fitbit Charge 6",
+    "price": 179.99,
+    "description": "Fitness-Tracker mit Gesundheitsdaten und Schlafanalyse.",
+    "image-url": "https://picsum.photos/seed/fitbit-charge-6/400/400",
+    "selled": 195
+  },
+  {
+    "id": 24,
+    "name": "Google Nest Hub 2",
+    "price": 109.99,
+    "description": "Smarter Display-Lautsprecher für Zuhause mit Google Assistant.",
+    "image-url": "https://picsum.photos/seed/google-nest-hub-2/400/400",
+    "selled": 160
+  },
+  {
+    "id": 25,
+    "name": "Philips Hue Starter Kit",
+    "price": 189.99,
+    "description": "Smartes Beleuchtungsset mit mehreren farbigen LED-Lampen.",
+    "image-url": "https://picsum.photos/seed/philips-hue-starter-kit/400/400",
+    "selled": 130
+  },
+  {
+    "id": 26,
+    "name": "DJI Mini 4 Pro",
+    "price": 799.99,
+    "description": "Leichte Drohne mit 4K-Kamera und intelligenten Flugmodi.",
+    "image-url": "https://picsum.photos/seed/dji-mini-4-pro/400/400",
+    "selled": 70
+  },
+  {
+    "id": 27,
+    "name": "Eufy RoboVac X8",
+    "price": 449.99,
+    "description": "Saugroboter mit starker Saugleistung und intelligenter Navigation.",
+    "image-url": "https://picsum.photos/seed/eufy-robovac-x8/400/400",
+    "selled": 95
+  },
+  {
+    "id": 28,
+    "name": "Sony Alpha 7 IV",
+    "price": 2499.99,
+    "description": "Spiegellose Vollformatkamera für professionelle Fotografie.",
+    "image-url": "https://picsum.photos/seed/sony-alpha-7-iv/400/400",
+    "selled": 60
+  },
+  {
+    "id": 29,
+    "name": "Bose QuietComfort Ultra",
+    "price": 349.99,
+    "description": "Noise-Cancelling-Kopfhörer mit klarer Klangqualität.",
+    "image-url": "https://picsum.photos/seed/bose-quietcomfort-ultra/400/400",
+    "selled": 155
+  },
+  {
+    "id": 30,
+    "name": "Samsung SmartThings Hub",
+    "price": 129.99,
+    "description": "Zentrale Steuerung für Smart Home Geräte und Automationen.",
+    "image-url": "https://picsum.photos/seed/samsung-smartthings-hub/400/400",
+    "selled": 85
+  },
+  {
+    "id": 31,
+    "name": "Apple iPad Air",
+    "price": 749.99,
+    "description": "Leichtes Tablet mit A16-Chip und hochauflösendem Display.",
+    "image-url": "https://picsum.photos/seed/apple-ipad-air/400/400",
+    "selled": 140
+  },
+  {
+    "id": 32,
+    "name": "Anker Nano II 65W",
+    "price": 49.99,
+    "description": "Kompaktes Ladegerät mit hoher Leistung für Laptops und Smartphones.",
+    "image-url": "https://picsum.photos/seed/anker-nano-ii-65w/400/400",
+    "selled": 390
+  },
+  {
+    "id": 33,
+    "name": "Belkin BoostCharge Stand",
+    "price": 59.99,
+    "description": "Drahtloses Ladepad im Standformat für Smartphones.",
+    "image-url": "https://picsum.photos/seed/belkin-boostcharge-stand/400/400",
+    "selled": 230
+  },
+  {
+    "id": 34,
+    "name": "Samsung T7 Portable SSD 2TB",
+    "price": 229.99,
+    "description": "Schnelle und kompakte externe SSD für Datei-Backup.",
+    "image-url": "https://picsum.photos/seed/samsung-t7-2tb/400/400",
+    "selled": 275
+  },
+  {
+    "id": 35,
+    "name": "Logitech C920 HD Pro Webcam",
+    "price": 89.99,
+    "description": "Beliebte Webcam für Videokonferenzen und Streaming.",
+    "image-url": "https://picsum.photos/seed/logitech-c920-hd-pro/400/400",
+    "selled": 210
+  },
+  {
+    "id": 36,
+    "name": "Razer BlackWidow V4",
+    "price": 179.99,
+    "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
+    "image-url": "https://picsum.photos/seed/razer-blackwidow-v4/400/400",
+    "selled": 120
+  },
+  {
+    "id": 37,
+    "name": "Oculus Quest 3",
+    "price": 449.99,
+    "description": "Standalone VR-Headset für immersive Spiele und Apps.",
+    "image-url": "https://picsum.photos/seed/oculus-quest-3/400/400",
+    "selled": 98
+  },
+  {
+    "id": 38,
+    "name": "Garmin Forerunner 965",
+    "price": 599.99,
+    "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
+    "image-url": "https://picsum.photos/seed/garmin-forerunner-965/400/400",
+    "selled": 77
+  },
+  {
+    "id": 39,
+    "name": "JBL Charge 6",
+    "price": 199.99,
+    "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
+    "image-url": "https://picsum.photos/seed/jbl-charge-6/400/400",
+    "selled": 180
+  },
+  {
+    "id": 40,
+    "name": "Samsung Galaxy Buds 3",
+    "price": 179.99,
+    "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
+    "image-url": "https://picsum.photos/seed/samsung-galaxy-buds-3/400/400",
+    "selled": 260
   }
 ]

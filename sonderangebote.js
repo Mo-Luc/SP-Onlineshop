@@ -1,5 +1,6 @@
 async function renderSonderangebote() {
-  const produkteContainer = document.getElementById("karten-container");
+  const produkteContainer =
+    document.getElementsByClassName("karten-container")[0];
 
   const response = await fetch("produkte.json");
   let produkte = await response.json();
