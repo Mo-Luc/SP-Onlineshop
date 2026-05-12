@@ -62,15 +62,17 @@
     "name": "AirPods Pro 3",
     "price": 279.99,
     "description": "Kabellose In-Ear-Kopfhörer mit aktivem Noise Cancelling und adaptivem Klang.",
-    "image-url": "https://picsum.photos/seed/airpods-pro-3/400/400",
-    "selled": 420
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.L0kwchNnqFmrDBnEhdGgUgHaHa%3Fpid%3DApi&f=1&ipt=4116c0866300ff7f01ef68dee8c0f768b6f0219db1f8f133942f7c12172ea261&ipo=images",
+    "selled": 420,
+    "reduced": true,
+    "reduced-price": 249.99
   },
   {
     "id": 9,
     "name": "Sony WH-1000XM5",
     "price": 399.99,
     "description": "Premium Over-Ear-Kopfhörer mit hervorragender Geräuschunterdrückung.",
-    "image-url": "https://picsum.photos/seed/sony-wh-1000xm5/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthfvnext.bing.com%2Fth%2Fid%2FOIP.4fd-VUm_wSdzjvM-lgRD_gHaHa%3Fcb%3Dthfvnext%26pid%3DApi&f=1&ipt=2146850259ecf121e9dc05e39cda496e20a8de180b8ca450197b9a63cbf5ebae&ipo=images",
     "selled": 220
   },
   {
@@ -78,7 +80,7 @@
     "name": "Apple Watch Series 10",
     "price": 499.99,
     "description": "Smartwatch mit Always-On Retina Display und Gesundheitsfunktionen.",
-    "image-url": "https://picsum.photos/seed/apple-watch-series-10/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.zZOCy9uLPSAtCpWSDgIevAHaHa%3Fpid%3DApi&f=1&ipt=ed94e3aacbcdf67708f05c453527af9eae7c4ddebb83e746f7b954dfd7e5a0f4&ipo=images",
     "selled": 310
   },
   {
@@ -86,7 +88,7 @@
     "name": "MacBook Pro 16",
     "price": 2499.99,
     "description": "Leistungsstarker Laptop mit M4-Prozessor für kreative Profis.",
-    "image-url": "https://picsum.photos/seed/macbook-pro-16/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.YvmYegrZQK3DPkDBprbPwgHaHa%3Fpid%3DApi&f=1&ipt=af646cbdc06bd2364e0809907afda427acc8754be0c7f1df6408dc0e77b59afc&ipo=images",
     "selled": 85
   },
   {
@@ -94,7 +96,7 @@
     "name": "Dell XPS 15",
     "price": 1899.99,
     "description": "High-End-Notebook mit schmalem Rahmen und starker Leistung.",
-    "image-url": "https://picsum.photos/seed/dell-xps-15/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.rnjAI-JJft4DWPwdRl5kYAHaFj%3Fpid%3DApi&f=1&ipt=6e3b3f2d4aa8ce61af3c5177a2f746479fe5eb852b57f5391edf69ac111e0084&ipo=images",
     "selled": 145
   },
   {
@@ -102,7 +104,7 @@
     "name": "Microsoft Surface Pro 11",
     "price": 1299.99,
     "description": "Convertible Tablet-PC mit abnehmbarem Keyboard.",
-    "image-url": "https://picsum.photos/seed/surface-pro-11/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.j1-lB1JC3Y_1xCbEWky67gHaEK%3Fr%3D0%26pid%3DApi&f=1&ipt=8e5b949a39f5d513e9ab17f84b08e84f464d5780208288c1e3ccc529c560fc39&ipo=images",
     "selled": 110
   },
   {
@@ -158,7 +160,7 @@
     "name": "Anker PowerCore 20000",
     "price": 49.99,
     "description": "Kompakter Powerbank mit hoher Kapazität für unterwegs.",
-    "image-url": "https://picsum.photos/seed/anker-powercore-20000/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.uvGuxYBX1Ow1kpB93C8zyQHaIr%3Fr%3D0%26pid%3DApi&f=1&ipt=4e92c57c5637b0ec9cbef58f3d863a54cebf9c177eaa3a4ab98cee4e7db25bd9&ipo=images",
     "selled": 410
   },
   {
@@ -286,7 +288,7 @@
     "name": "Razer BlackWidow V4",
     "price": 179.99,
     "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
-    "image-url": "https://picsum.photos/seed/razer-blackwidow-v4/400/400",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.qI0oGh4-R6hMG4oKN6BZNAHaHa%3Fr%3D0%26cb%3Dthfc1%26pid%3DApi&f=1&ipt=00a5fd90ff29915367dd49172ea5b2c67c7fa340e22b7109d6e37a3f7249131d&ipo=images",
     "selled": 120
   },
   {
