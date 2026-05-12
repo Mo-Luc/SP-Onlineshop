@@ -4,7 +4,7 @@
     "name": "Samsung Galaxy S25 Ultra",
     "price": 1299.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
-    "image-url": "https://picsum.photos/seed/samsung-s25-ultra/400/400",
+    "image-url": "Bilder/S25-ultra.avif",
     "selled": 187
   },
   {
@@ -12,7 +12,7 @@
     "name": "iPhone 17 Pro Max",
     "price": 1999.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
-    "image-url": "https://picsum.photos/seed/iphone-17-pro-max/400/400",
+    "image-url": "Bilder/i17-pro-max.png",
     "selled": 95
   },
   {
@@ -20,7 +20,7 @@
     "name": "USB-C to Lightning Cable",
     "price": 25,
     "description": "Kabel zum Aufladen und Synchronisieren von Apple-Geräten mit Lightning-Anschluss.",
-    "image-url": "https://picsum.photos/seed/usb-c-lightning-cable/400/400",
+    "image-url": "Bilder/usbc-to-apple.png",
     "selled": 500
   },
   {
@@ -28,7 +28,7 @@
     "name": "Samsung Galaxy Z Trifold",
     "price": 2199.99,
     "description": "Ein High-end Smartphone und Tablet in einem.",
-    "image-url": "https://picsum.photos/seed/samsung-z-trifold/400/400",
+    "image-url": "Bilder/trifold.jpg",
     "selled": 50
   },
   {
@@ -36,7 +36,7 @@
     "name": "Samsung Galaxy Flip 7",
     "price": 1499.99,
     "description": "Kompaktes gefaltetes Smartphone mit einzigartigem Design.",
-    "image-url": "https://picsum.photos/seed/samsung-flip-7/400/400",
+    "image-url": "Bilder/z flip 7.jpg",
     "selled": 120
   },
   {
@@ -44,7 +44,7 @@
     "name": "Samsung Galaxy Fold 7",
     "price": 1999.99,
     "description": "High-end faltbares Smartphone mit großem Display.",
-    "image-url": "https://picsum.photos/seed/samsung-fold-7/400/400",
+    "image-url": "Bilder/zfold7.png",
     "selled": 80
   },
   {
@@ -52,7 +52,7 @@
     "name": "Samsung Galaxy Fold 6",
     "price": 1199.99,
     "description": "Faltbares Smartphone der vorherigen Generation zum reduzierten Preis.",
-    "image-url": "https://picsum.photos/seed/samsung-fold-6/400/400",
+    "image-url": "Bilder/zfold6.png",
     "reduced": true,
     "reduced-price": 999.99,
     "selled": 150
