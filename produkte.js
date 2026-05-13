@@ -44,7 +44,7 @@ async function loadProdukte() {
   filteredProdukte = produkte;
 
   fuse = new Fuse(produkte, {
-    keys: ["name", "description"],
+    keys: ["name", "description", "brand", "category"],
     threshold: 0.3,
   });
 
