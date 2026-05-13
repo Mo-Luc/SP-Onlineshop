@@ -139,6 +139,54 @@ a:last-child {
   border-right: none;
 }
 
+#produkte-search-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#produkte-search-wrap > input {
+  width: 300px;
+  padding: 10px 15px;
+  border-radius: 999px;
+  border: 1px solid var(--bg-color-3);
+  background-color: var(--bg-color-2);
+  color: var(--text-color);
+  font-size: 16px;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+
+#produkte-search-wrap > input:focus {
+  transform: scale(0.99);
+}
+
+#produkte-search-wrap > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 43px;
+  height: 43px;
+  padding: 5px;
+  border-radius: 9999px;
+  border: 1px solid var(--bg-color-3);
+  background-color: var(--bg-color-2);
+  color: var(--text-color-dimmed);
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+#produkte-search-wrap > button:hover {
+  background-color: color-mix(in srgb, var(--bg-color-2), var(--bg-color-3));
+}
+#produkte-search-wrap > button:active {
+  transform: scale(0.93);
+}
+
 .karten-container {
   display: flex;
   flex-direction: row;
