@@ -34,7 +34,7 @@
     "name": "Samsung Galaxy Z Trifold",
     "price": 2199.99,
     "description": "Ein High-end Smartphone und Tablet in einem.",
-    "image-url": "Bilder/trifold.jpg",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.beebom.com%2Fmobile%2Fsamsung-galaxy-z-trifold-front-back.png&f=1&nofb=1&ipt=6eff19bbcf0778aa37d1e564cb96dcfcc3d732af9e69e6ee2deb6b541751e928",
     "selled": 50,
     "brand": ["Samsung"],
     "category": ["smartphones"]
@@ -44,7 +44,7 @@
     "name": "Samsung Galaxy Flip 7",
     "price": 1499.99,
     "description": "Kompaktes gefaltetes Smartphone mit einzigartigem Design.",
-    "image-url": "Bilder/z flip 7.jpg",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.androidplanet.nl%2Forca%2Fproducts%2F26416%2Fsamsung-galaxy-z-flip-7.png&f=1&nofb=1&ipt=4d456592a74c831f627706c814031a7a2f2f761d71f4cd5f45ddaa89f9eb9d4f",
     "selled": 120,
     "brand": ["Samsung"],
     "category": ["smartphones"]
@@ -76,7 +76,7 @@
     "name": "AirPods Pro 3",
     "price": 279.99,
     "description": "Kabellose In-Ear-Kopfhörer mit aktivem Noise Cancelling und adaptivem Klang.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.L0kwchNnqFmrDBnEhdGgUgHaHa%3Fpid%3DApi&f=1&ipt=4116c0866300ff7f01ef68dee8c0f768b6f0219db1f8f133942f7c12172ea261&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.apple.com%2Fv%2Fairpods-pro%2Fo%2Fimages%2Foverview%2Fbattery%2Fcase__b87ou7jna9de_large.png&f=1&nofb=1&ipt=c071aed0c23764bd82cd521aa09edc8dda6e8cb060e7b6fe8da1a2448147bc9d",
     "selled": 420,
     "reduced": true,
     "reduced-price": 249.99,
@@ -88,7 +88,7 @@
     "name": "Sony WH-1000XM5",
     "price": 399.99,
     "description": "Premium Over-Ear-Kopfhörer mit hervorragender Geräuschunterdrückung.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthfvnext.bing.com%2Fth%2Fid%2FOIP.4fd-VUm_wSdzjvM-lgRD_gHaHa%3Fcb%3Dthfvnext%26pid%3DApi&f=1&ipt=2146850259ecf121e9dc05e39cda496e20a8de180b8ca450197b9a63cbf5ebae&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.pocketnow.com%2Fstyles%2Fxsmall%2Fpublic%2F2022-05%2FPBI%2520Sony%2520WH1000%2520XM5%2520Black.png%3Fitok%3Dk1uA0Bg8&f=1&nofb=1&ipt=8064c6b4adf694cefbe45b545ac208e60c156beaf973ec74ce78483dbc287bd6",
     "selled": 220,
     "brand": ["Sony"],
     "category": ["audio"]
@@ -98,7 +98,7 @@
     "name": "Apple Watch Series 10",
     "price": 499.99,
     "description": "Smartwatch mit Always-On Retina Display und Gesundheitsfunktionen.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.zZOCy9uLPSAtCpWSDgIevAHaHa%3Fpid%3DApi&f=1&ipt=ed94e3aacbcdf67708f05c453527af9eae7c4ddebb83e746f7b954dfd7e5a0f4&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.att.com%2Fscmsassets%2Fglobal%2Fdevices%2Fother%2Fapple%2Fapple-watch-series-10-42mm-42mm%2Fcarousel%2Fslate-titanium-black-sport-band-m-l-1-v2.png&f=1&nofb=1&ipt=bfb2602bcddcd02c88806275808f75358270701e73caed07612a0d4b33386126",
     "selled": 310,
     "brand": ["Apple"],
     "category": ["wearables"]
@@ -108,7 +108,7 @@
     "name": "MacBook Pro 16",
     "price": 2499.99,
     "description": "Leistungsstarker Laptop mit M4-Prozessor für kreative Profis.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.YvmYegrZQK3DPkDBprbPwgHaHa%3Fpid%3DApi&f=1&ipt=af646cbdc06bd2364e0809907afda427acc8754be0c7f1df6408dc0e77b59afc&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.swappa.com%2Fmedia%2Fproduct%2Fmacbook-pro-2019-16%2Fmacbook-pro-2019-16-02.png&f=1&nofb=1&ipt=372db2512147af3180ebdd1088b11c05980e77e3f59d221db0d9cbbb8a5c038a",
     "selled": 85,
     "brand": ["Apple"],
     "category": ["laptops"]
@@ -118,7 +118,7 @@
     "name": "Dell XPS 15",
     "price": 1899.99,
     "description": "High-End-Notebook mit schmalem Rahmen und starker Leistung.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.rnjAI-JJft4DWPwdRl5kYAHaFj%3Fpid%3DApi&f=1&ipt=6e3b3f2d4aa8ce61af3c5177a2f746479fe5eb852b57f5391edf69ac111e0084&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fproduct.hstatic.net%2F1000079076%2Fproduct%2Fdell_xps_9510_2_0084faa800464e5290204964b276ea49.png&f=1&nofb=1&ipt=901eb02ab48d9734230a8e33ba344864401a03bae4f6df4cfa49c22fc8d006fa",
     "selled": 145,
     "brand": ["Dell"],
     "category": ["laptops"]
@@ -128,7 +128,7 @@
     "name": "Microsoft Surface Pro 11",
     "price": 1299.99,
     "description": "Convertible Tablet-PC mit abnehmbarem Keyboard.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.j1-lB1JC3Y_1xCbEWky67gHaEK%3Fr%3D0%26pid%3DApi&f=1&ipt=8e5b949a39f5d513e9ab17f84b08e84f464d5780208288c1e3ccc529c560fc39&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshop.braintree.co.za%2Fwp-content%2Fuploads%2F2024%2F09%2F2-7.png&f=1&nofb=1&ipt=16211a9c96a86c24f22e7a549e150f3485c354281048da8fafecb6bc25c781b1",
     "selled": 110,
     "brand": ["Microsoft"],
     "category": ["tablets"]
@@ -138,7 +138,7 @@
     "name": "GoPro HERO13 Black",
     "price": 499.99,
     "description": "Action-Kamera mit 5.3K-Video und robustem Design.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.7inToTqQKWTe3P7sKfyjZAHaHo%3Fpid%3DApi&f=1&ipt=ff806a059fe5af1cbb97dc6182188fcd7f856118dce074ea6426a50c0b1c36f3&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgopro.pe%2Fwp-content%2Fuploads%2F2025%2F11%2FCHDRB-134-RW_4_1500x1500.png&f=1&nofb=1&ipt=09d5ac8258f871cd5fe20f24bf24fb65445c3022df34d0aef5ab6472872e7f42",
     "selled": 90,
     "brand": ["GoPro"],
     "category": ["cameras"]
@@ -148,7 +148,7 @@
     "name": "Nintendo Switch OLED",
     "price": 349.99,
     "description": "Hybrid-Spielkonsole mit brillantem OLED-Display.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.gXO8VkkEajIzwj9KQ2VmMQHaEX%3Fcb%3Dthfc1%26pid%3DApi&f=1&ipt=75970296208c2ffe482e64cc29bddd99a558280904be41e8021b3501a8140c91&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.nintendo.com%2Fimage%2Fupload%2Ff_auto%2Fq_auto%2Fdpr_1.5%2Fncom%2Fen_US%2Fswitch%2Fsite-design-update%2Fphoto01&f=1&nofb=1&ipt=9229cced7cf3e9ae2d335eaaa5c369da5a2b59fb95281db98e4dbcb9f57db3b1",
     "selled": 260,
     "brand": ["Nintendo"],
     "category": ["gaming consoles"]
@@ -158,7 +158,7 @@
     "name": "PlayStation 5",
     "price": 549.99,
     "description": "Next-Gen-Spielkonsole mit ultraschneller SSD und atemberaubender Grafik.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.4RddWrT60LHDG7MKoLr1VwHaE8%3Fr%3D0%26pid%3DApi&f=1&ipt=6a2e66a47f5068469afb49390c92b92b28ee1846b24b43868a9f48633fc8d14f&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcf-images.dustin.eu%2Fcdn-cgi%2Fimage%2Ffit%3Dcontain%2Cformat%3Dauto%2Cquality%3D75%2Cwidth%3D828%2Cfit%3Dcontain%2Fimage%2Fd200001002303974%2Fsony-playstation-5-slim-digital.png&f=1&nofb=1&ipt=97d97a37be3c284ea4665dd7890a9460d840e3fabe15cb274240d036bca05733",
     "selled": 180,
     "brand": ["Sony"],
     "category": ["gaming consoles"]
@@ -168,7 +168,7 @@
     "name": "Xbox Series X",
     "price": 549.99,
     "description": "Leistungsstarke Spielekonsole mit 4K-Gaming und Abwärtskompatibilität.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.-C9exhxGDmboHhY_S629ogHaHa%3Fpid%3DApi&f=1&ipt=8ce189d654aec7477b8b992513a0382e2a5b465c08e0a61ec174ea498c968060&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.impulsegamer.com%2Farticles%2Fwp-content%2Fuploads%2F2020%2F11%2Fxboxseriesxping-640x505.png&f=1&nofb=1&ipt=b49ba42019f4367f1ea4fbe320012ef6e9bf85837526661268a380b704567fa0",
     "selled": 170,
     "brand": ["Microsoft"],
     "category": ["gaming consoles"]
@@ -178,7 +178,7 @@
     "name": "Logitech MX Master 3",
     "price": 99.99,
     "description": "Ergonomische Funkmaus mit präziser Steuerung für Profis.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.4xPT6sQ5XJcMcXTcTWGnCgHaGX%3Fpid%3DApi&f=1&ipt=c86218f8ad036433205a6f656c03640402dd656c0c69428dc347b1b55250b315&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.logitech.com%2Fassets%2F65776%2F57%2Fmx-master-3.png&f=1&nofb=1&ipt=6539d3be39abfa3594aded2f1b02f2adf6b972dd3b170b15e9b7d665e7c5cdd5",
     "selled": 340,
     "brand": ["Logitech"],
     "category": ["accessories"]
@@ -188,7 +188,7 @@
     "name": "Apple AirTag 4er Pack",
     "price": 99.99,
     "description": "Praktische Tracker zum Auffinden von Schlüsseln, Taschen und mehr.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.bXFqJ3ClSyZjBy3n2SF_ogHaEc%3Fpid%3DApi&f=1&ipt=ba18265912b45eb42b1d9b307c9565d4833f3ff4f3c4114c70f5327104463f45&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oister.dk%2Fglobalassets%2Fkundeshop%2Ftilbehor%2Fapple%2Fapple-airtag%2Fapple-airtag-4pack.png&f=1&nofb=1&ipt=f1f9778cd5ef822288faaa59ef059ff9d2da90a7ffb2d7a649919e66d415851b",
     "selled": 275,
     "brand": ["Apple"],
     "category": ["accessories"]
@@ -198,7 +198,7 @@
     "name": "Anker PowerCore 20000",
     "price": 49.99,
     "description": "Kompakter Powerbank mit hoher Kapazität für unterwegs.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.uvGuxYBX1Ow1kpB93C8zyQHaIr%3Fr%3D0%26pid%3DApi&f=1&ipt=4e92c57c5637b0ec9cbef58f3d863a54cebf9c177eaa3a4ab98cee4e7db25bd9&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0765%2F2137%2F3999%2Fproducts%2FA1268011-Anker_325_Power_Bank_PowerCore_20K_1_3840x.png%3Fv%3D1683859393&f=1&nofb=1&ipt=851c61a8c55de75b4f5730d87f27dd0cfbaaf6aa9b3122377985202699997f75",
     "selled": 140,
     "brand": ["Anker"],
     "category": ["accessories"]
@@ -208,7 +208,7 @@
     "name": "Samsung Galaxy Tab S9",
     "price": 999.99,
     "description": "Premium-Tablet mit brillante Displayqualität und starker Leistung.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.OZSTjd1BDQZ-qlakI7MH7QHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=41f8f1b6c715b75a71770b6600ee60634ee2cff45decbf4656ee80c4ca0b65e4&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.bechtle.com%2Fis%2F180712%2F1c4b3d4ee288fc9434f5175bf56070570%2Fc3%2Fgallery%2Fbf91bf04df284b9582e9c9ede1f9fe14%3Fversion%3D0&f=1&nofb=1&ipt=9b02a2ca5c12068b4c0ef950761908e0bb54e8983cb045406b9949d25a94d848",
     "selled": 95,
     "brand": ["Samsung"],
     "category": ["tablets"]
@@ -218,7 +218,7 @@
     "name": "Nothing Phone 3a",
     "price": 370.0,
     "description": "Solides Mittelklasse-Smartphone mit einzigartigem transparenten Design.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F314521_0_v6eqtj.png&f=1&nofb=1&ipt=28dd92af9ecf0218db241b1dd41a525da777f0b980239e583a68ea3b174093f4",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F314521_0_v6eqtj.png&f=1&nofb=1&ipt=408193b724287198e3db90a7308abb8e0b0707c36f1ee948749ba1819acd5a9b",
     "selled": 225,
     "brand": ["Nothing"],
     "category": ["smartphones"]
@@ -280,7 +280,7 @@
     "name": "Sony Xperia 1 VII",
     "price": 1499.99,
     "description": "Premium-Smartphone mit 4K-HDR-Display und professioneller Kamera.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.lftnaIGyZVB9sVcuuaI25QHaE8%3Fpid%3DApi&f=1&ipt=7567cf504b93a786a9043201235b037042ef7e85ed8fa9ad3e2f5028d32abd05&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.androidplanet.nl%2Forca%2Fproducts%2F26077%2Fsony-xperia-1-vii.png%3Fw%3D960%26h%3D640%26fit%3Dfill&f=1&nofb=1&ipt=ceba494d9b7941ddefea024e93dad4e3fb49eb53b8380d1d4913a3364a848fd3",
     "selled": 60,
     "brand": ["Sony"],
     "category": ["smartphones"]
@@ -302,7 +302,7 @@
     "name": "Apple iPhone 14 ",
     "price": 799.99,
     "description": "Solides Mittelklasse-Smartphone mit A15-Chip und verbesserter Kamera.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.-SvBdDCnpEixDKRD5Bz4PQHaKX%3Fpid%3DApi&f=1&ipt=4066dbdcbd4a848a165103f04b30bfbbea20d229cff7bbfe8db835c959e1f3a4&ipo=images",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmtscdn.ru%2Fupload%2Fiblock%2F204%2F4.png&f=1&nofb=1&ipt=bc465d99dc98f04beb1ae798187bf28e1a446ed35b18a2f4208de68ae771010a",
     "selled": 85,
     "brand": ["Apple"],
     "category": ["smartphones"]
