@@ -21,15 +21,6 @@ document.body.insertAdjacentHTML(
                 </button>
                 <a class="leiste" href="index.html">Home</a>
                 <a class="leiste" href="produkte.html">Produkte</a>
-                <div class="suchleiste-container">
-                  <input 
-                    type="text" 
-                    id="suchfeld" 
-                    class="suchfeld" 
-                    placeholder="Produkte suchen..." 
-                    onkeypress="handleSuchEvent(event)"
-                  />
-                </div>
                 <a class="leiste" href="kontakt.html">Kontakt</a>
                 <a class="leiste" href="#">Gewinnspiele</a>
                 <a class="leiste" href="warenkorb.html">
