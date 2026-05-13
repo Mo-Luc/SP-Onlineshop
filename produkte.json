@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "iPhone 17 Pro Max",
+    "name": "Apple iPhone 17 Pro Max",
     "price": 1999.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
     "image-url": "Bilder/i17-pro-max.png",
@@ -174,7 +174,7 @@
   {
     "id": 22,
     "name": "Nothing Phone 3a",
-    "price": 370.00,
+    "price": 370.0,
     "description": "Solides Mittelklasse-Smartphone mit einzigartigem transparenten Design.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F314521_0_v6eqtj.png&f=1&nofb=1&ipt=28dd92af9ecf0218db241b1dd41a525da777f0b980239e583a68ea3b174093f4",
     "selled": 225
@@ -238,10 +238,10 @@
     "selled": 155,
     "reduced": true,
     "reduced-price": 299.99
-  },    
+  },
   {
     "id": 30,
-    "name": "iPhone 14 ",
+    "name": "Apple iPhone 14 ",
     "price": 799.99,
     "description": "Solides Mittelklasse-Smartphone mit A15-Chip und verbesserter Kamera.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.-SvBdDCnpEixDKRD5Bz4PQHaKX%3Fpid%3DApi&f=1&ipt=4066dbdcbd4a848a165103f04b30bfbbea20d229cff7bbfe8db835c959e1f3a4&ipo=images",
