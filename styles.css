@@ -349,3 +349,49 @@ a:last-child {
 #sonderangebote > .karten-container {
   justify-content: flex-start;
 }
+
+#newsletter {
+  color: var(--acent-color);
+  font-family: "Michroma";
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#email-label {
+  color: var(--acent-color);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#newsletter-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--acent-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 999px;
+  padding: 0 24px;
+  min-height: 44px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+#newsletter-button:hover {
+  background-color: var(--acent-color-hover);
+}
+
+#email-input {
+  padding: 10px 15px;
+  border-radius: 999px;
+  border: 1px solid var(--bg-color-3);
+  background-color: var(--bg-color-2);
+  color: var(--text-color);
+  font-size: 16px;
+  outline: none;
+  width: 250px;
+  margin-right: 20px;
+}
