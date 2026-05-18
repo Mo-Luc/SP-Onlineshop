@@ -77,7 +77,17 @@ async function renderProductPage() {
   );
   const produktBildElement = document.getElementById("produkt-bild");
   const produktPreisElement = document.getElementById("produkt-preis");
+  const produktBatteryElement = document.getElementById("produkt-battery");
   const kaufenButton = document.getElementById("kaufen-button");
+  
+  // Technische Daten Elemente
+  const specBattery = document.getElementById("spec-battery");
+  const specScreen = document.getElementById("spec-screen");
+  const specWeight = document.getElementById("spec-weight");
+  const specDimensions = document.getElementById("spec-dimensions");
+  const specChip = document.getElementById("spec-chip");
+  const specRam = document.getElementById("spec-ram");
+  const specStorage = document.getElementById("spec-storage");
 
   try { document.getElementById("warenkorb-actions").remove() } catch (error) {  }
 
@@ -103,6 +113,15 @@ async function renderProductPage() {
     ? produkt["reduced-price"]
     : produkt.price;
   produktPreisElement.textContent = `${produktPreis.toFixed(2)} €`;
+  
+  // Befülle technische Daten
+  specBattery.textContent = produkt.battery || "—";
+  specScreen.textContent = produkt.screen || "—";
+  specWeight.textContent = produkt.weight || "—";
+  specDimensions.textContent = produkt.dimensions || "—";
+  specChip.textContent = produkt.chip || "—";
+  specRam.textContent = produkt.ram || "—";
+  specStorage.textContent = produkt.storage || "—";
 }
 
 renderProductPage();

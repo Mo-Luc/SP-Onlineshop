@@ -7,7 +7,14 @@
     "image-url": "Bilder/S25-ultra.avif",
     "selled": 187,
     "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "5000mAh",
+    "screen": "6.9 Zoll Dynamic AMOLED 2X",
+    "weight": "233g",
+    "dimensions": "162.8 x 77.6 x 8.3mm",
+    "chip": "Snapdragon 8 Elite",
+    "ram": "16GB",
+    "storage": "512GB"
   },
   {
     "id": 2,
