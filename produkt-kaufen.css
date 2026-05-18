@@ -1,27 +1,37 @@
 #produkt-name {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+#produkt-preis {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 18px;
+  color: var(--text-color);
 }
 #produkt-beschreibung {
   font-size: 16px;
   color: var(--text-color-dimmed);
-  margin-bottom: 20px;
+  line-height: 1.65;
+  margin-bottom: 24px;
 }
 
 #produkt-bild {
-  width: 300px;
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 420px;
+  display: block;
+  border-radius: 18px;
   object-fit: contain;
-  border-radius: 15px;
 }
 #kaufen-button {
   display: inline-flex;
-  vertical-align: middle;
-  background-color: var(--bg-color-3);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--acent-color);
   color: var(--text-color);
   border: none;
   border-radius: 999px;
-  padding: 10px 20px;
+  padding: 14px 24px;
   font-size: 16px;
   cursor: pointer;
   transition:
@@ -29,43 +39,76 @@
     transform 0.2s ease;
 }
 #kaufen-button:hover {
-  background-color: var(--bg-color-2);
+  background-color: var(--acent-color-hover);
 }
 #kaufen-button:active {
-  transform: scale(0.95);
+  transform: scale(0.98);
+}
+
+.kaufen-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.kaufen-layout {
+  width: min(100%, 900px);
+  border-collapse: collapse;
+  background-color: var(--bg-color-2);
+
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+.kaufen-layout td {
+  vertical-align: top;
+  padding: 32px;
+}
+
+.bild-zelle {
+  width: 45%;
+}
+
+.details-zelle {
+  width: 55%;
+}
+
+.kaufen-layout tr:first-child td:first-child {
+  padding-left: 36px;
+}
+
+.kaufen-layout tr:first-child td:last-child {
+  padding-right: 36px;
 }
 
 #warenkorb-actions {
   display: inline-flex;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  background-color: var(--bg-color-3);
-  color: var(--text-color);
-  border: none;
-  border-radius: 999px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-left: 10px;
-}
-#warenkorb-actions button {
-  background: none;
-  border: none;
-  color: var(--text-color);
-  font-size: 16px;
-  cursor: pointer;
-  margin: 0;
-  padding: 0 5px;
-  height: 100%;
-}
-#warenkorb-actions button svg {
-  width: 20px;
-  height: 20px;
+  gap: 12px;
+  margin-top: 18px;
 }
 
-#kaufen-button, #warenkorb-actions {
-  box-sizing: border-box;
+#warenkorb-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
   height: 44px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background-color: var(--bg-color-3);
+  color: var(--acent-color);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#warenkorb-actions button:hover {
+  background-color: var(--bg-color-2);
+}
+
+#warenkorb-actions button:active {
+  transform: scale(0.96);
+}
+
+#warenkorb-actions button svg {
+  stroke: currentColor;
 }

@@ -6,14 +6,21 @@
     <link rel="stylesheet" href="produkt-kaufen.css" />
   </head>
   <body>
-    <h1 id="produkt-name">PRODUKT-NAME</h1>
-    <p id="produkt-beschreibung">PRODUKT-BESCHREIBUNG</p>
-    <img id="produkt-bild" />
-    <p id="produkt-preis">PRODUKT-PREIS €</p>
-    <button id="kaufen-button" onclick="produktKaufen()">
-      In den Warenkorb
-    </button>
-    
+    <div class="kaufen-wrapper">
+      <table class="kaufen-layout">
+        <tr>
+          <td class="bild-zelle">
+            <img id="produkt-bild" src="" alt="Produktbild" />
+          </td>
+          <td class="details-zelle">
+            <p id="produkt-name">PRODUKT-NAME</p>
+            <p id="produkt-preis">PRODUKT-PREIS €</p>
+            <p id="produkt-beschreibung">PRODUKT-BESCHREIBUNG</p>
+            <button id="kaufen-button" onclick="produktKaufen()">In den Warenkorb</button>
+          </td>
+        </tr>
+      </table>
+    </div>
 
     <script src="script.js"></script>
     <script src="produkt-kaufen.js"></script>
