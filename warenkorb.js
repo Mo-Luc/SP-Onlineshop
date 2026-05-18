@@ -1,5 +1,9 @@
 const warenkorbElement = document.getElementById("warenkorb");
 
+const warenkorbAktionenWrapElement = document.getElementById(
+  "warenkorb-aktionen-wrap",
+);
+
 function addOneToWarenkorb(produktId) {
   const warenkorb = JSON.parse(localStorage.getItem("warenkorb")) || [];
   const produktIndex = warenkorb.findIndex((item) => item.id === produktId);
@@ -16,6 +20,11 @@ function removeOneFromWarenkorb(produktId) {
     warenkorb.splice(produktIndex, 1);
   }
   localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
+  renderWarenkorb();
+}
+
+function warenkorbLeeren() {
+  localStorage.removeItem("warenkorb");
   renderWarenkorb();
 }
 
@@ -94,6 +103,8 @@ async function renderWarenkorb() {
     const leerElement = document.createElement("p");
     leerElement.textContent = "Dein Warenkorb ist leer.";
     document.body.appendChild(leerElement);
+
+    warenkorbAktionenWrapElement.style.display = "none";
   } else {
     const row = warenkorbElement.insertRow();
     const cellProdukt = row.insertCell();

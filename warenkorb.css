@@ -105,21 +105,21 @@ td:nth-child(2) {
   flex-direction: column;
 }
 
-#warenkorb-kaufen-wrap {
+#warenkorb-aktionen-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-#warenkorb-kaufen {
+#warenkorb-kaufen,
+#warenkorb-leeren {
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   border-radius: 999px;
   margin-top: 20px;
-  margin-left: 500px;
   padding: 10px;
   background-color: var(--text-color);
   color: var(--bg-color-1);
@@ -127,10 +127,16 @@ td:nth-child(2) {
     background-color 0.3s ease,
     transform 0.1s ease;
 }
-#warenkorb-kaufen:hover {
+#warenkorb-kaufen:hover,
+#warenkorb-leeren:hover {
   background-color: var(--text-color-dimmed);
   cursor: pointer;
 }
-#warenkorb-kaufen:active {
+#warenkorb-kaufen:active,
+#warenkorb-leeren:active {
   transform: scale(0.98);
+}
+
+#warenkorb-leeren {
+  margin-right: 500px;
 }
