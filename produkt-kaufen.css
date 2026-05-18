@@ -31,7 +31,8 @@
   color: var(--text-color);
   border: none;
   border-radius: 999px;
-  padding: 14px 24px;
+  padding: 0 24px;
+  min-height: 44px;
   font-size: 16px;
   cursor: pointer;
   transition:
@@ -83,8 +84,10 @@
 
 #warenkorb-actions {
   display: inline-flex;
+  align-items: center;
   gap: 12px;
-  margin-top: 18px;
+  margin-left: 18px;
+  vertical-align: middle;
 }
 
 #warenkorb-actions button {
