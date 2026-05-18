@@ -113,15 +113,33 @@ async function renderProductPage() {
     ? produkt["reduced-price"]
     : produkt.price;
   produktPreisElement.textContent = `${produktPreis.toFixed(2)} €`;
-  
-  // Befülle technische Daten
-  specBattery.textContent = produkt.battery || "—";
-  specScreen.textContent = produkt.screen || "—";
-  specWeight.textContent = produkt.weight || "—";
-  specDimensions.textContent = produkt.dimensions || "—";
-  specChip.textContent = produkt.chip || "—";
-  specRam.textContent = produkt.ram || "—";
-  specStorage.textContent = produkt.storage || "—";
+
+  const technischeDatenTabelle = document.querySelector(".technische-daten");
+  const specs = [
+    { element: specBattery, prop: "battery" },
+    { element: specScreen, prop: "screen" },
+    { element: specWeight, prop: "weight" },
+    { element: specDimensions, prop: "dimensions" },
+    { element: specChip, prop: "chip" },
+    { element: specRam, prop: "ram" },
+    { element: specStorage, prop: "storage" },
+  ];
+
+  let visibleSpecs = 0;
+  specs.forEach((spec) => {
+    const value = produkt[spec.prop] || "-";
+    const row = spec.element.closest("tr");
+
+    if (value === "-") {
+      row.style.display = "none";
+    } else {
+      row.style.display = "";
+      spec.element.textContent = value;
+      visibleSpecs += 1;
+    }
+  });
+
+  technischeDatenTabelle.style.display = visibleSpecs > 0 ? "" : "none";
 }
 
 renderProductPage();

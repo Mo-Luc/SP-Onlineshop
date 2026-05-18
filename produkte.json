@@ -6,8 +6,12 @@
     "description": "Premium-Smartphone aus Samsungs Galaxy-Ultra-Serie mit großem, hochauflösendem Display, starker Kameraausstattung, hoher Performance für Apps und Medien sowie einem modernen, hochwertigen Design.",
     "image-url": "Bilder/S25-ultra.avif",
     "selled": 187,
-    "brand": ["Samsung"],
-    "category": ["smartphones"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
     "battery": "5000mAh",
     "screen": "6.9 Zoll Dynamic AMOLED 2X",
     "weight": "233g",
@@ -23,8 +27,19 @@
     "description": "High-end-Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
     "image-url": "Bilder/i17-pro-max.png",
     "selled": 95,
-    "brand": ["Apple"],
-    "category": ["smartphones"]
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "3850mAh",
+    "screen": "6.7 Zoll Super Retina XDR OLED",
+    "weight": "240g",
+    "dimensions": "162.8 x 77.6 x 8.3mm",
+    "chip": "A17 Prozessor",
+    "ram": "12GB",
+    "storage": "512GB"
   },
   {
     "id": 3,
@@ -33,8 +48,19 @@
     "description": "Kabel zum Aufladen und Synchronisieren von Apple-Geräten mit Lightning-Anschluss.",
     "image-url": "Bilder/usbc-to-apple.png",
     "selled": 500,
-    "brand": ["Apple"],
-    "category": ["accessories"]
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "accessories"
+    ],
+    "battery": "-",
+    "screen": "-",
+    "weight": "22g",
+    "dimensions": "1m Länge",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 4,
@@ -43,8 +69,19 @@
     "description": "Ein High-end Smartphone und Tablet in einem.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.beebom.com%2Fmobile%2Fsamsung-galaxy-z-trifold-front-back.png&f=1&nofb=1&ipt=6eff19bbcf0778aa37d1e564cb96dcfcc3d732af9e69e6ee2deb6b541751e928",
     "selled": 50,
-    "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "4900mAh",
+    "screen": "7,6 Zoll Dynamic AMOLED 2X / 6,4 Zoll Cover-Display",
+    "weight": "230g",
+    "dimensions": "172,0 x 77,1 x 15,9 mm",
+    "chip": "Snapdragon 8 Gen 3",
+    "ram": "12GB",
+    "storage": "512GB"
   },
   {
     "id": 5,
@@ -53,8 +90,19 @@
     "description": "Kompaktes gefaltetes Smartphone mit einzigartigem Design.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.androidplanet.nl%2Forca%2Fproducts%2F26416%2Fsamsung-galaxy-z-flip-7.png&f=1&nofb=1&ipt=4d456592a74c831f627706c814031a7a2f2f761d71f4cd5f45ddaa89f9eb9d4f",
     "selled": 120,
-    "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "3900mAh",
+    "screen": "6,7 Zoll AMOLED",
+    "weight": "187g",
+    "dimensions": "165,2 x 72,0 x 15,1 mm",
+    "chip": "Snapdragon 8 Gen 3",
+    "ram": "12GB",
+    "storage": "256GB"
   },
   {
     "id": 6,
@@ -63,8 +111,19 @@
     "description": "High-end faltbares Smartphone mit großem Display.",
     "image-url": "Bilder/zfold7.png",
     "selled": 80,
-    "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "4900mAh",
+    "screen": "7,6 Zoll Foldable AMOLED / 6,3 Zoll Cover-Display",
+    "weight": "253g",
+    "dimensions": "162,4 x 67,8 x 14,1 mm",
+    "chip": "Snapdragon 8 Gen 3",
+    "ram": "12GB",
+    "storage": "512GB"
   },
   {
     "id": 7,
@@ -75,8 +134,19 @@
     "reduced": true,
     "reduced-price": 999.99,
     "selled": 150,
-    "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "4400mAh",
+    "screen": "7,3 Zoll Foldable AMOLED / 6,2 Zoll Cover-Display",
+    "weight": "253g",
+    "dimensions": "154,9 x 67,1 x 14,2 mm",
+    "chip": "Snapdragon 8 Gen 2",
+    "ram": "12GB",
+    "storage": "256GB"
   },
   {
     "id": 8,
@@ -87,8 +157,19 @@
     "selled": 420,
     "reduced": true,
     "reduced-price": 249.99,
-    "brand": ["Apple"],
-    "category": ["audio"]
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "audio"
+    ],
+    "battery": "bis zu 6 Stunden Wiedergabe",
+    "screen": "-",
+    "weight": "56,2g",
+    "dimensions": "30,9 x 21,8 x 24,0 mm",
+    "chip": "H2 Chip",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 9,
@@ -97,8 +178,19 @@
     "description": "Premium Over-Ear-Kopfhörer mit hervorragender Geräuschunterdrückung.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.pocketnow.com%2Fstyles%2Fxsmall%2Fpublic%2F2022-05%2FPBI%2520Sony%2520WH1000%2520XM5%2520Black.png%3Fitok%3Dk1uA0Bg8&f=1&nofb=1&ipt=8064c6b4adf694cefbe45b545ac208e60c156beaf973ec74ce78483dbc287bd6",
     "selled": 220,
-    "brand": ["Sony"],
-    "category": ["audio"]
+    "brand": [
+      "Sony"
+    ],
+    "category": [
+      "audio"
+    ],
+    "battery": "bis zu 30 Stunden",
+    "screen": "-",
+    "weight": "250g",
+    "dimensions": "220 x 227 x 88 mm",
+    "chip": "V1 Prozessor",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 10,
@@ -107,8 +199,19 @@
     "description": "Smartwatch mit Always-On Retina Display und Gesundheitsfunktionen.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.att.com%2Fscmsassets%2Fglobal%2Fdevices%2Fother%2Fapple%2Fapple-watch-series-10-42mm-42mm%2Fcarousel%2Fslate-titanium-black-sport-band-m-l-1-v2.png&f=1&nofb=1&ipt=bfb2602bcddcd02c88806275808f75358270701e73caed07612a0d4b33386126",
     "selled": 310,
-    "brand": ["Apple"],
-    "category": ["wearables"]
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "wearables"
+    ],
+    "battery": "bis zu 18 Stunden",
+    "screen": "1,9 Zoll Retina LTPO OLED",
+    "weight": "51g",
+    "dimensions": "45 x 38 x 10,7 mm",
+    "chip": "S10 SiP",
+    "ram": "2GB",
+    "storage": "64GB"
   },
   {
     "id": 11,
@@ -117,8 +220,19 @@
     "description": "Leistungsstarker Laptop mit M4-Prozessor für kreative Profis.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.swappa.com%2Fmedia%2Fproduct%2Fmacbook-pro-2019-16%2Fmacbook-pro-2019-16-02.png&f=1&nofb=1&ipt=372db2512147af3180ebdd1088b11c05980e77e3f59d221db0d9cbbb8a5c038a",
     "selled": 85,
-    "brand": ["Apple"],
-    "category": ["laptops"]
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "laptops"
+    ],
+    "battery": "100Wh",
+    "screen": "16,2 Zoll Liquid Retina XDR",
+    "weight": "2,1kg",
+    "dimensions": "35,57 x 24,81 x 1,68 cm",
+    "chip": "Apple M4 Pro",
+    "ram": "32GB",
+    "storage": "1TB"
   },
   {
     "id": 12,
@@ -127,8 +241,19 @@
     "description": "High-End-Notebook mit schmalem Rahmen und starker Leistung.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fproduct.hstatic.net%2F1000079076%2Fproduct%2Fdell_xps_9510_2_0084faa800464e5290204964b276ea49.png&f=1&nofb=1&ipt=901eb02ab48d9734230a8e33ba344864401a03bae4f6df4cfa49c22fc8d006fa",
     "selled": 145,
-    "brand": ["Dell"],
-    "category": ["laptops"]
+    "brand": [
+      "Dell"
+    ],
+    "category": [
+      "laptops"
+    ],
+    "battery": "86Wh",
+    "screen": "15,6 Zoll OLED Touch",
+    "weight": "1,8kg",
+    "dimensions": "34,2 x 23,5 x 1,79 cm",
+    "chip": "Intel Core i9-14900H",
+    "ram": "32GB",
+    "storage": "1TB"
   },
   {
     "id": 13,
@@ -137,8 +262,19 @@
     "description": "Convertible Tablet-PC mit abnehmbarem Keyboard.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshop.braintree.co.za%2Fwp-content%2Fuploads%2F2024%2F09%2F2-7.png&f=1&nofb=1&ipt=16211a9c96a86c24f22e7a549e150f3485c354281048da8fafecb6bc25c781b1",
     "selled": 110,
-    "brand": ["Microsoft"],
-    "category": ["tablets"]
+    "brand": [
+      "Microsoft"
+    ],
+    "category": [
+      "tablets"
+    ],
+    "battery": "bis zu 15 Stunden",
+    "screen": "13 Zoll PixelSense Flow",
+    "weight": "896g",
+    "dimensions": "28,1 x 20,1 x 0,9 cm",
+    "chip": "Intel Core i7-1255U",
+    "ram": "16GB",
+    "storage": "512GB"
   },
   {
     "id": 14,
@@ -147,8 +283,19 @@
     "description": "Action-Kamera mit 5.3K-Video und robustem Design.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgopro.pe%2Fwp-content%2Fuploads%2F2025%2F11%2FCHDRB-134-RW_4_1500x1500.png&f=1&nofb=1&ipt=09d5ac8258f871cd5fe20f24bf24fb65445c3022df34d0aef5ab6472872e7f42",
     "selled": 90,
-    "brand": ["GoPro"],
-    "category": ["cameras"]
+    "brand": [
+      "GoPro"
+    ],
+    "category": [
+      "cameras"
+    ],
+    "battery": "1720mAh",
+    "screen": "2,27 Zoll Touch-Display",
+    "weight": "157g",
+    "dimensions": "71 x 55 x 33 mm",
+    "chip": "GP2 Prozessor",
+    "ram": "-",
+    "storage": "microSD bis 512GB"
   },
   {
     "id": 15,
@@ -157,8 +304,19 @@
     "description": "Hybrid-Spielkonsole mit brillantem OLED-Display.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.nintendo.com%2Fimage%2Fupload%2Ff_auto%2Fq_auto%2Fdpr_1.5%2Fncom%2Fen_US%2Fswitch%2Fsite-design-update%2Fphoto01&f=1&nofb=1&ipt=9229cced7cf3e9ae2d335eaaa5c369da5a2b59fb95281db98e4dbcb9f57db3b1",
     "selled": 260,
-    "brand": ["Nintendo"],
-    "category": ["gaming consoles"]
+    "brand": [
+      "Nintendo"
+    ],
+    "category": [
+      "gaming consoles"
+    ],
+    "battery": "4310mAh",
+    "screen": "7 Zoll OLED",
+    "weight": "420g",
+    "dimensions": "102 x 242 x 13,9 mm",
+    "chip": "NVIDIA Tegra X2",
+    "ram": "4GB",
+    "storage": "64GB"
   },
   {
     "id": 16,
@@ -167,8 +325,19 @@
     "description": "Next-Gen-Spielkonsole mit ultraschneller SSD und atemberaubender Grafik.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcf-images.dustin.eu%2Fcdn-cgi%2Fimage%2Ffit%3Dcontain%2Cformat%3Dauto%2Cquality%3D75%2Cwidth%3D828%2Cfit%3Dcontain%2Fimage%2Fd200001002303974%2Fsony-playstation-5-slim-digital.png&f=1&nofb=1&ipt=97d97a37be3c284ea4665dd7890a9460d840e3fabe15cb274240d036bca05733",
     "selled": 180,
-    "brand": ["Sony"],
-    "category": ["gaming consoles"]
+    "brand": [
+      "Sony"
+    ],
+    "category": [
+      "gaming consoles"
+    ],
+    "battery": "-",
+    "screen": "-",
+    "weight": "3,9kg",
+    "dimensions": "390 x 260 x 104 mm",
+    "chip": "AMD Ryzen Zen 2",
+    "ram": "16GB GDDR6",
+    "storage": "825GB SSD"
   },
   {
     "id": 17,
@@ -177,8 +346,19 @@
     "description": "Leistungsstarke Spielekonsole mit 4K-Gaming und Abwärtskompatibilität.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.impulsegamer.com%2Farticles%2Fwp-content%2Fuploads%2F2020%2F11%2Fxboxseriesxping-640x505.png&f=1&nofb=1&ipt=b49ba42019f4367f1ea4fbe320012ef6e9bf85837526661268a380b704567fa0",
     "selled": 170,
-    "brand": ["Microsoft"],
-    "category": ["gaming consoles"]
+    "brand": [
+      "Microsoft"
+    ],
+    "category": [
+      "gaming consoles"
+    ],
+    "battery": "-",
+    "screen": "-",
+    "weight": "4,45kg",
+    "dimensions": "301 x 151 x 151 mm",
+    "chip": "AMD Zen 2",
+    "ram": "16GB GDDR6",
+    "storage": "1TB SSD"
   },
   {
     "id": 18,
@@ -187,8 +367,19 @@
     "description": "Ergonomische Funkmaus mit präziser Steuerung für Profis.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.logitech.com%2Fassets%2F65776%2F57%2Fmx-master-3.png&f=1&nofb=1&ipt=6539d3be39abfa3594aded2f1b02f2adf6b972dd3b170b15e9b7d665e7c5cdd5",
     "selled": 340,
-    "brand": ["Logitech"],
-    "category": ["accessories"]
+    "brand": [
+      "Logitech"
+    ],
+    "category": [
+      "accessories"
+    ],
+    "battery": "-",
+    "screen": "-",
+    "weight": "141g",
+    "dimensions": "84,3 x 124,9 x 51 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 19,
@@ -197,8 +388,19 @@
     "description": "Praktische Tracker zum Auffinden von Schlüsseln, Taschen und mehr.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oister.dk%2Fglobalassets%2Fkundeshop%2Ftilbehor%2Fapple%2Fapple-airtag%2Fapple-airtag-4pack.png&f=1&nofb=1&ipt=f1f9778cd5ef822288faaa59ef059ff9d2da90a7ffb2d7a649919e66d415851b",
     "selled": 275,
-    "brand": ["Apple"],
-    "category": ["accessories"]
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "accessories"
+    ],
+    "battery": "CR2032",
+    "screen": "-",
+    "weight": "11g",
+    "dimensions": "31,9 x 8,0 mm",
+    "chip": "U1-Chip",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 20,
@@ -207,8 +409,19 @@
     "description": "Kompakter Powerbank mit hoher Kapazität für unterwegs.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0765%2F2137%2F3999%2Fproducts%2FA1268011-Anker_325_Power_Bank_PowerCore_20K_1_3840x.png%3Fv%3D1683859393&f=1&nofb=1&ipt=851c61a8c55de75b4f5730d87f27dd0cfbaaf6aa9b3122377985202699997f75",
     "selled": 140,
-    "brand": ["Anker"],
-    "category": ["accessories"]
+    "brand": [
+      "Anker"
+    ],
+    "category": [
+      "accessories"
+    ],
+    "battery": "20000mAh",
+    "screen": "-",
+    "weight": "360g",
+    "dimensions": "17,1 x 7,6 x 2,2 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 21,
@@ -217,8 +430,19 @@
     "description": "Premium-Tablet mit brillante Displayqualität und starker Leistung.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.bechtle.com%2Fis%2F180712%2F1c4b3d4ee288fc9434f5175bf56070570%2Fc3%2Fgallery%2Fbf91bf04df284b9582e9c9ede1f9fe14%3Fversion%3D0&f=1&nofb=1&ipt=9b02a2ca5c12068b4c0ef950761908e0bb54e8983cb045406b9949d25a94d848",
     "selled": 95,
-    "brand": ["Samsung"],
-    "category": ["tablets"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "tablets"
+    ],
+    "battery": "10090mAh",
+    "screen": "11 Zoll LCD",
+    "weight": "515g",
+    "dimensions": "253,8 x 165,4 x 5,5 mm",
+    "chip": "Snapdragon 8 Gen 2",
+    "ram": "12GB",
+    "storage": "256GB"
   },
   {
     "id": 22,
@@ -227,8 +451,19 @@
     "description": "Solides Mittelklasse-Smartphone mit einzigartigem transparenten Design.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F314521_0_v6eqtj.png&f=1&nofb=1&ipt=408193b724287198e3db90a7308abb8e0b0707c36f1ee948749ba1819acd5a9b",
     "selled": 225,
-    "brand": ["Nothing"],
-    "category": ["smartphones"]
+    "brand": [
+      "Nothing"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "4500mAh",
+    "screen": "6,7 Zoll AMOLED",
+    "weight": "179g",
+    "dimensions": "162,7 x 77,6 x 8,5 mm",
+    "chip": "Snapdragon 7s Gen 2",
+    "ram": "8GB",
+    "storage": "128GB"
   },
   {
     "id": 23,
@@ -237,8 +472,19 @@
     "description": "Sehr gutes Mittelklasse-Smartphone mit einzigartigem transparenten Design.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F314529_0_odgkqf.png&f=1&nofb=1&ipt=4586b185db6631131ff47dcbba23dd782310e3c253b6512c761237968966dc2d",
     "selled": 195,
-    "brand": ["Nothing"],
-    "category": ["smartphones"]
+    "brand": [
+      "Nothing"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "4700mAh",
+    "screen": "6,7 Zoll AMOLED",
+    "weight": "186g",
+    "dimensions": "162,9 x 76,8 x 8,6 mm",
+    "chip": "Snapdragon 8s Gen 3",
+    "ram": "12GB",
+    "storage": "256GB"
   },
   {
     "id": 24,
@@ -249,8 +495,19 @@
     "selled": 760,
     "reduced": true,
     "reduced-price": 319.99,
-    "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "5000mAh",
+    "screen": "6,5 Zoll AMOLED",
+    "weight": "187g",
+    "dimensions": "159,3 x 74,8 x 8,4 mm",
+    "chip": "Exynos 1480",
+    "ram": "8GB",
+    "storage": "128GB"
   },
   {
     "id": 25,
@@ -259,8 +516,19 @@
     "description": "Günstiges Einsteiger-Smartphone mit solider Leistung und großem Display.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.samsung.com%2Fis%2Fimage%2Fsamsung%2Fassets%2Fmx%2Fsmartphones%2Fgalaxy-a36%2Fgalaxy_a36_5g_black_mob.png%3Fimbypass%3Dtrue&f=1&nofb=1&ipt=865dcb99c15af4c3b785a09ba908564922f4698a1cecec26ab8565603604d665",
     "selled": 130,
-    "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "5000mAh",
+    "screen": "6,5 Zoll AMOLED",
+    "weight": "188g",
+    "dimensions": "162,9 x 76,8 x 7,9 mm",
+    "chip": "MediaTek Helio G99",
+    "ram": "6GB",
+    "storage": "128GB"
   },
   {
     "id": 26,
@@ -269,8 +537,19 @@
     "description": "Leichte Drohne mit 4K-Kamera und intelligenten Flugmodi.",
     "image-url": "https://se-cdn.djiits.com/tpc/uploads/spu/cover/3116dafb26aea71bf4aac7f074ca02e8@ultra.png",
     "selled": 70,
-    "brand": ["DJI"],
-    "category": ["drones"]
+    "brand": [
+      "DJI"
+    ],
+    "category": [
+      "drones"
+    ],
+    "battery": "2453mAh",
+    "screen": "-",
+    "weight": "298g",
+    "dimensions": "170 x 139 x 79 mm",
+    "chip": "DJI O4",
+    "ram": "-",
+    "storage": "microSD bis 512GB"
   },
   {
     "id": 27,
@@ -279,8 +558,19 @@
     "description": "Premium-Smartphone mit fortschrittlicher Kamera und leistungsstarkem Prozessor.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flmt-web.mstatic.lv%2Feshop%2F34350%2F0-google-pixel-10-pro-xl-moonstone.PNG&f=1&nofb=1&ipt=aac1eff7d1f0f01b0d0fb30e99551b62d98734a8bea28ce6d19aec9db1e78d13",
     "selled": 95,
-    "brand": ["Google"],
-    "category": ["smartphones"]
+    "brand": [
+      "Google"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "4855mAh",
+    "screen": "6,7 Zoll LTPO OLED",
+    "weight": "213g",
+    "dimensions": "162,2 x 76,4 x 8,6 mm",
+    "chip": "Google Tensor G4",
+    "ram": "12GB",
+    "storage": "256GB"
   },
   {
     "id": 28,
@@ -289,8 +579,19 @@
     "description": "Premium-Smartphone mit 4K-HDR-Display und professioneller Kamera.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.androidplanet.nl%2Forca%2Fproducts%2F26077%2Fsony-xperia-1-vii.png%3Fw%3D960%26h%3D640%26fit%3Dfill&f=1&nofb=1&ipt=ceba494d9b7941ddefea024e93dad4e3fb49eb53b8380d1d4913a3364a848fd3",
     "selled": 60,
-    "brand": ["Sony"],
-    "category": ["smartphones"]
+    "brand": [
+      "Sony"
+    ],
+    "category": [
+      "smartphones"
+    ],
+    "battery": "5200mAh",
+    "screen": "6,5 Zoll 4K OLED",
+    "weight": "225g",
+    "dimensions": "165 x 71 x 8,6 mm",
+    "chip": "Snapdragon 8 Gen 3",
+    "ram": "16GB",
+    "storage": "512GB"
   },
   {
     "id": 29,
@@ -301,8 +602,19 @@
     "selled": 155,
     "reduced": true,
     "reduced-price": 299.99,
-    "brand": ["Nothing"],
-    "category": ["audio"]
+    "brand": [
+      "Nothing"
+    ],
+    "category": [
+      "audio"
+    ],
+    "battery": "bis zu 37 Stunden",
+    "screen": "-",
+    "weight": "52g",
+    "dimensions": "57,0 x 33,3 x 22,2 mm",
+    "chip": "Nocturne-Chip",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 30,
@@ -312,7 +624,14 @@
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmtscdn.ru%2Fupload%2Fiblock%2F204%2F4.png&f=1&nofb=1&ipt=bc465d99dc98f04beb1ae798187bf28e1a446ed35b18a2f4208de68ae771010a",
     "selled": 85,
     "brand": ["Apple"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "3279mAh",
+    "screen": "6,1 Zoll Super Retina XDR OLED",
+    "weight": "172g",
+    "dimensions": "147,6 x 71,5 x 7,8 mm",
+    "chip": "A15 Bionic",
+    "ram": "6GB",
+    "storage": "128GB"
   },
   {
     "id": 31,
@@ -322,7 +641,14 @@
     "image-url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png",
     "selled": 140,
     "brand": ["Apple"],
-    "category": ["tablets"]
+    "category": ["tablets"],
+    "battery": "7606mAh",
+    "screen": "10,9 Zoll Liquid Retina",
+    "weight": "461g",
+    "dimensions": "247,6 x 178,5 x 6,1 mm",
+    "chip": "Apple M2",
+    "ram": "8GB",
+    "storage": "256GB"
   },
   {
     "id": 32,
@@ -332,7 +658,16 @@
     "image-url": "https://cdn.shopify.com/s/files/1/0491/8227/7795/files/A2667311-Anker_735_Charger_Nano_II_65W.png?v=1755247331",
     "selled": 390,
     "brand": ["Anker"],
-    "category": ["accessories"]
+    "category": [
+      "accessories"
+    ],
+    "battery": "-",
+    "screen": "-",
+    "weight": "100g",
+    "dimensions": "65 x 42 x 31 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 33,
@@ -342,7 +677,14 @@
     "image-url": "https://www.harmanaudio.at/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw33e9787b/4_JBL_PULSE_5_RIGHT_34322_x3.png?sw=535&sh=535",
     "selled": 230,
     "brand": ["JBL"],
-    "category": ["audio"]
+    "category": ["audio"],
+    "battery": "bis zu 12 Stunden",
+    "screen": "-",
+    "weight": "2,03kg",
+    "dimensions": "183 x 100 x 97 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 34,
@@ -354,7 +696,16 @@
     "reduced": true,
     "reduced-price": 99.99,
     "brand": ["JBL"],
-    "category": ["audio"]
+    "category": [
+      "audio"
+    ],
+    "battery": "bis zu 12 Stunden",
+    "screen": "-",
+    "weight": "1,7kg",
+    "dimensions": "180 x 85 x 85 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 35,
@@ -364,7 +715,14 @@
     "image-url": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70301476/fee_786_587_png",
     "selled": 210,
     "brand": ["Logitech"],
-    "category": ["accessories"]
+    "category": ["accessories"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "162g",
+    "dimensions": "94 x 31 x 26 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 36,
@@ -374,7 +732,14 @@
     "image-url": "https://www.logitechg.com/content/dam/gaming/en/products/g502x-plus/gallery/g502x-plus-gallery-2-black.png",
     "selled": 180,
     "brand": ["Logitech"],
-    "category": ["accessories, gaming, mice"]
+    "category": ["accessories, gaming, mice"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "107g",
+    "dimensions": "132 x 75 x 40 mm",
+    "chip": "HERO 25K Sensor",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 37,
@@ -384,7 +749,14 @@
     "image-url": "https://www.logitechg.com/content/dam/gaming/en/products/g915-x-lightspeed-wireless/gallery/g915-x-wireless-mechanical-gaming-keyboard-gallery-1-pan.png",
     "selled": 150,
     "brand": ["Logitech"],
-    "category": ["accessories, gaming, keyboards"]
+    "category": ["accessories, gaming, keyboards"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "1020g",
+    "dimensions": "430 x 150 x 22 mm",
+    "chip": "LIGHTSPEED Funktechnologie",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 38,
@@ -394,7 +766,14 @@
     "image-url": "https://media2.nbb-cdn.de/images/products/BlackWidow_V4_Pro_2022_Render01_9489.png",
     "selled": 120,
     "brand": ["Razer"],
-    "category": ["accessories"]
+    "category": ["accessories"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "1140g",
+    "dimensions": "470 x 163 x 39 mm",
+    "chip": "Razer Chroma RGB",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 39,
@@ -404,7 +783,14 @@
     "image-url": "https://de.ugreen.com/cdn/shop/files/15311-376116.png?v=1722927781",
     "selled": 1004,
     "brand": ["Anker"],
-    "category": ["accessories"]
+    "category": ["accessories"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "30g",
+    "dimensions": "1m Länge",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 40,
@@ -414,7 +800,14 @@
     "image-url": "https://www.lauf-bar.de/media/image/product/41072/lg/p-garmin-forerunner-965-laufcomputer-art-nr-010-02809.png",
     "selled": 77,
     "brand": ["Garmin"],
-    "category": ["wearables"]
+    "category": ["wearables"],
+    "battery": "bis zu 31 Stunden",
+    "screen": "1,4 Zoll AMOLED",
+    "weight": "52g",
+    "dimensions": "47 x 47 x 13,5 mm",
+    "chip": "-",
+    "ram": "32MB",
+    "storage": "-"
   },
   {
     "id": 41,
@@ -424,7 +817,14 @@
     "image-url": "https://cdn.expert.de/cdn-cgi/image/w=600,h=600,q=80,f=webp,fit=contain/4d/43/b0/4aac17606aeff87866e6274a2dbe0772b4/Abbildung_2246624.png.png",
     "selled": 180,
     "brand": ["JBL"],
-    "category": ["audio"]
+    "category": ["audio"],
+    "battery": "bis zu 20 Stunden",
+    "screen": "-",
+    "weight": "1,75kg",
+    "dimensions": "223 x 96 x 94 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 42,
@@ -434,9 +834,16 @@
     "image-url": "https://images.deinhandy.de/assets/acf106e11c2761a0192885494ea21fed052133f654c5bb77a34ea4d7ad79b350/Samsung_Galaxy_Buds3_SM-R530_Silver_Ladeetui_Front_offen_Lademodus_RGB.png?tr=w-640,cm-pad_resize",
     "selled": 260,
     "brand": ["Samsung"],
-    "category": ["audio"]
+    "category": ["audio"],
+    "battery": "bis zu 8 Stunden",
+    "screen": "-",
+    "weight": "6,3g pro Ohrhörer",
+    "dimensions": "17,5 x 16,5 x 20 mm",
+    "chip": "Samsung H1",
+    "ram": "-",
+    "storage": "-"
   },
-    {
+  {
     "id": 43,
     "name": "USB-A to USB-C Cable",
     "price": 9.99,
@@ -444,7 +851,14 @@
     "image-url": "https://de.perixx.com/cdn/shop/files/peripro-406-usb-c-to-usb-a-cable-130888.png?v=1715946448",
     "selled": 260,
     "brand": ["-"],
-    "category": ["cables"]
+    "category": ["cables"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "26g",
+    "dimensions": "1m Länge",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 44,
@@ -454,7 +868,14 @@
     "image-url": "https://www.zurusten.com/image/cache/catalog/Nothing/nothing-phone-4a-blue-1-550x550.png",
     "selled": 260,
     "brand": ["Nothing"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "5000mAh",
+    "screen": "6,7 Zoll AMOLED",
+    "weight": "190g",
+    "dimensions": "162,5 x 75 x 8,3 mm",
+    "chip": "MediaTek Dimensity 7300",
+    "ram": "8GB",
+    "storage": "128GB"
   },
   {
     "id": 45,
@@ -464,7 +885,14 @@
     "image-url": "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/264337_pu98ds.png",
     "selled": 260,
     "brand": ["Apple"],
-    "category": ["tablets"]
+    "category": ["tablets"],
+    "battery": "8557mAh",
+    "screen": "10,2 Zoll Retina",
+    "weight": "483g",
+    "dimensions": "250,6 x 174,1 x 7,5 mm",
+    "chip": "A13 Bionic",
+    "ram": "3GB",
+    "storage": "64GB"
   },
   {
     "id": 46,
@@ -474,7 +902,14 @@
     "image-url": "https://i05.appmifile.com/760_item_de/27/02/2026/983c0e468958d6bd9579e3396009e06e.png?thumb=1&q=85",
     "selled": 260,
     "brand": ["Xiaomi"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "5500mAh",
+    "screen": "6,73 Zoll AMOLED",
+    "weight": "232g",
+    "dimensions": "164,6 x 76,9 x 8,6 mm",
+    "chip": "Snapdragon 8 Gen 3",
+    "ram": "16GB",
+    "storage": "512GB"
   },
   {
     "id": 47,
@@ -484,7 +919,14 @@
     "image-url": "https://www.zielfoto.com/wp-content/uploads/2022/12/DJI-Mini-3-191.png",
     "selled": 260,
     "brand": ["DJI"],
-    "category": ["drones"]
+    "category": ["drones"],
+    "battery": "2250mAh",
+    "screen": "-",
+    "weight": "249g",
+    "dimensions": "145 x 90 x 62 mm",
+    "chip": "DJI O3",
+    "ram": "-",
+    "storage": "microSD bis 512GB"
   },
   {
     "id": 48,
@@ -494,7 +936,14 @@
     "image-url": "https://carrera-toys.com/cdn/shop/files/50050007_Verpackung_Online.png?v=1769423252",
     "selled": 260,
     "brand": ["Carrera"],
-    "category": ["toys"]
+    "category": ["toys"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "800g",
+    "dimensions": "54 x 39 x 21 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 49,
@@ -504,7 +953,14 @@
     "image-url": "https://static2-blau.o9.de/resource/blob/2229904/b757494f5ca6282687e9a281337ea685/png/samsung-galaxy-a57-farben-header-bild-data.webp",
     "selled": 260,
     "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "5000mAh",
+    "screen": "6,7 Zoll Super AMOLED",
+    "weight": "200g",
+    "dimensions": "161,4 x 76,1 x 7,9 mm",
+    "chip": "Exynos 1380",
+    "ram": "8GB",
+    "storage": "128GB"
   },
   {
     "id": 50,
@@ -514,7 +970,14 @@
     "image-url": "https://assets.new.siemens.com/siemens/assets/api/uuid:262fb453-b6b9-4503-afe9-375617a28bce/IM2020110464MO.jpg",
     "selled": 0,
     "brand": ["Siemens"],
-    "category": ["trains"]
+    "category": ["trains"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "85,8t",
+    "dimensions": "19,5 x 3,0 x 4,3 m",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 51,
@@ -524,7 +987,14 @@
     "image-url": "https://images.samsung.com/is/image/samsung/de-full-hd-k6379-ue55k6379suxzg-001-front-black?$624_624_PNG$",
     "selled": 98,
     "brand": ["Samsung"],
-    "category": ["televisions"]
+    "category": ["televisions"],
+    "battery": "-",
+    "screen": "55 Zoll QLED 4K",
+    "weight": "17,1kg",
+    "dimensions": "1230 x 780 x 57 mm",
+    "chip": "Smart TV Quad-Core",
+    "ram": "2GB",
+    "storage": "16GB"
   },
   {
     "id": 52,
@@ -534,7 +1004,14 @@
     "image-url": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PESVI01/PESVI01_Rollover.png",
     "selled": 98,
     "brand": ["Lelit"],
-    "category": ["coffee"]
+    "category": ["coffee"],
+    "battery": "-",
+    "screen": "-",
+    "weight": "27kg",
+    "dimensions": "40 x 38 x 42 cm",
+    "chip": "PID-Controller",
+    "ram": "-",
+    "storage": "-"
   },
   {
     "id": 53,
@@ -544,7 +1021,14 @@
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.beebom.com%2Fmobile%2Fsamsung-galaxy-s26-ultra-front-back.png&f=1&nofb=1&ipt=95674f123715ad357822a0eb7fbeba2255a64faeb293f24f81cfbf60d2d0da6c",
     "selled": 98,
     "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "5400mAh",
+    "screen": "6,8 Zoll AMOLED",
+    "weight": "230g",
+    "dimensions": "164,2 x 78,1 x 8,4 mm",
+    "chip": "Snapdragon 8 Elite",
+    "ram": "12GB",
+    "storage": "512GB"
   },
   {
     "id": 54,
@@ -554,7 +1038,14 @@
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F313338_0_m868jc.png&f=1&nofb=1&ipt=ddc6cff9d6d491ad48d4d673bfbb7daca59328f6b217bea0874059f16456e30e",
     "selled": 85,
     "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "4900mAh",
+    "screen": "6,5 Zoll AMOLED",
+    "weight": "198g",
+    "dimensions": "158,7 x 74,5 x 8,2 mm",
+    "chip": "Snapdragon 8 Elite",
+    "ram": "12GB",
+    "storage": "256GB"
   },
   {
     "id": 55,
@@ -564,6 +1055,13 @@
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fecontent.o2.co.uk%2Fo%2Fecontent%2Fmedia%2Fget%2Ffffa7686-f95b-42b3-a1e9-28b6d65db397&f=1&nofb=1&ipt=a02608c854a4be323111ae8449536655aa39d33f7dbc067280d5c202f8429555",
     "selled": 98,
     "brand": ["Samsung"],
-    "category": ["smartphones"]
+    "category": ["smartphones"],
+    "battery": "5200mAh",
+    "screen": "6,7 Zoll AMOLED",
+    "weight": "209g",
+    "dimensions": "164,9 x 78,6 x 8,3 mm",
+    "chip": "Snapdragon 8 Elite",
+    "ram": "12GB",
+    "storage": "256GB"
   }
 ]
