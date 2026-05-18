@@ -260,7 +260,7 @@
     "name": "DJI Mini 4 Pro",
     "price": 799.99,
     "description": "Leichte Drohne mit 4K-Kamera und intelligenten Flugmodi.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.d4xaqIppeVS9Tlxr5zngPwHaHa%3Fpid%3DApi&f=1&ipt=aa26d3d8013623a52a1fe3c0aa8c9345f371c9eb5c6ffa16f50e9a954dd9aa33&ipo=images",
+    "image-url": "https://se-cdn.djiits.com/tpc/uploads/spu/cover/3116dafb26aea71bf4aac7f074ca02e8@ultra.png",
     "selled": 70,
     "brand": ["DJI"],
     "category": ["drones"]
@@ -312,7 +312,7 @@
     "name": "Apple iPad Air",
     "price": 749.99,
     "description": "Leichtes Tablet mit A16-Chip und hochauflösendem Display.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.vvuQut6xwU3TGrYdOXVpVAHaGG%3Fpid%3DApi&f=1&ipt=58730013c09f596aa255d076cbf6fddf30131120e96a34d9c85a1c0cc73b260b&ipo=images",
+    "image-url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png",
     "selled": 140,
     "brand": ["Apple"],
     "category": ["tablets"]
@@ -322,7 +322,7 @@
     "name": "Anker Nano II 65W",
     "price": 49.99,
     "description": "Kompaktes Ladegerät mit hoher Leistung für Laptops und Smartphones.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.bUtDbAOSK8v4GIlHKcU-sQHaJQ%3Fpid%3DApi&f=1&ipt=8fa79907fe297b93c8b72253358b1d27aaf2f229efeb606a2e800e79c6012c54&ipo=images",
+    "image-url": "https://cdn.shopify.com/s/files/1/0491/8227/7795/files/A2667311-Anker_735_Charger_Nano_II_65W.png?v=1755247331",
     "selled": 390,
     "brand": ["Anker"],
     "category": ["accessories"]
@@ -332,7 +332,7 @@
     "name": "JBL Pulse 5",
     "price": 149.99,
     "description": "Box der neuen Generation mit beeindruckendem Sound und RGB-Beleuchtung.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.Vz8BIhC5Lvni01nI_N_btwHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=11da3af917fa91a1c0d9ef8c96f698a568a9edbdac77120e35d2a8079553dd3f&ipo=images",
+    "image-url": "https://www.harmanaudio.at/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw33e9787b/4_JBL_PULSE_5_RIGHT_34322_x3.png?sw=535&sh=535",
     "selled": 230,
     "brand": ["JBL"],
     "category": ["audio"]
@@ -342,7 +342,7 @@
     "name": "JBL Pulse 4",
     "price": 149.99,
     "description": "Box mit gutem Sound und RGB-Beleuchtung.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.O1O4C8TrVxfP67GJF5WwpAHaHa%3Fpid%3DApi&f=1&ipt=b21dbacbac73254535b3ea160167ece8dc9583d7f94402df552549c3a2615381&ipo=images",
+    "image-url": "https://iprsoftwaremedia.com/214/files/20197/_PULSE4_front_view.png?download=true",
     "selled": 345,
     "reduced": true,
     "reduced-price": 99.99,
@@ -354,7 +354,7 @@
     "name": "Logitech C920 HD Pro Webcam",
     "price": 89.99,
     "description": "Beliebte Webcam für Videokonferenzen und Streaming.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.NHxUjHw0raCTO97bWura7wHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=9d4f94183668078e19dd811a4f23c8e7d1096563df9a1800f698377d088e4287&ipo=images",
+    "image-url": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70301476/fee_786_587_png",
     "selled": 210,
     "brand": ["Logitech"],
     "category": ["accessories"]
@@ -364,7 +364,7 @@
     "name": "Razer BlackWidow V4",
     "price": 179.99,
     "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.qI0oGh4-R6hMG4oKN6BZNAHaHa%3Fr%3D0%26cb%3Dthfc1%26pid%3DApi&f=1&ipt=00a5fd90ff29915367dd49172ea5b2c67c7fa340e22b7109d6e37a3f7249131d&ipo=images",
+    "image-url": "https://media2.nbb-cdn.de/images/products/BlackWidow_V4_Pro_2022_Render01_9489.png",
     "selled": 120,
     "brand": ["Razer"],
     "category": ["accessories"]
@@ -374,7 +374,7 @@
     "name": "USB-C to USB-C Cable",
     "price": 19.99,
     "description": "USB-C-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.-b07VLNB6JuZ2-EfFEUC_AHaHa%3Fpid%3DApi&f=1&ipt=3fc96bcda113e60d295a4d9be70a1fda24618295026c0d98a37447b21bda52e3&ipo=images",
+    "image-url": "https://de.ugreen.com/cdn/shop/files/15311-376116.png?v=1722927781",
     "selled": 1004,
     "brand": ["Anker"],
     "category": ["accessories"]
@@ -384,7 +384,7 @@
     "name": "Garmin Forerunner 965",
     "price": 599.99,
     "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.y3gs6hcAbwDlYf9a2gRKpgHaHa%3Fpid%3DApi&f=1&ipt=6113cb1cb5f753d8323c82240647edeb1ba42b8ad967ed9dd51b999c1edfc441&ipo=images",
+    "image-url": "https://www.lauf-bar.de/media/image/product/41072/lg/p-garmin-forerunner-965-laufcomputer-art-nr-010-02809.png",
     "selled": 77,
     "brand": ["Garmin"],
     "category": ["wearables"]
@@ -394,7 +394,7 @@
     "name": "JBL Charge 6",
     "price": 199.99,
     "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.pnluLg7rHXA1GksAbstjhAHaHa%3Fpid%3DApi&f=1&ipt=d589d61dc4d36126187f19a5dbaf496da5de0c24d500d8ab39b8a0051e36c88b&ipo=images",
+    "image-url": "https://cdn.expert.de/cdn-cgi/image/w=600,h=600,q=80,f=webp,fit=contain/4d/43/b0/4aac17606aeff87866e6274a2dbe0772b4/Abbildung_2246624.png.png",
     "selled": 180,
     "brand": ["JBL"],
     "category": ["audio"]
@@ -404,7 +404,7 @@
     "name": "Samsung Galaxy Buds 3",
     "price": 179.99,
     "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
-    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.ajWQ2LWuEe-RsP5Z_Q2X-AHaE8%3Fpid%3DApi&f=1&ipt=3ba5eb8b5390808d68960841942e7f390aabbc5ebc5d027534d1a5e8ea831d5c&ipo=images",
+    "image-url": "https://images.deinhandy.de/assets/acf106e11c2761a0192885494ea21fed052133f654c5bb77a34ea4d7ad79b350/Samsung_Galaxy_Buds3_SM-R530_Silver_Ladeetui_Front_offen_Lademodus_RGB.png?tr=w-640,cm-pad_resize",
     "selled": 260,
     "brand": ["Samsung"],
     "category": ["audio"]
