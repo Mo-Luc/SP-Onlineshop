@@ -361,6 +361,26 @@
   },
   {
     "id": 36,
+    "name": "Logitech G502 X Plus",
+    "price": 149.99,
+    "description": "Hochleistungs-Gaming-Maus mit anpassbaren Tasten und RGB-Beleuchtung.",
+    "image-url": "https://www.logitechg.com/content/dam/gaming/en/products/g502x-plus/gallery/g502x-plus-gallery-2-black.png",
+    "selled": 180,
+    "brand": ["Logitech"],
+    "category": ["accessories, gaming, mice"]
+  },
+  {
+    "id": 37,
+    "name": "Logitech G915 X Lightspeed",
+    "price": 249.99,
+    "description": "Drahtlose mechanische Gaming-Tastatur mit RGB-Beleuchtung und ultraflachem Design.",
+    "image-url": "https://www.logitechg.com/content/dam/gaming/en/products/g915-x-lightspeed-wireless/gallery/g915-x-wireless-mechanical-gaming-keyboard-gallery-1-pan.png",
+    "selled": 150,
+    "brand": ["Logitech"],
+    "category": ["accessories, gaming, keyboards"]
+  },
+  {
+    "id": 38,
     "name": "Razer BlackWidow V4",
     "price": 179.99,
     "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
@@ -370,7 +390,7 @@
     "category": ["accessories"]
   },
   {
-    "id": 37,
+    "id": 39,
     "name": "USB-C to USB-C Cable",
     "price": 19.99,
     "description": "USB-C-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
@@ -380,7 +400,7 @@
     "category": ["accessories"]
   },
   {
-    "id": 38,
+    "id": 40,
     "name": "Garmin Forerunner 965",
     "price": 599.99,
     "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
@@ -390,7 +410,7 @@
     "category": ["wearables"]
   },
   {
-    "id": 39,
+    "id": 41,
     "name": "JBL Charge 6",
     "price": 199.99,
     "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
@@ -400,7 +420,7 @@
     "category": ["audio"]
   },
   {
-    "id": 40,
+    "id": 42,
     "name": "Samsung Galaxy Buds 3",
     "price": 179.99,
     "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
@@ -409,8 +429,108 @@
     "brand": ["Samsung"],
     "category": ["audio"]
   },
+    {
+    "id": 43,
+    "name": "USB-A to USB-C Cable",
+    "price": 9.99,
+    "description": "USB-A-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
+    "image-url": "https://de.perixx.com/cdn/shop/files/peripro-406-usb-c-to-usb-a-cable-130888.png?v=1715946448",
+    "selled": 260,
+    "brand": ["-"],
+    "category": ["cables"]
+  },
   {
-    "id": 41,
+    "id": 44,
+    "name": "Nothing Phone 4a",
+    "price": 499.99,
+    "description": "Modernes Smartphone mit leistungsstarkem Prozessor und beeindruckendem Display.",
+    "image-url": "https://www.zurusten.com/image/cache/catalog/Nothing/nothing-phone-4a-blue-1-550x550.png",
+    "selled": 260,
+    "brand": ["Nothing"],
+    "category": ["smartphones"]
+  },
+  {
+    "id": 45,
+    "name": "iPad 9th Generation",
+    "price": 529.99,
+    "description": "Tblet der 9. Generation mit A13 Bionic Chip und 10,2-Zoll-Retina-Display.",
+    "image-url": "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/264337_pu98ds.png",
+    "selled": 260,
+    "brand": ["Apple"],
+    "category": ["tablets"]
+  },
+  {
+    "id": 46,
+    "name": "Xiaomi 17 Ultra",
+    "price": 1899.99,
+    "description": "High-end Smartphone mit beeindruckendem Display und bester Kamera.",
+    "image-url": "https://i05.appmifile.com/760_item_de/27/02/2026/983c0e468958d6bd9579e3396009e06e.png?thumb=1&q=85",
+    "selled": 260,
+    "brand": ["Xiaomi"],
+    "category": ["smartphones"]
+  },
+  {
+    "id": 47,
+    "name": "DJI Mini 3",
+    "price": 339.99,
+    "description": "Leichtes und leistungsstarkes Drohne für Fotografie und Video.",
+    "image-url": "https://www.zielfoto.com/wp-content/uploads/2022/12/DJI-Mini-3-191.png",
+    "selled": 260,
+    "brand": ["DJI"],
+    "category": ["drones"]
+  },
+  {
+    "id": 48,
+    "name": "Carrera Hybrid Hyperdrive Fury",
+    "price": 119.99,
+    "description": "Starterpack für die Carrera Hybrid und Racing mit KI-Steuerung und App-Integration.",
+    "image-url": "https://carrera-toys.com/cdn/shop/files/50050007_Verpackung_Online.png?v=1769423252",
+    "selled": 260,
+    "brand": ["Carrera"],
+    "category": ["toys"]
+  },
+  {
+    "id": 49,
+    "name": "Samsung Galaxy A57",
+    "price": 399.99,
+    "description": "Modernes Smartphone mit gutem Prozessor und beeindruckendem Display.",
+    "image-url": "https://static2-blau.o9.de/resource/blob/2229904/b757494f5ca6282687e9a281337ea685/png/samsung-galaxy-a57-farben-header-bild-data.webp",
+    "selled": 260,
+    "brand": ["Samsung"],
+    "category": ["smartphones"]
+  },
+  {
+    "id": 50,
+    "name": "Siemens Vectron Dual Mode",
+    "price": 4500000,
+    "description": "Lokomotive mit Diesel- und Elektroantrieb für den Güterverkehr und Rangierfahrten.",
+    "image-url": "https://assets.new.siemens.com/siemens/assets/api/uuid:262fb453-b6b9-4503-afe9-375617a28bce/IM2020110464MO.jpg",
+    "selled": 0,
+    "brand": ["Siemens"],
+    "category": ["trains"]
+  },
+  {
+    "id": 51,
+    "name": "SAMSUNG 55 Zoll Fernseher",
+    "price": 1399.99,
+    "description": "55 Zoll Fernseher mit 4K-Auflösung, HDR-Unterstützung und Smart-TV-Funktionen für ein beeindruckendes Seherlebnis.",
+    "image-url": "https://images.samsung.com/is/image/samsung/de-full-hd-k6379-ue55k6379suxzg-001-front-black?$624_624_PNG$",
+    "selled": 98,
+    "brand": ["Samsung"],
+    "category": ["televisions"]
+  },
+  {
+    "id": 52,
+    "name": "Lelit PL91T Espresso Maschine",
+    "price": 1399.99,
+    "description": "Professionelle Espresso-Maschine mit integrierter Mühle und präziser Temperaturkontrolle.",
+    "image-url": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PESVI01/PESVI01_Rollover.png",
+    "selled": 98,
+    "brand": ["Lelit"],
+    "category": ["coffee"]
+  },
+  {
+    "id": 53,
     "name": "Samsung S26 Ultra",
     "price": 1399.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera, sowie Privacy Display",
@@ -420,7 +540,7 @@
     "category": ["smartphones"]
   },
   {
-    "id": 42,
+    "id": 54,
     "name": "Samsung S26",
     "price": 899.99,
     "description": "Solides High-End-Smartphone mit beeindruckendem Display und leistungsstarker Kamera, allerdings ohne Privacy Display",
@@ -430,7 +550,7 @@
     "category": ["smartphones"]
   },
   {
-    "id": 43,
+    "id": 55,
     "name": "Samsung S26 Plus",
     "price": 1199.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
