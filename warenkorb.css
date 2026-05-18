@@ -2,7 +2,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: full;
 }
 
 table {
@@ -98,4 +98,39 @@ td:nth-child(2) {
   font-size: 18px;
   cursor: pointer;
   padding: 5px;
+}
+
+#warenkorb-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+#warenkorb-kaufen-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#warenkorb-kaufen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 999px;
+  margin-top: 20px;
+  margin-left: 500px;
+  padding: 10px;
+  background-color: var(--text-color);
+  color: var(--bg-color-1);
+  transition:
+    background-color 0.3s ease,
+    transform 0.1s ease;
+}
+#warenkorb-kaufen:hover {
+  background-color: var(--text-color-dimmed);
+  cursor: pointer;
+}
+#warenkorb-kaufen:active {
+  transform: scale(0.98);
 }

@@ -22,7 +22,6 @@ document.body.insertAdjacentHTML(
                 <a class="leiste" href="index.html">Home</a>
                 <a class="leiste" href="produkte.html">Produkte</a>
                 <a class="leiste" href="kontakt.html">Kontakt</a>
-                <a class="leiste" href="#">Gewinnspiele</a>
                 <a class="leiste" href="warenkorb.html">
 
                   <!-- Icon von https://heroicons.com/ -->
@@ -74,12 +73,12 @@ updateIcon();
 function suchenProdukte() {
   const suchfeld = document.getElementById("suchfeld");
   const suchbegriff = suchfeld.value.trim();
-  
+
   if (suchbegriff === "") {
     alert("Bitte geben Sie einen Suchbegriff ein!");
     return;
   }
-  
+
   window.location.href = `produkte.html?search=${encodeURIComponent(suchbegriff)}`;
 }
 
