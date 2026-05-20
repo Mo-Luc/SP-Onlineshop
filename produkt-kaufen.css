@@ -150,8 +150,8 @@
   height: 44px;
   border: 1px solid transparent;
   border-radius: 999px;
-  background-color: var(--bg-color-3);
-  color: var(--acent-color);
+  background-color: var(--acent-color);
+  color: var(--text-color);
   cursor: pointer;
   transition:
     background-color 0.2s ease,
@@ -160,7 +160,7 @@
 }
 
 #warenkorb-actions button:hover {
-  background-color: color-mix(in srgb, var(--bg-color-3), var(--bg-color-2));
+  background-color: var(--acent-color-hover);
 }
 
 #warenkorb-actions button:active {
