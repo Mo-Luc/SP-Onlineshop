@@ -10,6 +10,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "5000mAh",
@@ -31,6 +32,7 @@
       "Apple"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "3850mAh",
@@ -52,7 +54,7 @@
       "Apple"
     ],
     "category": [
-      "accessories"
+      "zubehör"
     ],
     "battery": "-",
     "screen": "-",
@@ -73,6 +75,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "4900mAh",
@@ -94,6 +97,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "3900mAh",
@@ -115,6 +119,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "4900mAh",
@@ -138,6 +143,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "4400mAh",
@@ -203,6 +209,7 @@
       "Apple"
     ],
     "category": [
+      "wearable",
       "wearables"
     ],
     "battery": "bis zu 18 Stunden",
@@ -224,6 +231,7 @@
       "Apple"
     ],
     "category": [
+      "laptop",
       "laptops"
     ],
     "battery": "100Wh",
@@ -245,6 +253,7 @@
       "Dell"
     ],
     "category": [
+      "laptop",
       "laptops"
     ],
     "battery": "86Wh",
@@ -266,6 +275,7 @@
       "Microsoft"
     ],
     "category": [
+      "tablet",
       "tablets"
     ],
     "battery": "bis zu 15 Stunden",
@@ -287,7 +297,8 @@
       "GoPro"
     ],
     "category": [
-      "cameras"
+      "kamera",
+      "kameras"
     ],
     "battery": "1720mAh",
     "screen": "2,27 Zoll Touch-Display",
@@ -308,7 +319,8 @@
       "Nintendo"
     ],
     "category": [
-      "gaming consoles"
+      "spielekonsole",
+      "spielekonsolen"
     ],
     "battery": "4310mAh",
     "screen": "7 Zoll OLED",
@@ -329,7 +341,8 @@
       "Sony"
     ],
     "category": [
-      "gaming consoles"
+      "spielekonsole",
+      "spielekonsolen"
     ],
     "battery": "-",
     "screen": "-",
@@ -350,7 +363,8 @@
       "Microsoft"
     ],
     "category": [
-      "gaming consoles"
+      "spielekonsole",
+      "spielekonsolen"
     ],
     "battery": "-",
     "screen": "-",
@@ -371,7 +385,7 @@
       "Logitech"
     ],
     "category": [
-      "accessories"
+      "zubehör"
     ],
     "battery": "-",
     "screen": "-",
@@ -392,7 +406,7 @@
       "Apple"
     ],
     "category": [
-      "accessories"
+      "zubehör"
     ],
     "battery": "CR2032",
     "screen": "-",
@@ -413,7 +427,7 @@
       "Anker"
     ],
     "category": [
-      "accessories"
+      "zubehör"
     ],
     "battery": "20000mAh",
     "screen": "-",
@@ -434,6 +448,7 @@
       "Samsung"
     ],
     "category": [
+      "tablet",
       "tablets"
     ],
     "battery": "10090mAh",
@@ -455,6 +470,7 @@
       "Nothing"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "4500mAh",
@@ -476,6 +492,7 @@
       "Nothing"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "4700mAh",
@@ -499,6 +516,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "5000mAh",
@@ -520,6 +538,7 @@
       "Samsung"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "5000mAh",
@@ -541,7 +560,8 @@
       "DJI"
     ],
     "category": [
-      "drones"
+      "drohne",
+      "drohnen"
     ],
     "battery": "2453mAh",
     "screen": "-",
@@ -562,6 +582,7 @@
       "Google"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "4855mAh",
@@ -583,6 +604,7 @@
       "Sony"
     ],
     "category": [
+      "smartphone",
       "smartphones"
     ],
     "battery": "5200mAh",
@@ -623,8 +645,13 @@
     "description": "Solides Mittelklasse-Smartphone mit A15-Chip und verbesserter Kamera.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmtscdn.ru%2Fupload%2Fiblock%2F204%2F4.png&f=1&nofb=1&ipt=bc465d99dc98f04beb1ae798187bf28e1a446ed35b18a2f4208de68ae771010a",
     "selled": 85,
-    "brand": ["Apple"],
-    "category": ["smartphones"],
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "3279mAh",
     "screen": "6,1 Zoll Super Retina XDR OLED",
     "weight": "172g",
@@ -640,8 +667,13 @@
     "description": "Leichtes Tablet mit A16-Chip und hochauflösendem Display.",
     "image-url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png",
     "selled": 140,
-    "brand": ["Apple"],
-    "category": ["tablets"],
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "tablet",
+      "tablets"
+    ],
     "battery": "7606mAh",
     "screen": "10,9 Zoll Liquid Retina",
     "weight": "461g",
@@ -657,9 +689,11 @@
     "description": "Kompaktes Ladegerät mit hoher Leistung für Laptops und Smartphones.",
     "image-url": "https://cdn.shopify.com/s/files/1/0491/8227/7795/files/A2667311-Anker_735_Charger_Nano_II_65W.png?v=1755247331",
     "selled": 390,
-    "brand": ["Anker"],
+    "brand": [
+      "Anker"
+    ],
     "category": [
-      "accessories"
+      "zubehör"
     ],
     "battery": "-",
     "screen": "-",
@@ -676,8 +710,12 @@
     "description": "Box der neuen Generation mit beeindruckendem Sound und RGB-Beleuchtung.",
     "image-url": "https://www.harmanaudio.at/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw33e9787b/4_JBL_PULSE_5_RIGHT_34322_x3.png?sw=535&sh=535",
     "selled": 230,
-    "brand": ["JBL"],
-    "category": ["audio"],
+    "brand": [
+      "JBL"
+    ],
+    "category": [
+      "audio"
+    ],
     "battery": "bis zu 12 Stunden",
     "screen": "-",
     "weight": "2,03kg",
@@ -695,7 +733,9 @@
     "selled": 345,
     "reduced": true,
     "reduced-price": 99.99,
-    "brand": ["JBL"],
+    "brand": [
+      "JBL"
+    ],
     "category": [
       "audio"
     ],
@@ -714,8 +754,12 @@
     "description": "Beliebte Webcam für Videokonferenzen und Streaming.",
     "image-url": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70301476/fee_786_587_png",
     "selled": 210,
-    "brand": ["Logitech"],
-    "category": ["accessories"],
+    "brand": [
+      "Logitech"
+    ],
+    "category": [
+      "zubehör"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "162g",
@@ -731,8 +775,12 @@
     "description": "Hochleistungs-Gaming-Maus mit anpassbaren Tasten und RGB-Beleuchtung.",
     "image-url": "https://www.logitechg.com/content/dam/gaming/en/products/g502x-plus/gallery/g502x-plus-gallery-2-black.png",
     "selled": 180,
-    "brand": ["Logitech"],
-    "category": ["accessories, gaming, mice"],
+    "brand": [
+      "Logitech"
+    ],
+    "category": [
+      "accessories, gaming, mice"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "107g",
@@ -748,8 +796,12 @@
     "description": "Drahtlose mechanische Gaming-Tastatur mit RGB-Beleuchtung und ultraflachem Design.",
     "image-url": "https://www.logitechg.com/content/dam/gaming/en/products/g915-x-lightspeed-wireless/gallery/g915-x-wireless-mechanical-gaming-keyboard-gallery-1-pan.png",
     "selled": 150,
-    "brand": ["Logitech"],
-    "category": ["accessories, gaming, keyboards"],
+    "brand": [
+      "Logitech"
+    ],
+    "category": [
+      "accessories, gaming, keyboards"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "1020g",
@@ -765,8 +817,12 @@
     "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
     "image-url": "https://media2.nbb-cdn.de/images/products/BlackWidow_V4_Pro_2022_Render01_9489.png",
     "selled": 120,
-    "brand": ["Razer"],
-    "category": ["accessories"],
+    "brand": [
+      "Razer"
+    ],
+    "category": [
+      "zubehör"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "1140g",
@@ -782,8 +838,12 @@
     "description": "USB-C-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
     "image-url": "https://de.ugreen.com/cdn/shop/files/15311-376116.png?v=1722927781",
     "selled": 1004,
-    "brand": ["Anker"],
-    "category": ["accessories"],
+    "brand": [
+      "Anker"
+    ],
+    "category": [
+      "zubehör"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "30g",
@@ -799,8 +859,13 @@
     "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
     "image-url": "https://www.lauf-bar.de/media/image/product/41072/lg/p-garmin-forerunner-965-laufcomputer-art-nr-010-02809.png",
     "selled": 77,
-    "brand": ["Garmin"],
-    "category": ["wearables"],
+    "brand": [
+      "Garmin"
+    ],
+    "category": [
+      "wearable",
+      "wearables"
+    ],
     "battery": "bis zu 31 Stunden",
     "screen": "1,4 Zoll AMOLED",
     "weight": "52g",
@@ -816,8 +881,12 @@
     "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
     "image-url": "https://cdn.expert.de/cdn-cgi/image/w=600,h=600,q=80,f=webp,fit=contain/4d/43/b0/4aac17606aeff87866e6274a2dbe0772b4/Abbildung_2246624.png.png",
     "selled": 180,
-    "brand": ["JBL"],
-    "category": ["audio"],
+    "brand": [
+      "JBL"
+    ],
+    "category": [
+      "audio"
+    ],
     "battery": "bis zu 20 Stunden",
     "screen": "-",
     "weight": "1,75kg",
@@ -833,8 +902,12 @@
     "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
     "image-url": "https://images.deinhandy.de/assets/acf106e11c2761a0192885494ea21fed052133f654c5bb77a34ea4d7ad79b350/Samsung_Galaxy_Buds3_SM-R530_Silver_Ladeetui_Front_offen_Lademodus_RGB.png?tr=w-640,cm-pad_resize",
     "selled": 260,
-    "brand": ["Samsung"],
-    "category": ["audio"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "audio"
+    ],
     "battery": "bis zu 8 Stunden",
     "screen": "-",
     "weight": "6,3g pro Ohrhörer",
@@ -850,8 +923,12 @@
     "description": "USB-A-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
     "image-url": "https://de.perixx.com/cdn/shop/files/peripro-406-usb-c-to-usb-a-cable-130888.png?v=1715946448",
     "selled": 260,
-    "brand": ["-"],
-    "category": ["cables"],
+    "brand": [
+      "-"
+    ],
+    "category": [
+      "kabel"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "26g",
@@ -867,8 +944,13 @@
     "description": "Modernes Smartphone mit leistungsstarkem Prozessor und beeindruckendem Display.",
     "image-url": "https://www.zurusten.com/image/cache/catalog/Nothing/nothing-phone-4a-blue-1-550x550.png",
     "selled": 260,
-    "brand": ["Nothing"],
-    "category": ["smartphones"],
+    "brand": [
+      "Nothing"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "5000mAh",
     "screen": "6,7 Zoll AMOLED",
     "weight": "190g",
@@ -884,8 +966,13 @@
     "description": "Tblet der 9. Generation mit A13 Bionic Chip und 10,2-Zoll-Retina-Display.",
     "image-url": "https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/264337_pu98ds.png",
     "selled": 260,
-    "brand": ["Apple"],
-    "category": ["tablets"],
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "tablet",
+      "tablets"
+    ],
     "battery": "8557mAh",
     "screen": "10,2 Zoll Retina",
     "weight": "483g",
@@ -901,8 +988,13 @@
     "description": "High-end Smartphone mit beeindruckendem Display und bester Kamera.",
     "image-url": "https://i05.appmifile.com/760_item_de/27/02/2026/983c0e468958d6bd9579e3396009e06e.png?thumb=1&q=85",
     "selled": 260,
-    "brand": ["Xiaomi"],
-    "category": ["smartphones"],
+    "brand": [
+      "Xiaomi"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "5500mAh",
     "screen": "6,73 Zoll AMOLED",
     "weight": "232g",
@@ -918,8 +1010,13 @@
     "description": "Leichtes und leistungsstarkes Drohne für Fotografie und Video.",
     "image-url": "https://www.zielfoto.com/wp-content/uploads/2022/12/DJI-Mini-3-191.png",
     "selled": 260,
-    "brand": ["DJI"],
-    "category": ["drones"],
+    "brand": [
+      "DJI"
+    ],
+    "category": [
+      "drohne",
+      "drohnen"
+    ],
     "battery": "2250mAh",
     "screen": "-",
     "weight": "249g",
@@ -935,8 +1032,12 @@
     "description": "Starterpack für die Carrera Hybrid und Racing mit KI-Steuerung und App-Integration.",
     "image-url": "https://carrera-toys.com/cdn/shop/files/50050007_Verpackung_Online.png?v=1769423252",
     "selled": 260,
-    "brand": ["Carrera"],
-    "category": ["toys"],
+    "brand": [
+      "Carrera"
+    ],
+    "category": [
+      "spielzeug"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "800g",
@@ -952,8 +1053,13 @@
     "description": "Modernes Smartphone mit gutem Prozessor und beeindruckendem Display.",
     "image-url": "https://static2-blau.o9.de/resource/blob/2229904/b757494f5ca6282687e9a281337ea685/png/samsung-galaxy-a57-farben-header-bild-data.webp",
     "selled": 260,
-    "brand": ["Samsung"],
-    "category": ["smartphones"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "5000mAh",
     "screen": "6,7 Zoll Super AMOLED",
     "weight": "200g",
@@ -967,10 +1073,15 @@
     "name": "Siemens Vectron Dual Mode",
     "price": 4500000,
     "description": "Lokomotive mit Diesel- und Elektroantrieb für den Güterverkehr und Rangierfahrten.",
-    "image-url": "https://assets.new.siemens.com/siemens/assets/api/uuid:262fb453-b6b9-4503-afe9-375617a28bce/IM2020110464MO.jpg",
+    "image-url": "https://www.alphatrains.eu/images/fleet/loco/vectron_dual_mode.png",
     "selled": 0,
-    "brand": ["Siemens"],
-    "category": ["trains"],
+    "brand": [
+      "Siemens"
+    ],
+    "category": [
+      "zug",
+      "züge"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "85,8t",
@@ -986,8 +1097,12 @@
     "description": "55 Zoll Fernseher mit 4K-Auflösung, HDR-Unterstützung und Smart-TV-Funktionen für ein beeindruckendes Seherlebnis.",
     "image-url": "https://images.samsung.com/is/image/samsung/de-full-hd-k6379-ue55k6379suxzg-001-front-black?$624_624_PNG$",
     "selled": 98,
-    "brand": ["Samsung"],
-    "category": ["televisions"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "fernseher"
+    ],
     "battery": "-",
     "screen": "55 Zoll QLED 4K",
     "weight": "17,1kg",
@@ -1003,8 +1118,12 @@
     "description": "Professionelle Espresso-Maschine mit integrierter Mühle und präziser Temperaturkontrolle.",
     "image-url": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PESVI01/PESVI01_Rollover.png",
     "selled": 98,
-    "brand": ["Lelit"],
-    "category": ["coffee"],
+    "brand": [
+      "Lelit"
+    ],
+    "category": [
+      "kaffee"
+    ],
     "battery": "-",
     "screen": "-",
     "weight": "27kg",
@@ -1020,8 +1139,13 @@
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera, sowie Privacy Display",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.beebom.com%2Fmobile%2Fsamsung-galaxy-s26-ultra-front-back.png&f=1&nofb=1&ipt=95674f123715ad357822a0eb7fbeba2255a64faeb293f24f81cfbf60d2d0da6c",
     "selled": 98,
-    "brand": ["Samsung"],
-    "category": ["smartphones"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "5400mAh",
     "screen": "6,8 Zoll AMOLED",
     "weight": "230g",
@@ -1037,8 +1161,13 @@
     "description": "Solides High-End-Smartphone mit beeindruckendem Display und leistungsstarker Kamera, allerdings ohne Privacy Display",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tatacroma.com%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F313338_0_m868jc.png&f=1&nofb=1&ipt=ddc6cff9d6d491ad48d4d673bfbb7daca59328f6b217bea0874059f16456e30e",
     "selled": 85,
-    "brand": ["Samsung"],
-    "category": ["smartphones"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "4900mAh",
     "screen": "6,5 Zoll AMOLED",
     "weight": "198g",
@@ -1054,8 +1183,13 @@
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
     "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fecontent.o2.co.uk%2Fo%2Fecontent%2Fmedia%2Fget%2Ffffa7686-f95b-42b3-a1e9-28b6d65db397&f=1&nofb=1&ipt=a02608c854a4be323111ae8449536655aa39d33f7dbc067280d5c202f8429555",
     "selled": 98,
-    "brand": ["Samsung"],
-    "category": ["smartphones"],
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "smartphone",
+      "smartphones"
+    ],
     "battery": "5200mAh",
     "screen": "6,7 Zoll AMOLED",
     "weight": "209g",

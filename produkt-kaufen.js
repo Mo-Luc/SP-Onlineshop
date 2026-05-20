@@ -21,8 +21,6 @@ const warenkorbActionsHTML = `<div id="warenkorb-actions" >
       </button>
     </div>`;
 
-
-
 const warenkorb = JSON.parse(localStorage.getItem("warenkorb")) || [];
 
 function produktKaufen() {
@@ -37,7 +35,7 @@ function produktKaufen() {
   }
 
   localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
-  renderProductPage()
+  renderProductPage();
 }
 
 function removeOneFromCart() {
@@ -52,7 +50,7 @@ function removeOneFromCart() {
       warenkorb.splice(existingProductIndex, 1);
     }
     localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
-    renderProductPage()
+    renderProductPage();
   }
 }
 function removeAllFromCart() {
@@ -63,7 +61,7 @@ function removeAllFromCart() {
   if (existingProductIndex !== -1) {
     warenkorb.splice(existingProductIndex, 1);
     localStorage.setItem("warenkorb", JSON.stringify(warenkorb));
-    renderProductPage()
+    renderProductPage();
   }
 }
 
@@ -79,7 +77,7 @@ async function renderProductPage() {
   const produktPreisElement = document.getElementById("produkt-preis");
   const produktBatteryElement = document.getElementById("produkt-battery");
   const kaufenButton = document.getElementById("kaufen-button");
-  
+
   // Technische Daten Elemente
   const specBattery = document.getElementById("spec-battery");
   const specScreen = document.getElementById("spec-screen");
@@ -89,7 +87,9 @@ async function renderProductPage() {
   const specRam = document.getElementById("spec-ram");
   const specStorage = document.getElementById("spec-storage");
 
-  try { document.getElementById("warenkorb-actions").remove() } catch (error) {  }
+  try {
+    document.getElementById("warenkorb-actions").remove();
+  } catch (error) {}
 
   const isInCart = warenkorb.some((item) => item.id === productId);
   if (isInCart) {
@@ -97,12 +97,12 @@ async function renderProductPage() {
   }
 
   try {
-    const produktAnzahl = warenkorb[warenkorb.findIndex((item) => item.id === produkt.id)].anzahl;
-  
-    kaufenButton.textContent = `In den Warenkorb | ${produktAnzahl}`
-    
+    const produktAnzahl =
+      warenkorb[warenkorb.findIndex((item) => item.id === produkt.id)].anzahl;
+
+    kaufenButton.textContent = `In den Warenkorb | ${produktAnzahl}`;
   } catch (error) {
-    kaufenButton.textContent = `In den Warenkorb`
+    kaufenButton.textContent = `In den Warenkorb`;
   }
 
   produktNameElement.textContent = produkt.name;
@@ -125,7 +125,7 @@ async function renderProductPage() {
     { element: specStorage, prop: "storage" },
   ];
 
-  let visibleSpecs = 0;
+  let visibleSpecs = [];
   specs.forEach((spec) => {
     const value = produkt[spec.prop] || "-";
     const row = spec.element.closest("tr");

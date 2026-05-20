@@ -139,7 +139,7 @@
 #warenkorb-actions {
   display: inline-flex;
   gap: 12px;
-  margin-top: 18px;
+  margin-left: 18px;
 }
 
 #warenkorb-actions button {
@@ -153,12 +153,14 @@
   background-color: var(--bg-color-3);
   color: var(--acent-color);
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
   margin-right: 5px;
 }
 
 #warenkorb-actions button:hover {
-  background-color: var(--bg-color-2);
+  background-color: color-mix(in srgb, var(--bg-color-3), var(--bg-color-2));
 }
 
 #warenkorb-actions button:active {
@@ -167,4 +169,11 @@
 
 #warenkorb-actions button svg {
   stroke: currentColor;
+}
+
+#warenkorb-kaufen-und-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
