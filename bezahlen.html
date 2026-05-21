@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bezahlen.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <h1>Bezahlen</h1>
+    <div id="bezahlen-container">
+      <div id="bezahlen-links">
+        <p>Bitte wählen Sie eine Zahlungsmethode aus.</p>
+        <div id="payment-methods">
+          <input
+            type="radio"
+            id="credit-card"
+            name="payment-method"
+            value="credit-card"
+          />
+          <label for="credit-card">
+            <img
+              src="Icons/mastercard.svg"
+              alt="Mastercard"
+              width="48"
+              height="48"
+            />
+          </label>
+
+          <input
+            type="radio"
+            id="paypal"
+            name="payment-method"
+            value="paypal-payment"
+          />
+          <label for="paypal">
+            <img src="Icons/paypal.svg" alt="PayPal" width="48" height="48" />
+          </label>
+          <input
+            type="radio"
+            id="google-pay"
+            name="payment-method"
+            value="google-pay"
+          />
+          <label for="google-pay">
+            <img
+              src="Icons/google.svg"
+              alt="Google Pay"
+              width="48"
+              height="48"
+            />
+          </label>
+          <input
+            type="radio"
+            id="stripe"
+            name="payment-method"
+            value="stripe-payment"
+          />
+          <label for="stripe">
+            <img src="Icons/stripe.svg" alt="Stripe" width="48" height="48" />
+          </label>
+          <input
+            type="radio"
+            id="visa"
+            name="payment-method"
+            value="visa-payment"
+          />
+          <label for="visa">
+            <img src="Icons/visa.svg" alt="Visa" width="48" height="48" />
+          </label>
+        </div>
+
+        <div id="payment-form"></div>
+      </div>
+      <div id="bezahlen-rechts">
+        <h2>Bestellübersicht</h2>
+        <div id="order-summary"></div>
+      </div>
+    </div>
+
+    <button id="pay-button">Jetzt bezahlen</button>
+
+    <script src="bezahlen.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

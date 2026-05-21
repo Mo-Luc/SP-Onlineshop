@@ -23,8 +23,8 @@ body {
   --bg-color-4: hsl(0, 0%, 88%);
   --text-color: hsl(0, 0%, 12%);
   --text-color-dimmed: hsl(0, 0%, 45%);
-  --acent-color: #3a8a95;
-  --acent-color-hover: #319ead;
+  --accent-color: #3a8a95;
+  --accent-color-hover: #319ead;
 }
 
 body.darkmode {
@@ -34,8 +34,8 @@ body.darkmode {
   --bg-color-4: hsl(0, 0%, 45%);
   --text-color: hsl(0, 0%, 98%);
   --text-color-dimmed: hsl(0, 0%, 78%);
-  --acent-color: #337780;
-  --acent-color-hover: #275b61;
+  --accent-color: #337780;
+  --accent-color-hover: #275b61;
 }
 
 body {
@@ -51,13 +51,13 @@ body {
   font-family: "Michroma";
   font-size: 48px;
   margin-top: 40px;
-  color: var(--acent-color);
+  color: var(--accent-color);
 }
 #homepage-subtitle {
   font-family: "Michroma";
   font-size: 24px;
   margin-top: 10px;
-  color: var(--acent-color);
+  color: var(--accent-color);
 }
 
 .nav-wrap {
@@ -106,13 +106,13 @@ nav {
 }
 
 .leiste:hover {
-  color: color-mix(in srgb, var(--acent-color) 50%, var(--text-color) 50%);
+  color: color-mix(in srgb, var(--accent-color) 50%, var(--text-color) 50%);
 }
 .leiste:active {
-  color: var(--acent-color);
+  color: var(--accent-color);
 }
 .leiste.aktuelle-seite {
-  color: var(--acent-color);
+  color: var(--accent-color);
   font-weight: bold;
 }
 
@@ -162,7 +162,7 @@ button.leiste {
 }
 
 .suchbtn:hover {
-  color: var(--acent-color);
+  color: var(--accent-color);
 }
 
 .leiste > * {
@@ -324,7 +324,7 @@ a:last-child {
 .produkt-reducedPreis {
   font-size: 17px;
   font-weight: bold;
-  color: var(--acent-color);
+  color: var(--accent-color);
   margin: 14px;
 
   margin-top: auto;
@@ -351,14 +351,14 @@ a:last-child {
 }
 
 #newsletter {
-  color: var(--acent-color);
+  color: var(--accent-color);
   font-family: "Michroma";
   font-size: 24px;
   margin-top: 10px;
 }
 
 #email-label {
-  color: var(--acent-color);
+  color: var(--accent-color);
   font-size: 18px;
   margin-top: 10px;
 }
@@ -367,7 +367,7 @@ a:last-child {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--acent-color);
+  background-color: var(--accent-color);
   color: var(--text-color);
   border: none;
   border-radius: 999px;
@@ -381,7 +381,7 @@ a:last-child {
 }
 
 #newsletter-button:hover {
-  background-color: var(--acent-color-hover);
+  background-color: var(--accent-color-hover);
 }
 
 #email-input {
@@ -404,6 +404,6 @@ a:last-child {
   height: 18px;
   font-size: 10px;
   border-radius: 999px;
-  background-color: var(--acent-color);
+  background-color: var(--accent-color);
   color: var(--text-color);
 }

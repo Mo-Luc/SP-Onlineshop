@@ -1,0 +1,55 @@
+h1 {
+  color: var(--accent-color);
+}
+p {
+  color: color-mix(in srgb, var(--accent-color) 60%, var(--text-color));
+}
+
+#bezahlen-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#bezahlen-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#bezahlen-links {
+  width: 70%;
+}
+#bezahlen-rechts {
+  width: 30%;
+}
+
+#payment-methods {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px 20px;
+  padding: 10px 20px;
+
+  border-radius: 15px;
+  border: 3px dotted var(--bg-color-2);
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+input[type="radio"]:checked + label {
+  background-color: color-mix(in srgb, var(--accent-color) 20%, transparent);
+  border: 3px solid var(--accent-color);
+}
