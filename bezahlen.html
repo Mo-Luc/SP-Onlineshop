@@ -10,6 +10,39 @@
     <h1>Bezahlen</h1>
     <div id="bezahlen-container">
       <div id="bezahlen-links">
+        <div id="rechnungsadresse-form">
+          <h3>Rechnungsadresse</h3>
+          <select id="salutation" name="salutation">
+            <option value="" disabled selected>--Anrede auswählen--</option>
+            <option value="Herr">Herr</option>
+            <option value="Frau">Frau</option>
+            <option value="Divers">Divers</option>
+            <option value="Firma">Firma</option>
+          </select>
+          <input type="text" id="name" name="name" placeholder="Name" />
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Nachname"
+          />
+
+          <input type="text" id="email" name="email" placeholder="E-Mail" />
+          <input
+            type="text"
+            id="street"
+            name="street"
+            placeholder="Straße und Hausnummer"
+          />
+          <input
+            type="text"
+            id="postal-code"
+            name="postal-code"
+            placeholder="Postleitzahl"
+          />
+          <input type="text" id="city" name="city" placeholder="Stadt" />
+        </div>
+
         <p>Bitte wählen Sie eine Zahlungsmethode aus.</p>
         <div id="payment-methods">
           <input
@@ -70,16 +103,23 @@
           </label>
         </div>
 
+        <p id="payment-success-and-errors"></p>
         <div id="payment-form"></div>
       </div>
       <div id="bezahlen-rechts">
         <h2>Bestellübersicht</h2>
-        <div id="order-summary"></div>
+        <div id="order-summary">
+          <p id="amount">3 Produkte</p>
+          <p id="total-price">Gesamtpreis: 7,99 €</p>
+        </div>
       </div>
     </div>
 
-    <button id="pay-button">Jetzt bezahlen</button>
+    <button id="pay-button" onClick="handlePayment()" disabled>
+      Jetzt bezahlen
+    </button>
 
+    <script src="toasts.js"></script>
     <script src="bezahlen.js"></script>
     <script src="script.js"></script>
   </body>
