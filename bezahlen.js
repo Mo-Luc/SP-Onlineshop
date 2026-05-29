@@ -113,11 +113,13 @@ function handlePayment() {
                     ? "Bitte bestätigen Sie Ihre E-Mail-Adresse."
                     : input.id === "street"
                       ? "Bitte geben Sie Ihre Straße und Hausnummer ein."
-                      : input.id === "postal-code"
-                        ? "Bitte geben Sie Ihre Postleitzahl ein."
-                        : input.id === "city"
-                          ? "Bitte geben Sie Ihre Stadt ein."
-                          : "Bitte füllen Sie alle Felder aus.",
+                      :input.id === "phone-number"
+                          ? "Bitte geben Sie Ihre Telefonnummer ein."
+                          : input.id === "postal-code"
+                            ? "Bitte geben Sie Ihre Postleitzahl ein."
+                            : input.id === "city"
+                             ? "Bitte geben Sie Ihre Stadt ein."
+                             : "Bitte füllen Sie alle Felder aus.",
           3000,
           "var(--error-color)",
         );
