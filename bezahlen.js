@@ -94,7 +94,7 @@ function handlePayment() {
 
   Array.from(
     document.querySelectorAll(
-      "#salutation, #name, #lastname, #email, #email-confirmation, #street, #postal-code, #city",
+      "#salutation, #name, #lastname, #email, #email-confirmation, #phone-number, #street, #postal-code, #city",
     ),
   )
     .reverse()
@@ -113,13 +113,13 @@ function handlePayment() {
                     ? "Bitte bestätigen Sie Ihre E-Mail-Adresse."
                     : input.id === "street"
                       ? "Bitte geben Sie Ihre Straße und Hausnummer ein."
-                      :input.id === "phone-number"
-                          ? "Bitte geben Sie Ihre Telefonnummer ein."
-                          : input.id === "postal-code"
-                            ? "Bitte geben Sie Ihre Postleitzahl ein."
-                            : input.id === "city"
-                             ? "Bitte geben Sie Ihre Stadt ein."
-                             : "Bitte füllen Sie alle Felder aus.",
+                      : input.id === "phone-number"
+                        ? "Bitte geben Sie Ihre Telefonnummer ein."
+                        : input.id === "postal-code"
+                          ? "Bitte geben Sie Ihre Postleitzahl ein."
+                          : input.id === "city"
+                            ? "Bitte geben Sie Ihre Stadt ein."
+                            : "Bitte füllen Sie alle Felder aus.",
           3000,
           "var(--error-color)",
         );
@@ -135,13 +135,13 @@ function handlePayment() {
           );
           exitFunction = true;
         }
-      } else if (checkCreditCardValid().valid === false) {
+      } /*else if (checkCreditCardValid().valid === false) {
         showToast(
           "Bitte überprüfen Sie Ihre Kreditkartendaten.",
           3000,
           "var(--error-color)",
         );
-      }
+      }*/
     });
   if (exitFunction) return;
 
