@@ -64,11 +64,11 @@ function addInputFields(method) {
   if (method === "credit-card") {
     container.innerHTML = `
       <label for="card-number">Kartennummer:</label>
-      <input type="text" id="card-number" name="card-number" required>
+      <input type="text" id="card-number" name="card-number" inputmode="numeric" pattern="[0-9 ]{13,23}" maxlength="23" placeholder="1234 5678 9012 3456" required>
       <label for="expiry-date">Ablaufdatum:</label>
-      <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+      <input type="text" id="expiry-date" name="expiry-date" inputmode="numeric" pattern="(0[1-9]|1[0-2])\/[0-9]{2}" maxlength="5" placeholder="MM/YY" required>
       <label for="cvv">CVV:</label>
-      <input type="text" id="cvv" name="cvv" required>
+      <input type="text" id="cvv" name="cvv" inputmode="numeric" pattern="[0-9]{3,4}" maxlength="4" placeholder="123" required>
     `;
   } else if (method === "paypal-payment") {
     container.innerHTML = `
@@ -94,7 +94,7 @@ function handlePayment() {
 
   Array.from(
     document.querySelectorAll(
-      "#salutation, #name, #lastname, #email, #street, #postal-code, #city",
+      "#salutation, #name, #lastname, #email, #email-confirmation, #street, #postal-code, #city",
     ),
   )
     .reverse()
@@ -109,17 +109,36 @@ function handlePayment() {
                 ? "Bitte geben Sie Ihren Nachnamen ein."
                 : input.id === "email"
                   ? "Bitte geben Sie Ihre E-Mail-Adresse ein."
-                  : input.id === "street"
-                    ? "Bitte geben Sie Ihre Straße und Hausnummer ein."
-                    : input.id === "postal-code"
-                      ? "Bitte geben Sie Ihre Postleitzahl ein."
-                      : input.id === "city"
-                        ? "Bitte geben Sie Ihre Stadt ein."
-                        : "Bitte füllen Sie alle Felder aus.",
+                  : input.id === "email-confirmation"
+                    ? "Bitte bestätigen Sie Ihre E-Mail-Adresse."
+                    : input.id === "street"
+                      ? "Bitte geben Sie Ihre Straße und Hausnummer ein."
+                      : input.id === "postal-code"
+                        ? "Bitte geben Sie Ihre Postleitzahl ein."
+                        : input.id === "city"
+                          ? "Bitte geben Sie Ihre Stadt ein."
+                          : "Bitte füllen Sie alle Felder aus.",
           3000,
           "var(--error-color)",
         );
         exitFunction = true;
+      } else if (input.id === "email-confirmation") {
+        const email = document.getElementById("email").value;
+        const emailConfirmation = input.value;
+        if (email !== emailConfirmation) {
+          showToast(
+            "Die E-Mail-Adressen stimmen nicht überein.",
+            3000,
+            "var(--error-color)",
+          );
+          exitFunction = true;
+        }
+      } else if (checkInputValid().valid === false) {
+        showToast(
+          "Bitte überprüfen Sie Ihre Kreditkartendaten.",
+          3000,
+          "var(--error-color)",
+        );
       }
     });
   if (exitFunction) return;
@@ -158,4 +177,23 @@ function handlePayment() {
       window.location.href = "index.html";
     }, 2000);
   }
+}
+
+function checkCreditCardValid() {
+  const cardNumber = document.getElementById("card-number").value;
+  const expiryDate = document.getElementById("expiry-date").value;
+  const cvv = document.getElementById("cvv").value;
+
+  const cardNumberPattern = /^[0-9 ]{13,23}$/;
+  const expiryDatePattern = /^(0[1-9]|1[0-2])\/[0-9]{2}$/;
+  const cvvPattern = /^[0-9]{3,4}$/;
+
+  if (
+    !cardNumberPattern.test(cardNumber) ||
+    !expiryDatePattern.test(expiryDate) ||
+    !cvvPattern.test(cvv)
+  ) {
+    return (valid = false);
+  }
+  return (valid = true);
 }
