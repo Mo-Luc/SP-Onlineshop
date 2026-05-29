@@ -7,10 +7,35 @@
   <body>
     <h1 id="newsletter">Newsletter abonnieren</h1>
     <form>
-      <label id="email-label" for="email">E-Mail:</label>
-      <input id="email-input" type="email" id="email" name="email" required />
-      <button id="newsletter-button" type="submit">Abonnieren</button>
+      <label id="email-label" for="email-input">E-Mail:</label>
+      <input id="email-input" type="email" name="email" required />
+      <button id="newsletter-button" type="submit" onclick="event.preventDefault(); handleSubmit();">Abonnieren</button>
     </form>
+    <script>
+      function handleSubmit() {
+
+        if (!document.getElementById("email-input").value || !document.getElementById("email-input").checkValidity()) {
+          showToast(
+            "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+            2000,
+            "var(--error-color)",
+          );
+          return;
+        }
+
+        showToast(
+          "Newsletter erfolgreich abboniert.",
+          2000,
+          "var(--success-color)",
+        );
+        setTimeout(()=>{
+          window.location.href = "/"
+        },3000)
+      }
+      
+      </script>
+    <script src="toasts.js"></script>
     <script src="script.js"></script>
+
   </body>
 </html>
