@@ -135,7 +135,7 @@ function handlePayment() {
           );
           exitFunction = true;
         }
-      } else if (checkInputValid().valid === false) {
+      } else if (checkCreditCardValid().valid === false) {
         showToast(
           "Bitte überprüfen Sie Ihre Kreditkartendaten.",
           3000,
