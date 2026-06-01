@@ -19,6 +19,7 @@ const categories = [
   "Kaffee",
   "Züge",
   "Audio",
+  "Modelleisenbahn"
 ];
 filterCategoryElement.innerHTML = "";
 categories.forEach((category) => {

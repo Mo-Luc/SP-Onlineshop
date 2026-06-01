@@ -56,13 +56,8 @@
     "category": [
       "zubehör"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "22g",
-    "dimensions": "1m Länge",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "1m Länge"
   },
   {
     "id": 4,
@@ -170,12 +165,9 @@
       "audio"
     ],
     "battery": "bis zu 6 Stunden Wiedergabe",
-    "screen": "-",
     "weight": "56,2g",
     "dimensions": "30,9 x 21,8 x 24,0 mm",
-    "chip": "H2 Chip",
-    "ram": "-",
-    "storage": "-"
+    "chip": "H2 Chip"
   },
   {
     "id": 9,
@@ -191,12 +183,9 @@
       "audio"
     ],
     "battery": "bis zu 30 Stunden",
-    "screen": "-",
     "weight": "250g",
     "dimensions": "220 x 227 x 88 mm",
-    "chip": "V1 Prozessor",
-    "ram": "-",
-    "storage": "-"
+    "chip": "V1 Prozessor"
   },
   {
     "id": 10,
@@ -305,7 +294,6 @@
     "weight": "157g",
     "dimensions": "71 x 55 x 33 mm",
     "chip": "GP2 Prozessor",
-    "ram": "-",
     "storage": "microSD bis 512GB"
   },
   {
@@ -344,8 +332,6 @@
       "spielekonsole",
       "spielekonsolen"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "3,9kg",
     "dimensions": "390 x 260 x 104 mm",
     "chip": "AMD Ryzen Zen 2",
@@ -366,8 +352,6 @@
       "spielekonsole",
       "spielekonsolen"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "4,45kg",
     "dimensions": "301 x 151 x 151 mm",
     "chip": "AMD Zen 2",
@@ -387,13 +371,8 @@
     "category": [
       "zubehör"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "141g",
-    "dimensions": "84,3 x 124,9 x 51 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "84,3 x 124,9 x 51 mm"
   },
   {
     "id": 19,
@@ -409,12 +388,9 @@
       "zubehör"
     ],
     "battery": "CR2032",
-    "screen": "-",
     "weight": "11g",
     "dimensions": "31,9 x 8,0 mm",
-    "chip": "U1-Chip",
-    "ram": "-",
-    "storage": "-"
+    "chip": "U1-Chip"
   },
   {
     "id": 20,
@@ -430,12 +406,8 @@
       "zubehör"
     ],
     "battery": "20000mAh",
-    "screen": "-",
     "weight": "360g",
-    "dimensions": "17,1 x 7,6 x 2,2 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "17,1 x 7,6 x 2,2 cm"
   },
   {
     "id": 21,
@@ -564,11 +536,9 @@
       "drohnen"
     ],
     "battery": "2453mAh",
-    "screen": "-",
     "weight": "298g",
     "dimensions": "170 x 139 x 79 mm",
     "chip": "DJI O4",
-    "ram": "-",
     "storage": "microSD bis 512GB"
   },
   {
@@ -619,102 +589,84 @@
     "id": 29,
     "name": "Siemens ICE 3 NEo",
     "price": 25000000,
-    "description": "Modellzug im ICE-Design für die digitale Modelleisenbahn, detailgetreu lackiert und kompatibel mit Märklin- und H0-Systemen.",
-    "image-url": "https://example.com/produkte/siemens-ice3-neo.png",
+    "description": "Der Siemens ICE 3 NEo ist ein moderner Hochgeschwindigkeitszug, der für den Einsatz auf europäischen Schienen konzipiert wurde. Mit einer Länge von 200 Metern und einem Gewicht von 185 Tonnen bietet er Platz für bis zu 450 Passagiere und erreicht Geschwindigkeiten von bis zu 320 km/h. Der Zug wird durch externe Stromversorgung über Oberleitungen angetrieben und ist mit fortschrittlicher Technologie ausgestattet, um Komfort und Sicherheit zu gewährleisten.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.trenvista.net%2Fwp-content%2Fuploads%2F2022%2F02%2FEl-primero-de-los-73-ice3-neo-fabricados-por-Siemens-para-DB-durante-su-fase-de-pruebas.-%25C2%25A9-SIEMENS.jpg&f=1&nofb=1&ipt=377b8eeb7051459580bf75028e277bd85e9a0716361ad3f03af58321d3916854",
     "selled": 22,
     "brand": [
       "Siemens"
     ],
     "category": [
       "zug",
-      "züge",
-      "modelleisenbahn",
-      "modellbahn"
+      "züge"
     ],
-    "battery": "externe Stromversorgung über Gleis",
-    "screen": "-",
+    "battery": "externe Stromversorgung über Oberleitungen",
     "weight": "185g",
-    "dimensions": "19,5 x 2,8 x 3,5 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "200m Länge"
   },
   {
     "id": 30,
     "name": "Alstom TGV M",
     "price": 30000000,
-    "description": "Miniaturmodell des französischen TGV M mit realistischen Druckdetails und LED-Beleuchtung für Modellbahn-Enthusiasten.",
-    "image-url": "https://example.com/produkte/alstom-tgv-m.png",
+    "description": "Der Alstom TGV M ist ein moderner Hochgeschwindigkeitszug, der für den Einsatz auf europäischen Schienen konzipiert wurde. Mit einer Länge von 200 Metern und einem Gewicht von 176 Tonnen bietet er Platz für bis zu 740 Passagiere und erreicht Geschwindigkeiten von bis zu 320 km/h. Der Zug wird durch externe Stromversorgung über Gleis angetrieben und ist mit fortschrittlicher Technologie ausgestattet, um Komfort und Sicherheit zu gewährleisten.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.bfmtv.com%2FprE1onDo01AJ-lFteQnRBNfvdbY%3D%2F0x0%3A1920x1080%2F3840x0%2Fimages%2FTGV-M-1853393.jpg&f=1&nofb=1&ipt=2f32e52793e0b5f68fd305474de5ad6e515ff8440e9964d342fd037a737c6745",
     "selled": 18,
     "brand": [
       "Alstom"
     ],
     "category": [
       "zug",
-      "züge",
-      "modelleisenbahn",
-      "modellbahn"
+      "züge"
     ],
-    "battery": "externe Stromversorgung über Gleis",
-    "screen": "-",
-    "weight": "176g",
-    "dimensions": "20,0 x 2,9 x 3,6 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "battery": "externe Stromversorgung über Oberleitungen",
+    "weight": "170t",
+    "dimensions": "200m Länge"
   },
   {
     "id": 31,
     "name": "Märklin tgv Inoui",
     "price": 799.99,
-    "description": "Premium-Modell des TGV Inoui für H0- und Märklin-Gleise, ideal für digitale Anlagen und Sammler.",
-    "image-url": "https://example.com/produkte/maerklin-tgv-inoui.png",
+    "description": "Premium-High-Tech-Modell des TGV Inoui für H0- und Märklin-Gleise, ideal für digitale Anlagen und Sammler.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.melis-lokschuppen.com%2FWebRoot%2FStore9%2FShops%2FShop48490%2F6963%2FF7ED%2FF24D%2F8287%2F08F3%2F0A58%2F7904%2FFB24%2F037798_m.jpg&f=1&nofb=1&ipt=835311fcc0a3a468b9c36cb56d8ccc0c29a2c21a95bd83becf25f35ee9d7d632",
     "selled": 25,
     "brand": [
       "Märklin"
     ],
     "category": [
       "zug",
+      "züge",
       "modelleisenbahn",
       "modellbahn"
     ],
     "battery": "externe Stromversorgung über Gleis",
-    "screen": "-",
-    "weight": "190g",
-    "dimensions": "20,2 x 2,8 x 3,7 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "weight": "340g",
+    "dimensions": "100,4 x 6,4 x 3,7 cm"
   },
   {
     "id": 32,
     "name": "LS Models TER Alsace",
     "price": 619.99,
-    "description": "Feines Modell eines TER-Zugs aus dem Elsass für den anspruchsvollen Modellbahner.",
-    "image-url": "https://example.com/produkte/lsmodels-ter-alsace.png",
+    "description": "Feines Modell eines TER-Zugs aus dem Elsass für den anspruchsvollen Modellbahner vom bekannten Hersteller LS Models.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.latelierdutrain.com%2F206755-large_default%2Fautomotrice-agc-bb82783-82784-4-elements-ter-alsace-sncf-ep-vi-digital-son-lsmodels-10393s-ho-187.jpg&f=1&nofb=1&ipt=b29b06e8f147786715fef4230ec58f2ba96ec67d00046bfdab8083b464ec5098",
     "selled": 16,
     "brand": [
       "LS Models"
     ],
     "category": [
       "zug",
+      "züge",
       "modelleisenbahn",
       "modellbahn"
     ],
     "battery": "externe Stromversorgung über Gleis",
-    "screen": "-",
     "weight": "178g",
-    "dimensions": "19,8 x 2,8 x 3,5 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "68 x 2,8 x 3,5 cm"
   },
   {
     "id": 33,
     "name": "Apple MacBook Air M4",
     "price": 1399.99,
-    "description": "Ultra-dünnes Laptop mit Apple M4 Chip, ideal für mobiles Arbeiten und kreatives Multitasking.",
-    "image-url": "https://example.com/produkte/macbook-air-m4.png",
+    "description": "Ultra-dünner Laptop mit Apple M4 Chip, ideal für mobiles Arbeiten und kreatives Multitasking.",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bechtle.com%2Fdam%2Fjcr%3A79485280-2e0e-4b37-9efe-728620fcbbcc%2Fapple-macbook-air-m4_header.2025-03-06-07-04-22.png&f=1&nofb=1&ipt=73c3787131b9639f99a769b318319f387b9a069d14867666ca555561c71ab4e1",
     "selled": 72,
     "brand": [
       "Apple"
@@ -736,7 +688,7 @@
     "name": "Samsung Galaxy Watch 7",
     "price": 399.99,
     "description": "Smartwatch mit Fitness-Tracking, LTE und elegantem AMOLED-Display.",
-    "image-url": "https://example.com/produkte/galaxy-watch-7.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.greentelcom.ph%2Fwp-content%2Fuploads%2F2024%2F11%2FSamsung-watch-7-1.png&f=1&nofb=1&ipt=dd2e6ca4f26576b9192dde7e8a703a59c36189def0edb17d44835fa9e77bc31e",
     "selled": 145,
     "brand": [
       "Samsung"
@@ -758,7 +710,7 @@
     "name": "Sony PlayStation VR2",
     "price": 599.99,
     "description": "Virtual-Reality-Headset mit hochauflösendem OLED-Display und 3D-Audio.",
-    "image-url": "https://example.com/produkte/ps-vr2.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgmedia.playstation.com%2Fis%2Fimage%2FSIEPDC%2FPSVR2-thumbnail-01-en-22feb22%3F%24facebook%24&f=1&nofb=1&ipt=c5735b58113d71f2a90dead92418da18773204a4f6c3cab54140d344450cab1f",
     "selled": 48,
     "brand": [
       "Sony"
@@ -767,20 +719,16 @@
       "gaming",
       "virtual-reality"
     ],
-    "battery": "-",
     "screen": "2x 2,0 Zoll OLED",
     "weight": "620g",
-    "dimensions": "210 x 240 x 110 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "210 x 240 x 110 mm"
   },
   {
     "id": 36,
     "name": "Google Pixel Buds Pro",
     "price": 219.99,
     "description": "True Wireless Ohrhörer mit ANC und kristallklarem Klang.",
-    "image-url": "https://example.com/produkte/pixel-buds-pro.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs.laoyaoba.com%2FjwImg%2Fnews%2F2022%2F05%2F12%2F16523695613135.png&f=1&nofb=1&ipt=16df0722b07f3a6178fb417d56bfed4ec29dcb563c5eaab1b3a588472503ff05",
     "selled": 198,
     "brand": [
       "Google"
@@ -789,19 +737,16 @@
       "audio"
     ],
     "battery": "bis zu 24 Stunden",
-    "screen": "-",
     "weight": "5,6g pro Ohrhörer",
     "dimensions": "20 x 20 x 24 mm",
-    "chip": "Google Tensor",
-    "ram": "-",
-    "storage": "-"
+    "chip": "Google Tensor"
   },
   {
     "id": 37,
     "name": "Philips Hue Smart Lamp",
     "price": 69.99,
     "description": "Intelligente WLAN-Lampe mit Millionen Farben und Sprachsteuerung.",
-    "image-url": "https://example.com/produkte/philipps-hue-lampe.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.twice.com%2Fwp-content%2Fuploads%2F2025%2F09%2Fphilips-hue-essential-a19-2048x2048.png&f=1&nofb=1&ipt=daac54bd5f309b47e579c30140906301ffa5948d040b328e9b108b8e614b0320",
     "selled": 304,
     "brand": [
       "Philips"
@@ -810,20 +755,16 @@
       "smart-home",
       "beleuchtung"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "300g",
     "dimensions": "11,6 x 11,6 x 16,5 cm",
-    "chip": "Zigbee",
-    "ram": "-",
-    "storage": "-"
+    "chip": "Zigbee"
   },
   {
     "id": 38,
     "name": "Bose QuietComfort Ultra",
     "price": 329.99,
     "description": "Premium-Noise-Cancelling-Kopfhörer mit langem Tragekomfort und klarer Audioqualität.",
-    "image-url": "https://example.com/produkte/bose-qc-ultra.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcf-images.dustin.eu%2Fcdn-cgi%2Fimage%2Ffit%3Dcontain%2Cformat%3Dauto%2Cquality%3D75%2Cwidth%3D828%2Cfit%3Dcontain%2Fimage%2Fd2000010011564923%2Fbose-quietcomfort-ultra-headphones-2nd-gen-usb-c-svart.webp&f=1&nofb=1&ipt=1067a02845aaacd95c4d6b366abde118e0bacdfd083d1b2001f289fd6fb254bc",
     "selled": 128,
     "brand": [
       "Bose"
@@ -832,19 +773,15 @@
       "audio"
     ],
     "battery": "bis zu 30 Stunden",
-    "screen": "-",
     "weight": "255g",
-    "dimensions": "220 x 190 x 90 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "220 x 190 x 90 mm"
   },
   {
     "id": 39,
     "name": "ASUS ROG Strix 18",
     "price": 2599.99,
     "description": "Gaming-Laptop mit 18 Zoll QHD-Display und RTX-Grafik für maximale Performance.",
-    "image-url": "https://example.com/produkte/asus-rog-strix-18.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdlcdnwebimgs.asus.com%2Fgain%2FFFD7661F-A5FE-4061-B417-8833F0EE26AE&f=1&nofb=1&ipt=2dbd15560828d0869a64920c63476bbeb0de73be29c722f74e83c4f72bdf69ff",
     "selled": 37,
     "brand": [
       "ASUS"
@@ -867,7 +804,7 @@
     "name": "Lenovo Yoga Book 10",
     "price": 799.99,
     "description": "Flexibles 2-in-1 Tablet mit Tastaturcover und Touch-Display für unterwegs.",
-    "image-url": "https://example.com/produkte/lenovo-yoga-book-10.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.biteno.com%2Fwp-content%2Fuploads%2Fyoga-book-zeichnen-stift.png&f=1&nofb=1&ipt=f92b82380baeefb45faabf30e208b0b354099a6efe027f51f3a1e1c3afc07e87",
     "selled": 62,
     "brand": [
       "Lenovo"
@@ -889,7 +826,7 @@
     "name": "DJI Air 3 Pro",
     "price": 1199.99,
     "description": "Leichte Drohne mit 4K/60fps-Kamera und intelligenten Flugfunktionen.",
-    "image-url": "https://example.com/produkte/dji-air-3-pro.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdji-official-fe.djicdn.com%2Fcms%2Fuploads%2Fa656cc79725b55d02616072360469ffd.png&f=1&nofb=1&ipt=8d79dd2d171f7e3de4f1eebd6788849d196636997723ab420cc41a3e1ff5e7b9",
     "selled": 43,
     "brand": [
       "DJI"
@@ -899,11 +836,9 @@
       "drohnen"
     ],
     "battery": "4280mAh",
-    "screen": "-",
     "weight": "615g",
     "dimensions": "253 x 289 x 113 mm",
     "chip": "DJI O4",
-    "ram": "-",
     "storage": "microSD bis 512GB"
   },
   {
@@ -911,7 +846,7 @@
     "name": "Anker 737 Power Bank",
     "price": 99.99,
     "description": "Tragbare Powerbank mit 65W USB-C Schnellladung und hoher Kapazität.",
-    "image-url": "https://example.com/produkte/anker-737.png",
+    "image-url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0765%2F2137%2F3999%2Fproducts%2FA1289011_A88650A1.webp%3Fv%3D1698631917&f=1&nofb=1&ipt=fc8e136075f79cde44e0d3b12fd600c14d78fe911941168822e9fecb4d4d3290",
     "selled": 215,
     "brand": [
       "Anker"
@@ -920,12 +855,8 @@
       "zubehör"
     ],
     "battery": "6550mAh",
-    "screen": "-",
     "weight": "300g",
-    "dimensions": "15,4 x 7,4 x 3,1 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "15,4 x 7,4 x 3,1 cm"
   },
   {
     "id": 43,
@@ -943,12 +874,9 @@
       "audio"
     ],
     "battery": "bis zu 37 Stunden",
-    "screen": "-",
     "weight": "52g",
     "dimensions": "57,0 x 33,3 x 22,2 mm",
-    "chip": "Nocturne-Chip",
-    "ram": "-",
-    "storage": "-"
+    "chip": "Nocturne-Chip"
   },
   {
     "id": 44,
@@ -1007,13 +935,8 @@
     "category": [
       "zubehör"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "100g",
-    "dimensions": "65 x 42 x 31 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "65 x 42 x 31 mm"
   },
   {
     "id": 47,
@@ -1029,12 +952,8 @@
       "audio"
     ],
     "battery": "bis zu 12 Stunden",
-    "screen": "-",
     "weight": "2,03kg",
-    "dimensions": "183 x 100 x 97 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "183 x 100 x 97 mm"
   },
   {
     "id": 48,
@@ -1075,12 +994,8 @@
       "audio"
     ],
     "battery": "bis zu 12 Stunden",
-    "screen": "-",
     "weight": "1,7kg",
-    "dimensions": "180 x 85 x 85 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "180 x 85 x 85 mm"
   },
   {
     "id": 50,
@@ -1095,13 +1010,8 @@
     "category": [
       "zubehör"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "162g",
-    "dimensions": "94 x 31 x 26 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "94 x 31 x 26 mm"
   },
   {
     "id": 51,
@@ -1116,13 +1026,9 @@
     "category": [
       "accessories, gaming, mice"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "107g",
     "dimensions": "132 x 75 x 40 mm",
-    "chip": "HERO 25K Sensor",
-    "ram": "-",
-    "storage": "-"
+    "chip": "HERO 25K Sensor"
   },
   {
     "id": 52,
@@ -1137,13 +1043,9 @@
     "category": [
       "accessories, gaming, keyboards"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "1020g",
     "dimensions": "430 x 150 x 22 mm",
-    "chip": "LIGHTSPEED Funktechnologie",
-    "ram": "-",
-    "storage": "-"
+    "chip": "LIGHTSPEED Funktechnologie"
   },
   {
     "id": 53,
@@ -1158,13 +1060,9 @@
     "category": [
       "zubehör"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "1140g",
     "dimensions": "470 x 163 x 39 mm",
-    "chip": "Razer Chroma RGB",
-    "ram": "-",
-    "storage": "-"
+    "chip": "Razer Chroma RGB"
   },
   {
     "id": 54,
@@ -1179,13 +1077,8 @@
     "category": [
       "zubehör"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "30g",
-    "dimensions": "1m Länge",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "1m Länge"
   },
   {
     "id": 55,
@@ -1205,9 +1098,7 @@
     "screen": "1,4 Zoll AMOLED",
     "weight": "52g",
     "dimensions": "47 x 47 x 13,5 mm",
-    "chip": "-",
-    "ram": "32MB",
-    "storage": "-"
+    "ram": "32MB"
   },
   {
     "id": 56,
@@ -1223,12 +1114,8 @@
       "audio"
     ],
     "battery": "bis zu 20 Stunden",
-    "screen": "-",
     "weight": "1,75kg",
-    "dimensions": "223 x 96 x 94 mm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "223 x 96 x 94 mm"
   },
   {
     "id": 57,
@@ -1244,12 +1131,9 @@
       "audio"
     ],
     "battery": "bis zu 8 Stunden",
-    "screen": "-",
     "weight": "6,3g pro Ohrhörer",
     "dimensions": "17,5 x 16,5 x 20 mm",
-    "chip": "Samsung H1",
-    "ram": "-",
-    "storage": "-"
+    "chip": "Samsung H1"
   },
   {
     "id": 58,
@@ -1264,13 +1148,8 @@
     "category": [
       "kabel"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "26g",
-    "dimensions": "1m Länge",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "1m Länge"
   },
   {
     "id": 59,
@@ -1310,12 +1189,8 @@
       "modellbahn"
     ],
     "battery": "externe Stromversorgung über Gleis",
-    "screen": "-",
     "weight": "180g",
-    "dimensions": "19,5 x 2,8 x 3,5 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "19,5 x 2,8 x 3,5 cm"
   },
   {
     "id": 61,
@@ -1376,11 +1251,9 @@
       "drohnen"
     ],
     "battery": "2250mAh",
-    "screen": "-",
     "weight": "249g",
     "dimensions": "145 x 90 x 62 mm",
     "chip": "DJI O3",
-    "ram": "-",
     "storage": "microSD bis 512GB"
   },
   {
@@ -1396,13 +1269,8 @@
     "category": [
       "spielzeug"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "800g",
-    "dimensions": "54 x 39 x 21 cm",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "54 x 39 x 21 cm"
   },
   {
     "id": 65,
@@ -1440,13 +1308,8 @@
       "zug",
       "züge"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "85,8t",
-    "dimensions": "19,5 x 3,0 x 4,3 m",
-    "chip": "-",
-    "ram": "-",
-    "storage": "-"
+    "dimensions": "19,5 x 3,0 x 4,3 m"
   },
   {
     "id": 67,
@@ -1461,7 +1324,6 @@
     "category": [
       "fernseher"
     ],
-    "battery": "-",
     "screen": "55 Zoll QLED 4K",
     "weight": "17,1kg",
     "dimensions": "1230 x 780 x 57 mm",
@@ -1482,13 +1344,9 @@
     "category": [
       "kaffee"
     ],
-    "battery": "-",
-    "screen": "-",
     "weight": "27kg",
     "dimensions": "40 x 38 x 42 cm",
-    "chip": "PID-Controller",
-    "ram": "-",
-    "storage": "-"
+    "chip": "PID-Controller"
   },
   {
     "id": 69,
