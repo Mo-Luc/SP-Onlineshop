@@ -617,6 +617,316 @@
   },
   {
     "id": 29,
+    "name": "Siemens ICE 3 NEo",
+    "price": 349.99,
+    "description": "Modellzug im ICE-Design für die digitale Modelleisenbahn, detailgetreu lackiert und kompatibel mit Märklin- und H0-Systemen.",
+    "image-url": "https://example.com/produkte/siemens-ice3-neo.png",
+    "selled": 22,
+    "brand": [
+      "Siemens"
+    ],
+    "category": [
+      "zug",
+      "modelleisenbahn",
+      "modellbahn"
+    ],
+    "battery": "externe Stromversorgung über Gleis",
+    "screen": "-",
+    "weight": "185g",
+    "dimensions": "19,5 x 2,8 x 3,5 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 30,
+    "name": "Alstom TGV M",
+    "price": 329.99,
+    "description": "Miniaturmodell des französischen TGV M mit realistischen Druckdetails und LED-Beleuchtung für Modellbahn-Enthusiasten.",
+    "image-url": "https://example.com/produkte/alstom-tgv-m.png",
+    "selled": 18,
+    "brand": [
+      "Alstom"
+    ],
+    "category": [
+      "zug",
+      "modelleisenbahn",
+      "modellbahn"
+    ],
+    "battery": "externe Stromversorgung über Gleis",
+    "screen": "-",
+    "weight": "176g",
+    "dimensions": "20,0 x 2,9 x 3,6 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 31,
+    "name": "Märklin tgv Inoui",
+    "price": 359.99,
+    "description": "Premium-Modell des TGV Inoui für H0- und Märklin-Gleise, ideal für digitale Anlagen und Sammler.",
+    "image-url": "https://example.com/produkte/maerklin-tgv-inoui.png",
+    "selled": 25,
+    "brand": [
+      "Märklin"
+    ],
+    "category": [
+      "zug",
+      "modelleisenbahn",
+      "modellbahn"
+    ],
+    "battery": "externe Stromversorgung über Gleis",
+    "screen": "-",
+    "weight": "190g",
+    "dimensions": "20,2 x 2,8 x 3,7 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 32,
+    "name": "LS Models TER Alsace",
+    "price": 319.99,
+    "description": "Feines Modell eines TER-Zugs aus dem Elsass für den anspruchsvollen Modellbahner.",
+    "image-url": "https://example.com/produkte/lsmodels-ter-alsace.png",
+    "selled": 16,
+    "brand": [
+      "LS Models"
+    ],
+    "category": [
+      "zug",
+      "modelleisenbahn",
+      "modellbahn"
+    ],
+    "battery": "externe Stromversorgung über Gleis",
+    "screen": "-",
+    "weight": "178g",
+    "dimensions": "19,8 x 2,8 x 3,5 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 33,
+    "name": "Apple MacBook Air M4",
+    "price": 1399.99,
+    "description": "Ultra-dünnes Laptop mit Apple M4 Chip, ideal für mobiles Arbeiten und kreatives Multitasking.",
+    "image-url": "https://example.com/produkte/macbook-air-m4.png",
+    "selled": 72,
+    "brand": [
+      "Apple"
+    ],
+    "category": [
+      "laptop",
+      "laptops"
+    ],
+    "battery": "18 Stunden",
+    "screen": "13,6 Zoll Liquid Retina",
+    "weight": "1,2kg",
+    "dimensions": "30,41 x 21,5 x 1,13 cm",
+    "chip": "Apple M4",
+    "ram": "16GB",
+    "storage": "512GB"
+  },
+  {
+    "id": 34,
+    "name": "Samsung Galaxy Watch 7",
+    "price": 399.99,
+    "description": "Smartwatch mit Fitness-Tracking, LTE und elegantem AMOLED-Display.",
+    "image-url": "https://example.com/produkte/galaxy-watch-7.png",
+    "selled": 145,
+    "brand": [
+      "Samsung"
+    ],
+    "category": [
+      "wearable",
+      "wearables"
+    ],
+    "battery": "bis zu 40 Stunden",
+    "screen": "1,5 Zoll AMOLED",
+    "weight": "46g",
+    "dimensions": "42 x 42 x 10,5 mm",
+    "chip": "Exynos W940",
+    "ram": "2GB",
+    "storage": "32GB"
+  },
+  {
+    "id": 35,
+    "name": "Sony PlayStation VR2",
+    "price": 599.99,
+    "description": "Virtual-Reality-Headset mit hochauflösendem OLED-Display und 3D-Audio.",
+    "image-url": "https://example.com/produkte/ps-vr2.png",
+    "selled": 48,
+    "brand": [
+      "Sony"
+    ],
+    "category": [
+      "gaming",
+      "virtual-reality"
+    ],
+    "battery": "-",
+    "screen": "2x 2,0 Zoll OLED",
+    "weight": "620g",
+    "dimensions": "210 x 240 x 110 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 36,
+    "name": "Google Pixel Buds Pro",
+    "price": 219.99,
+    "description": "True Wireless Ohrhörer mit ANC und kristallklarem Klang.",
+    "image-url": "https://example.com/produkte/pixel-buds-pro.png",
+    "selled": 198,
+    "brand": [
+      "Google"
+    ],
+    "category": [
+      "audio"
+    ],
+    "battery": "bis zu 24 Stunden",
+    "screen": "-",
+    "weight": "5,6g pro Ohrhörer",
+    "dimensions": "20 x 20 x 24 mm",
+    "chip": "Google Tensor",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 37,
+    "name": "Philips Hue Smart Lamp",
+    "price": 69.99,
+    "description": "Intelligente WLAN-Lampe mit Millionen Farben und Sprachsteuerung.",
+    "image-url": "https://example.com/produkte/philipps-hue-lampe.png",
+    "selled": 304,
+    "brand": [
+      "Philips"
+    ],
+    "category": [
+      "smart-home",
+      "beleuchtung"
+    ],
+    "battery": "-",
+    "screen": "-",
+    "weight": "300g",
+    "dimensions": "11,6 x 11,6 x 16,5 cm",
+    "chip": "Zigbee",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 38,
+    "name": "Bose QuietComfort Ultra",
+    "price": 329.99,
+    "description": "Premium-Noise-Cancelling-Kopfhörer mit langem Tragekomfort und klarer Audioqualität.",
+    "image-url": "https://example.com/produkte/bose-qc-ultra.png",
+    "selled": 128,
+    "brand": [
+      "Bose"
+    ],
+    "category": [
+      "audio"
+    ],
+    "battery": "bis zu 30 Stunden",
+    "screen": "-",
+    "weight": "255g",
+    "dimensions": "220 x 190 x 90 mm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 39,
+    "name": "ASUS ROG Strix 18",
+    "price": 2599.99,
+    "description": "Gaming-Laptop mit 18 Zoll QHD-Display und RTX-Grafik für maximale Performance.",
+    "image-url": "https://example.com/produkte/asus-rog-strix-18.png",
+    "selled": 37,
+    "brand": [
+      "ASUS"
+    ],
+    "category": [
+      "laptop",
+      "laptops",
+      "gaming"
+    ],
+    "battery": "bis zu 7 Stunden",
+    "screen": "18 Zoll QHD",
+    "weight": "3,2kg",
+    "dimensions": "39,5 x 28,5 x 2,4 cm",
+    "chip": "Intel Core i9-14900H",
+    "ram": "32GB",
+    "storage": "1TB SSD"
+  },
+  {
+    "id": 40,
+    "name": "Lenovo Yoga Book 10",
+    "price": 799.99,
+    "description": "Flexibles 2-in-1 Tablet mit Tastaturcover und Touch-Display für unterwegs.",
+    "image-url": "https://example.com/produkte/lenovo-yoga-book-10.png",
+    "selled": 62,
+    "brand": [
+      "Lenovo"
+    ],
+    "category": [
+      "tablet",
+      "tablets"
+    ],
+    "battery": "bis zu 14 Stunden",
+    "screen": "10,1 Zoll IPS",
+    "weight": "1,1kg",
+    "dimensions": "24,0 x 17,0 x 1,4 cm",
+    "chip": "Qualcomm Snapdragon 8cx",
+    "ram": "16GB",
+    "storage": "256GB"
+  },
+  {
+    "id": 41,
+    "name": "DJI Air 3 Pro",
+    "price": 1199.99,
+    "description": "Leichte Drohne mit 4K/60fps-Kamera und intelligenten Flugfunktionen.",
+    "image-url": "https://example.com/produkte/dji-air-3-pro.png",
+    "selled": 43,
+    "brand": [
+      "DJI"
+    ],
+    "category": [
+      "drohne",
+      "drohnen"
+    ],
+    "battery": "4280mAh",
+    "screen": "-",
+    "weight": "615g",
+    "dimensions": "253 x 289 x 113 mm",
+    "chip": "DJI O4",
+    "ram": "-",
+    "storage": "microSD bis 512GB"
+  },
+  {
+    "id": 42,
+    "name": "Anker 737 Power Bank",
+    "price": 99.99,
+    "description": "Tragbare Powerbank mit 65W USB-C Schnellladung und hoher Kapazität.",
+    "image-url": "https://example.com/produkte/anker-737.png",
+    "selled": 215,
+    "brand": [
+      "Anker"
+    ],
+    "category": [
+      "zubehör"
+    ],
+    "battery": "6550mAh",
+    "screen": "-",
+    "weight": "300g",
+    "dimensions": "15,4 x 7,4 x 3,1 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 43,
     "name": "Nothing Ear (3)",
     "price": 349.99,
     "description": "Noise-Cancelling-Kopfhörer mit klarer Klangqualität.",
@@ -639,7 +949,7 @@
     "storage": "-"
   },
   {
-    "id": 30,
+    "id": 44,
     "name": "Apple iPhone 14 ",
     "price": 799.99,
     "description": "Solides Mittelklasse-Smartphone mit A15-Chip und verbesserter Kamera.",
@@ -661,7 +971,7 @@
     "storage": "128GB"
   },
   {
-    "id": 31,
+    "id": 45,
     "name": "Apple iPad Air",
     "price": 749.99,
     "description": "Leichtes Tablet mit A16-Chip und hochauflösendem Display.",
@@ -683,7 +993,7 @@
     "storage": "256GB"
   },
   {
-    "id": 32,
+    "id": 46,
     "name": "Anker Nano II 65W",
     "price": 49.99,
     "description": "Kompaktes Ladegerät mit hoher Leistung für Laptops und Smartphones.",
@@ -704,7 +1014,7 @@
     "storage": "-"
   },
   {
-    "id": 33,
+    "id": 47,
     "name": "JBL Pulse 5",
     "price": 149.99,
     "description": "Box der neuen Generation mit beeindruckendem Sound und RGB-Beleuchtung.",
@@ -725,7 +1035,7 @@
     "storage": "-"
   },
   {
-    "id": 34,
+    "id": 48,
     "name": "Siemens Lufthaken",
     "price": 1200000000000.0,
     "description": "Der legendäre Siemens Lufthaken – ideal zum Aufhängen unsichtbarer Lasten und zum Öffnen digitaler Schranken. Funktioniert bestenfalls als Scherzartikel in jeder Smart-Home-Installation.",
@@ -748,7 +1058,7 @@
     "storage": "Luftspeicher"
   },
   {
-    "id": 35,
+    "id": 49,
     "name": "JBL Pulse 4",
     "price": 149.99,
     "description": "Box mit gutem Sound und RGB-Beleuchtung.",
@@ -771,7 +1081,7 @@
     "storage": "-"
   },
   {
-    "id": 36,
+    "id": 50,
     "name": "Logitech C920 HD Pro Webcam",
     "price": 89.99,
     "description": "Beliebte Webcam für Videokonferenzen und Streaming.",
@@ -792,7 +1102,7 @@
     "storage": "-"
   },
   {
-    "id": 37,
+    "id": 51,
     "name": "Logitech G502 X Plus",
     "price": 149.99,
     "description": "Hochleistungs-Gaming-Maus mit anpassbaren Tasten und RGB-Beleuchtung.",
@@ -813,7 +1123,7 @@
     "storage": "-"
   },
   {
-    "id": 38,
+    "id": 52,
     "name": "Logitech G915 X Lightspeed",
     "price": 249.99,
     "description": "Drahtlose mechanische Gaming-Tastatur mit RGB-Beleuchtung und ultraflachem Design.",
@@ -834,7 +1144,7 @@
     "storage": "-"
   },
   {
-    "id": 39,
+    "id": 53,
     "name": "Razer BlackWidow V4",
     "price": 179.99,
     "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
@@ -855,7 +1165,7 @@
     "storage": "-"
   },
   {
-    "id": 40,
+    "id": 54,
     "name": "USB-C to USB-C Cable",
     "price": 19.99,
     "description": "USB-C-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
@@ -876,7 +1186,7 @@
     "storage": "-"
   },
   {
-    "id": 41,
+    "id": 55,
     "name": "Garmin Forerunner 965",
     "price": 599.99,
     "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
@@ -898,7 +1208,7 @@
     "storage": "-"
   },
   {
-    "id": 42,
+    "id": 56,
     "name": "JBL Charge 6",
     "price": 199.99,
     "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
@@ -919,7 +1229,7 @@
     "storage": "-"
   },
   {
-    "id": 43,
+    "id": 57,
     "name": "Samsung Galaxy Buds 3",
     "price": 179.99,
     "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
@@ -940,7 +1250,7 @@
     "storage": "-"
   },
   {
-    "id": 44,
+    "id": 58,
     "name": "USB-A to USB-C Cable",
     "price": 9.99,
     "description": "USB-A-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
@@ -961,7 +1271,7 @@
     "storage": "-"
   },
   {
-    "id": 45,
+    "id": 59,
     "name": "Nothing Phone 4a",
     "price": 499.99,
     "description": "Modernes Smartphone mit leistungsstarkem Prozessor und beeindruckendem Display.",
@@ -983,7 +1293,7 @@
     "storage": "128GB"
   },
   {
-    "id": 46,
+    "id": 60,
     "name": "Märklin Siemens Desiro HC",
     "price": 699.99,
     "description": "Detailliertes 1:87-Modell des Siemens Desiro HC für die digitale Modelleisenbahn im H0-Format. Inklusive feiner Bedruckung, LED-Beleuchtung und Kupplungssystem für den Einsatz auf Märklin C-Gleis.",
@@ -1006,7 +1316,7 @@
     "storage": "-"
   },
   {
-    "id": 47,
+    "id": 61,
     "name": "iPad 9th Generation",
     "price": 529.99,
     "description": "Tblet der 9. Generation mit A13 Bionic Chip und 10,2-Zoll-Retina-Display.",
@@ -1028,7 +1338,7 @@
     "storage": "64GB"
   },
   {
-    "id": 48,
+    "id": 62,
     "name": "Xiaomi 17 Ultra",
     "price": 1899.99,
     "description": "High-end Smartphone mit beeindruckendem Display und bester Kamera.",
@@ -1050,7 +1360,7 @@
     "storage": "512GB"
   },
   {
-    "id": 49,
+    "id": 63,
     "name": "DJI Mini 3",
     "price": 339.99,
     "description": "Leichtes und leistungsstarkes Drohne für Fotografie und Video.",
@@ -1072,7 +1382,7 @@
     "storage": "microSD bis 512GB"
   },
   {
-    "id": 50,
+    "id": 64,
     "name": "Carrera Hybrid Hyperdrive Fury",
     "price": 119.99,
     "description": "Starterpack für die Carrera Hybrid und Racing mit KI-Steuerung und App-Integration.",
@@ -1093,7 +1403,7 @@
     "storage": "-"
   },
   {
-    "id": 51,
+    "id": 65,
     "name": "Samsung Galaxy A57",
     "price": 399.99,
     "description": "Modernes Smartphone mit gutem Prozessor und beeindruckendem Display.",
@@ -1115,7 +1425,7 @@
     "storage": "128GB"
   },
   {
-    "id": 52,
+    "id": 66,
     "name": "Siemens Vectron Dual Mode",
     "price": 4500000,
     "description": "Lokomotive mit Diesel- und Elektroantrieb für den Güterverkehr und Rangierfahrten.",
@@ -1137,7 +1447,7 @@
     "storage": "-"
   },
   {
-    "id": 53,
+    "id": 67,
     "name": "SAMSUNG 55 Zoll Fernseher",
     "price": 1399.99,
     "description": "55 Zoll Fernseher mit 4K-Auflösung, HDR-Unterstützung und Smart-TV-Funktionen für ein beeindruckendes Seherlebnis.",
@@ -1158,7 +1468,7 @@
     "storage": "16GB"
   },
   {
-    "id": 54,
+    "id": 68,
     "name": "Lelit PL91T Espresso Maschine",
     "price": 1399.99,
     "description": "Professionelle Espresso-Maschine mit integrierter Mühle und präziser Temperaturkontrolle.",
@@ -1179,7 +1489,7 @@
     "storage": "-"
   },
   {
-    "id": 55,
+    "id": 69,
     "name": "Samsung S26 Ultra",
     "price": 1399.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera, sowie Privacy Display",
@@ -1201,7 +1511,7 @@
     "storage": "512GB"
   },
   {
-    "id": 56,
+    "id": 70,
     "name": "Samsung S26",
     "price": 899.99,
     "description": "Solides High-End-Smartphone mit beeindruckendem Display und leistungsstarker Kamera, allerdings ohne Privacy Display",
@@ -1223,7 +1533,7 @@
     "storage": "256GB"
   },
   {
-    "id": 57,
+    "id": 71,
     "name": "Samsung S26 Plus",
     "price": 1199.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
