@@ -726,6 +726,29 @@
   },
   {
     "id": 34,
+    "name": "Siemens Lufthaken",
+    "price": 1200000000000.0,
+    "description": "Der legendäre Siemens Lufthaken – ideal zum Aufhängen unsichtbarer Lasten und zum Öffnen digitaler Schranken. Funktioniert bestenfalls als Scherzartikel in jeder Smart-Home-Installation.",
+    "image-url": "https://de.digi.com/images/image-not-available",
+    "selled": 0,
+    "brand": [
+      "Siemens"
+    ],
+    "category": [
+      "zubehör",
+      "scherzartikel",
+      "gadget"
+    ],
+    "battery": "keine Batterie benötigt",
+    "screen": "kein Display",
+    "weight": "0g (reine Luft)",
+    "dimensions": "10 x 10 x 10 cm",
+    "chip": "Luftchip",
+    "ram": "unendlich",
+    "storage": "Luftspeicher"
+  },
+  {
+    "id": 35,
     "name": "JBL Pulse 4",
     "price": 149.99,
     "description": "Box mit gutem Sound und RGB-Beleuchtung.",
@@ -748,7 +771,7 @@
     "storage": "-"
   },
   {
-    "id": 35,
+    "id": 36,
     "name": "Logitech C920 HD Pro Webcam",
     "price": 89.99,
     "description": "Beliebte Webcam für Videokonferenzen und Streaming.",
@@ -769,7 +792,7 @@
     "storage": "-"
   },
   {
-    "id": 36,
+    "id": 37,
     "name": "Logitech G502 X Plus",
     "price": 149.99,
     "description": "Hochleistungs-Gaming-Maus mit anpassbaren Tasten und RGB-Beleuchtung.",
@@ -790,7 +813,7 @@
     "storage": "-"
   },
   {
-    "id": 37,
+    "id": 38,
     "name": "Logitech G915 X Lightspeed",
     "price": 249.99,
     "description": "Drahtlose mechanische Gaming-Tastatur mit RGB-Beleuchtung und ultraflachem Design.",
@@ -811,7 +834,7 @@
     "storage": "-"
   },
   {
-    "id": 38,
+    "id": 39,
     "name": "Razer BlackWidow V4",
     "price": 179.99,
     "description": "Mechanische Gaming-Tastatur mit RGB-Beleuchtung.",
@@ -832,7 +855,7 @@
     "storage": "-"
   },
   {
-    "id": 39,
+    "id": 40,
     "name": "USB-C to USB-C Cable",
     "price": 19.99,
     "description": "USB-C-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
@@ -853,7 +876,7 @@
     "storage": "-"
   },
   {
-    "id": 40,
+    "id": 41,
     "name": "Garmin Forerunner 965",
     "price": 599.99,
     "description": "Multisport-GPS-Smartwatch für anspruchsvolle Läufer.",
@@ -875,7 +898,7 @@
     "storage": "-"
   },
   {
-    "id": 41,
+    "id": 42,
     "name": "JBL Charge 6",
     "price": 199.99,
     "description": "Wasserfester Bluetooth-Lautsprecher mit kraftvollem Sound.",
@@ -896,7 +919,7 @@
     "storage": "-"
   },
   {
-    "id": 42,
+    "id": 43,
     "name": "Samsung Galaxy Buds 3",
     "price": 179.99,
     "description": "True-Wireless-Kopfhörer mit aktivem Noise Cancelling.",
@@ -917,7 +940,7 @@
     "storage": "-"
   },
   {
-    "id": 43,
+    "id": 44,
     "name": "USB-A to USB-C Cable",
     "price": 9.99,
     "description": "USB-A-auf-USB-C-Kabel zum Laden und schnellen Synchronisieren von Geräten.",
@@ -938,7 +961,7 @@
     "storage": "-"
   },
   {
-    "id": 44,
+    "id": 45,
     "name": "Nothing Phone 4a",
     "price": 499.99,
     "description": "Modernes Smartphone mit leistungsstarkem Prozessor und beeindruckendem Display.",
@@ -960,7 +983,30 @@
     "storage": "128GB"
   },
   {
-    "id": 45,
+    "id": 46,
+    "name": "Märklin Siemens Desiro HC",
+    "price": 699.99,
+    "description": "Detailliertes 1:87-Modell des Siemens Desiro HC für die digitale Modelleisenbahn im H0-Format. Inklusive feiner Bedruckung, LED-Beleuchtung und Kupplungssystem für den Einsatz auf Märklin C-Gleis.",
+    "image-url": "data:image/jpeg;base64,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",
+    "selled": 35,
+    "brand": [
+      "Märklin"
+    ],
+    "category": [
+      "spielzeug",
+      "modelleisenbahn",
+      "modellbahn"
+    ],
+    "battery": "externe Stromversorgung über Gleis",
+    "screen": "-",
+    "weight": "180g",
+    "dimensions": "19,5 x 2,8 x 3,5 cm",
+    "chip": "-",
+    "ram": "-",
+    "storage": "-"
+  },
+  {
+    "id": 47,
     "name": "iPad 9th Generation",
     "price": 529.99,
     "description": "Tblet der 9. Generation mit A13 Bionic Chip und 10,2-Zoll-Retina-Display.",
@@ -982,7 +1028,7 @@
     "storage": "64GB"
   },
   {
-    "id": 46,
+    "id": 48,
     "name": "Xiaomi 17 Ultra",
     "price": 1899.99,
     "description": "High-end Smartphone mit beeindruckendem Display und bester Kamera.",
@@ -1004,7 +1050,7 @@
     "storage": "512GB"
   },
   {
-    "id": 47,
+    "id": 49,
     "name": "DJI Mini 3",
     "price": 339.99,
     "description": "Leichtes und leistungsstarkes Drohne für Fotografie und Video.",
@@ -1026,7 +1072,7 @@
     "storage": "microSD bis 512GB"
   },
   {
-    "id": 48,
+    "id": 50,
     "name": "Carrera Hybrid Hyperdrive Fury",
     "price": 119.99,
     "description": "Starterpack für die Carrera Hybrid und Racing mit KI-Steuerung und App-Integration.",
@@ -1047,7 +1093,7 @@
     "storage": "-"
   },
   {
-    "id": 49,
+    "id": 51,
     "name": "Samsung Galaxy A57",
     "price": 399.99,
     "description": "Modernes Smartphone mit gutem Prozessor und beeindruckendem Display.",
@@ -1069,7 +1115,7 @@
     "storage": "128GB"
   },
   {
-    "id": 50,
+    "id": 52,
     "name": "Siemens Vectron Dual Mode",
     "price": 4500000,
     "description": "Lokomotive mit Diesel- und Elektroantrieb für den Güterverkehr und Rangierfahrten.",
@@ -1091,7 +1137,7 @@
     "storage": "-"
   },
   {
-    "id": 51,
+    "id": 53,
     "name": "SAMSUNG 55 Zoll Fernseher",
     "price": 1399.99,
     "description": "55 Zoll Fernseher mit 4K-Auflösung, HDR-Unterstützung und Smart-TV-Funktionen für ein beeindruckendes Seherlebnis.",
@@ -1112,7 +1158,7 @@
     "storage": "16GB"
   },
   {
-    "id": 52,
+    "id": 54,
     "name": "Lelit PL91T Espresso Maschine",
     "price": 1399.99,
     "description": "Professionelle Espresso-Maschine mit integrierter Mühle und präziser Temperaturkontrolle.",
@@ -1133,7 +1179,7 @@
     "storage": "-"
   },
   {
-    "id": 53,
+    "id": 55,
     "name": "Samsung S26 Ultra",
     "price": 1399.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera, sowie Privacy Display",
@@ -1155,7 +1201,7 @@
     "storage": "512GB"
   },
   {
-    "id": 54,
+    "id": 56,
     "name": "Samsung S26",
     "price": 899.99,
     "description": "Solides High-End-Smartphone mit beeindruckendem Display und leistungsstarker Kamera, allerdings ohne Privacy Display",
@@ -1177,7 +1223,7 @@
     "storage": "256GB"
   },
   {
-    "id": 55,
+    "id": 57,
     "name": "Samsung S26 Plus",
     "price": 1199.99,
     "description": "High-end Smartphone mit beeindruckendem Display und leistungsstarker Kamera.",
