@@ -550,8 +550,8 @@ a:last-child {
   box-sizing: border-box;
   border-radius: 14px;
   border: 1px solid var(--bg-color-3);
-  background-color: white;
-  color: black;
+  background-color: var(--bg-color-3);
+  color: var(--text-color);
   font-size: 14px;
   padding: 15px;
   resize: none;
@@ -563,8 +563,8 @@ a:last-child {
   height: 35px;
   border-radius: 14px;
   border: 1px solid var(--bg-color-3);
-  background-color: white;
-  color: black;
+  background-color: var(--bg-color-3);
+  color: var(--text-color);
   font-size: 14px;
 }
 
