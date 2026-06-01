@@ -36,6 +36,9 @@ function renderProdukte(animated = true) {
 let fuse;
 let filteredProdukte = [];
 let produkte = [];
+let currentSearchTerm = "";
+let currentFilterCategory = null;
+let currentFilterMaxPrice = null;
 async function loadProdukte() {
   document.querySelector("#produkte-search-wrap > input").value = "";
 
@@ -55,18 +58,40 @@ loadProdukte();
 document
   .querySelector("#produkte-search-wrap > input")
   .addEventListener("input", (event) => {
-    const searchTerm = event.target.value.trim();
-
-    if (searchTerm === "") {
-      filteredProdukte = produkte;
-    } else {
-      const searchResults = fuse
-        .search(searchTerm)
-        .map((result) => result.item.id);
-      filteredProdukte = produkte.filter((produkt) =>
-        searchResults.includes(produkt.id),
-      );
-    }
-
-    renderProdukte((animated = false));
+    currentSearchTerm = event.target.value.trim();
+    applyAllFilters(false);
   });
+
+function applyAllFilters(animated = true) {
+  let baseList = produkte;
+  if (currentSearchTerm && fuse) {
+    const results = fuse.search(currentSearchTerm).map((r) => r.item);
+    baseList = results;
+  }
+
+  filteredProdukte = baseList.filter((produkt) => {
+    let matchesCategory = true;
+    if (currentFilterCategory) {
+      const cat = produkt.category;
+      if (Array.isArray(cat)) {
+        matchesCategory = cat.some(
+          (c) => String(c).toLowerCase().trim() === currentFilterCategory,
+        );
+      }
+    }
+    const matchesPrice =
+      currentFilterMaxPrice == null
+        ? true
+        : produkt.price <= currentFilterMaxPrice;
+    return matchesCategory && matchesPrice;
+  });
+
+  renderProdukte((animated = true));
+}
+
+function applyFilter(selectedCategory, maxPrice) {
+  currentFilterCategory =
+    selectedCategory == null ? null : String(selectedCategory).toLowerCase();
+  currentFilterMaxPrice = maxPrice == null ? null : maxPrice;
+  applyAllFilters();
+}

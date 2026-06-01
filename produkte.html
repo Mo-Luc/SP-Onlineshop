@@ -7,7 +7,7 @@
   <body>
     <header id="produkte-search-wrap">
       <input type="text" placeholder="Suche..." />
-      <button id="produkte-filter">
+      <button id="produkte-filter" onclick="openFilterPopup()">
         <!-- Icon von https://heroicons.com/ -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,11 +24,36 @@
     </header>
 
     <div class="karten-container"></div>
+    <div class="filter-popup">
+      <h2>Filter</h2>
+      <div class="filter-option">
+        <label for="filber-category">Kategorie:</label>
+        <select id="filter-category"></select>
+      </div>
+      <div class="filter-option">
+        <label for="filter-price">Preis:</label>
+        <input
+          type="range"
+          id="filter-price"
+          min="0"
+          max="1000"
+          value="1000"
+          step="10"
+          oninput="
+            this.nextElementSibling.value =
+              this.value == 1000 ? 'Kein Limit' : this.value + '€'
+          "
+        />
+        <output id="price-value">Kein Limit</output>
+      </div>
+      <button id="apply-filters">Filter anwenden</button>
+    </div>
 
     <!-- Importiere Fuse.js (Search Library) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
 
     <script src="script.js"></script>
     <script src="produkte.js"></script>
+    <script src="filter.js"></script>
   </body>
 </html>
