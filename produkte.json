@@ -618,7 +618,7 @@
   {
     "id": 29,
     "name": "Siemens ICE 3 NEo",
-    "price": 349.99,
+    "price": 25000000,
     "description": "Modellzug im ICE-Design für die digitale Modelleisenbahn, detailgetreu lackiert und kompatibel mit Märklin- und H0-Systemen.",
     "image-url": "https://example.com/produkte/siemens-ice3-neo.png",
     "selled": 22,
@@ -627,6 +627,7 @@
     ],
     "category": [
       "zug",
+      "züge",
       "modelleisenbahn",
       "modellbahn"
     ],
@@ -641,7 +642,7 @@
   {
     "id": 30,
     "name": "Alstom TGV M",
-    "price": 329.99,
+    "price": 30000000,
     "description": "Miniaturmodell des französischen TGV M mit realistischen Druckdetails und LED-Beleuchtung für Modellbahn-Enthusiasten.",
     "image-url": "https://example.com/produkte/alstom-tgv-m.png",
     "selled": 18,
@@ -650,6 +651,7 @@
     ],
     "category": [
       "zug",
+      "züge",
       "modelleisenbahn",
       "modellbahn"
     ],
@@ -664,7 +666,7 @@
   {
     "id": 31,
     "name": "Märklin tgv Inoui",
-    "price": 359.99,
+    "price": 799.99,
     "description": "Premium-Modell des TGV Inoui für H0- und Märklin-Gleise, ideal für digitale Anlagen und Sammler.",
     "image-url": "https://example.com/produkte/maerklin-tgv-inoui.png",
     "selled": 25,
@@ -687,7 +689,7 @@
   {
     "id": 32,
     "name": "LS Models TER Alsace",
-    "price": 319.99,
+    "price": 619.99,
     "description": "Feines Modell eines TER-Zugs aus dem Elsass für den anspruchsvollen Modellbahner.",
     "image-url": "https://example.com/produkte/lsmodels-ter-alsace.png",
     "selled": 16,
