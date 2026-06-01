@@ -1,5 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const productId = Number(urlParams.get("id"));
+let currentProduct = null;
 
 const warenkorbActionsHTML = `<div id="warenkorb-actions" >
       <button id="warenkorb-action-reduce" onclick="removeOneFromCart()">
@@ -69,6 +70,7 @@ async function renderProductPage() {
   const response = await fetch("produkte.json");
   const produkte = await response.json();
   const produkt = produkte.find((produkt) => produkt.id == productId);
+  currentProduct = produkt;
   const produktNameElement = document.getElementById("produkt-name");
   const produktBeschreibungElement = document.getElementById(
     "produkt-beschreibung",
@@ -143,3 +145,13 @@ async function renderProductPage() {
 }
 
 renderProductPage();
+
+function addtoCart() {
+  produktKaufen();
+  const produktName = currentProduct?.name || "Produkt";
+  showToast(
+    `${produktName} wurde zum Warenkorb hinzugefügt!`,
+    1600,
+    "var(--success-color)"
+  );
+}
