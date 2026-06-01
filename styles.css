@@ -472,3 +472,33 @@ a:last-child {
 .filter-popup button:hover {
   background-color: var(--accent-color-hover);
 }
+#kontakt {
+  background-color: var(--bg-color-2);
+  border-radius: 14px;
+  border: 1px solid var(--bg-color-3);
+  padding: 20px;
+  width: 600px;
+  margin: 40px auto;
+  color: var(--text-color-dimmed);
+}
+#kontakt > h1 {
+  color: var(--accent-color);
+  font-family: "Michroma";
+  font-size: 24px;
+  margin-top: 0;
+}
+#kontakt > p {
+  color: var(--text-color-dimmed);
+}
+
+.kontakt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 2000px;
+  gap: 30px;
+  color: var(--accent-color);
+  background-color: var(--bg-color-2);
+}
