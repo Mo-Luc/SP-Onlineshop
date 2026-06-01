@@ -150,6 +150,14 @@ function handlePayment() {
     const expiryDate = document.getElementById("expiry-date").value;
     const cvv = document.getElementById("cvv").value;
 
+            if (!document.getElementById("email").checkValidity()) {
+          showToast(
+            "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+            3000,
+            "var(--error-color)",
+          );
+          return;
+        }
     if (!cardNumber || !expiryDate || !cvv) {
       showToast(
         "Bitte füllen Sie alle Felder aus.",

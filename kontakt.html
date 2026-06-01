@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="kontakt"> 
-       <h1>Unser Team</h1>
+  <table id="layout-kontakt-tabelle">
+    <tr>
+      <td>
+            <div id="kontakt"> 
+       <h1>Lernen Sie unser Team kennen</h1>
            <p>
-      Unser Team besteht aus erfahrenen Fachleuten, die sich leidenschaftlich
-      für exzellenten Kundenservice einsetzen. Wir sind hier, um Ihnen bei allen
-      Fragen und Anliegen zu helfen.
+      Unser Team ist spezialisiert auf die neuesten Technologien und Trends in der Elektronikbranche. Wir sind daran interessiert, unseren Kunden die besten Produkte und Dienstleistungen zu bieten. Wir freuen uns darauf, Ihnen bei Ihren Elektronikbedürfnissen zu helfen und Ihnen ein außergewöhnliches Einkaufserlebnis zu bieten.
     </p>
     <div class="kontakt-container">
       <div class="person">
@@ -30,19 +31,62 @@
         <p>Geschäftsführer, IT</p>
       </div>
     </div>
-
     </div>
+      </td>
+      <td>
+        <div id="kontakt-form">
+        <h2>Kontaktieren Sie uns</h2>
+        <form class="kontakt-form">
+            <label class="kontakt-label" for="name">Name:</label>
+            <input class="kontakt-input" type="text" id="name" name="name" required />
+            <label class="kontakt-label" for="email">E-Mail:</label>
+            <input class="kontakt-input" type="email" id="email" name="email" required />
+            <label class="kontakt-label" for="message">Nachricht:</label>
+            <textarea class="kontakt-textarea" id="message" name="message" rows="4" required></textarea>
+          <button id="kontakt-button" type="submit" onclick="event.preventDefault(); handleSubmit();">Absenden</button>
+        </form>
+       </div>
+      </td>  
+    </tr>
+  </table>
+  
+    <script src="toasts.js"></script>
+    <script>
+      function handleSubmit() {
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
 
+        if (!name || !email || !message) {
+          showToast(
+            "Bitte füllen Sie alle Felder aus.",
+            3000,
+            "var(--error-color)",
+          );
+          return;
+        }
 
+        if (!document.getElementById("email").checkValidity()) {
+          showToast(
+            "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+            3000,
+            "var(--error-color)",
+          );
+          return;
+        }
 
-    <h2>Kontaktinformationen</h2>
-    <p>
-      Sie können uns per E-Mail unter
-      <a href="mailto:luc.tgv@gmail.com">luc.tgv@gmail.com</a> und
-      <a href="mailto:mo.tiltmann@gmail.com">mo.tiltmann@gmail.com</a>
-      kontaktieren.
-    </p>
+        showToast(
+          "Nachricht erfolgreich gesendet. Wir werden uns innerhalb der nächsten 24 Stunden bei Ihnen melden.",
+          3000,
+          "var(--success-color)",
+        );
 
+        setTimeout(() => {
+          document.querySelector("#kontakt-form form").reset();
+          window.location.href = "index.html";
+        }, 2000);
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
