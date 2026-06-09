@@ -254,9 +254,14 @@ a:last-child {
 }
 
 .person {
+  margin: 10px;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-color-2);
+  background-color: color-mix(
+    in srgb,
+    var(--bg-color-2) 70%,
+    var(--bg-color-3)
+  );
   border-radius: 14px;
   border: 1px solid var(--bg-color-3);
   padding: 14px;
@@ -265,6 +270,10 @@ a:last-child {
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
+}
+
+.person:hover {
+  transform: translateY(-4px);
 }
 
 .person > h2 {
@@ -568,16 +577,14 @@ a:last-child {
   font-size: 14px;
   box-sizing: border-box;
   padding: 15px;
-  resize: none;  
+  resize: none;
   font-family: "aria", sans-serif;
 }
 
 .kontakt-label {
   color: var(--accent-color);
   font-size: 14px;
-
 }
-
 
 #kontakt-button {
   display: inline-flex;
