@@ -72,7 +72,7 @@ async function renderWarenkorb() {
     `; */
 
     cellProdukt.innerHTML = `
-      <div class="warenkorb-row">
+      <div class="warenkorb-row" onClick="window.location.href='produkt.html?id=${produkt.id}'">
       <img src="${produkt["image-url"]}" alt="${produkt.name}" class="produkt-bild">
       <div class="produkt-text">
       <strong>${produkt.name}</strong>
